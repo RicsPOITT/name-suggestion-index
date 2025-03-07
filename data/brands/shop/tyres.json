@@ -717,4 +717,15 @@
       }
     }
   ]
+},{
+  "displayName": "Tyremart",
+  "locationSet": {"include": ["za"]},
+  "tags": {
+    "brand": "Tyremart",
+    "brand:en": "Tyremart",
+    "brand:wikidata": "Q123382009",
+    "name": "Tyremart",
+    "name:en": "Tyremart",
+    "shop": "tyres"
+  }
 }
