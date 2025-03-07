@@ -12385,4 +12385,19 @@
       }
     }
   ]
+},{
+    "displayName": "JAM Clothing",
+    "locationSet": {
+        "include": [
+            "za"
+        ]
+    },
+    "tags": {
+        "brand": "JAM Clothing",
+        "brand:en": "JAM Clothing",
+        "brand:wikidata": "Q129814709",
+        "name": "JAM Clothing",
+        "name:en": "JAM Clothing",
+        "shop": "Clothes"
+    }
 }
