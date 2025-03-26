@@ -21,7 +21,7 @@
       }
     },
     {
-      "displayName": "PetsHotel",
+      "displayName": "PetsHotels",
       "id": "petshotel-03770a",
       "locationSet": {"include": ["ca", "us"]},
       "tags": {
