@@ -285,6 +285,17 @@
       }
     },
     {
+      "displayName": "Cortez",
+      "id": "cortez-48eb32",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Cortez",
+        "brand:wikidata": "Q132184090",
+        "name": "Cortez",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Dan Murphy's",
       "id": "danmurphys-cb3c62",
       "locationSet": {"include": ["au"]},
@@ -1027,6 +1038,16 @@
       }
     },
     {
+      "displayName": "Бочка",
+      "id": "d11d60-892b0a",
+      "locationSet": {"include": ["kz", "ru"]},
+      "tags": {
+        "brand": "Бочка",
+        "name": "Бочка",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Бристоль",
       "id": "69bf4f-b9f2fe",
       "locationSet": {"include": ["ru"]},
@@ -1267,12 +1288,34 @@
       }
     },
     {
+      "displayName": "Русский Разгуляйка",
+      "id": "923a91-b9f2fe",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": ["russkiy razgulaika"],
+      "tags": {
+        "brand": "Русский Разгуляйка",
+        "brand:wikidata": "Q132173527",
+        "name": "Русский Разгуляйка",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Семь Пятниц",
       "id": "52430e-b2a55f",
       "locationSet": {"include": ["by"]},
       "tags": {
         "brand": "Семь Пятниц",
         "name": "Семь Пятниц",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Хмель Солод",
+      "id": "d4f5ba-b9f2fe",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Хмель Солод",
+        "name": "Хмель Солод",
         "shop": "alcohol"
       }
     },

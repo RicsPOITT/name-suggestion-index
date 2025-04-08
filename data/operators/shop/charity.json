@@ -727,6 +727,21 @@
       }
     },
     {
+      "displayName": "Goodwill Industries of Monocacy Valley",
+      "id": "goodwillindustriesofmonocacyvalley-c7f62c",
+      "locationSet": {
+        "include": ["us-md.geojson"]
+      },
+      "tags": {
+        "brand": "Goodwill",
+        "brand:wikidata": "Q5583655",
+        "name": "Goodwill",
+        "operator": "Goodwill Industries of Monocacy Valley",
+        "operator:wikidata": "Q133741627",
+        "shop": "charity"
+      }
+    },
+    {
       "displayName": "Goodwill Industries of New Mexico",
       "id": "goodwillindustriesofnewmexico-b5dc7a",
       "locationSet": {
@@ -921,6 +936,24 @@
         "name": "Goodwill",
         "operator": "Goodwill Industries of Northwest Texas",
         "operator:wikidata": "Q126897737",
+        "shop": "charity"
+      }
+    },
+    {
+      "displayName": "Goodwill Industries of Saint Clair County",
+      "id": "goodwillindustriesofsaintclaircounty-db4f48",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
+      "matchNames": [
+        "goodwill industries of st. clair county"
+      ],
+      "tags": {
+        "brand": "Goodwill",
+        "brand:wikidata": "Q5583655",
+        "name": "Goodwill",
+        "operator": "Goodwill Industries of Saint Clair County",
+        "operator:wikidata": "Q132858674",
         "shop": "charity"
       }
     },

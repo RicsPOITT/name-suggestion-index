@@ -4,12 +4,12 @@
     "exclude": {
       "generic": [
         "^\"red cross\"$",
-        "^(sulabh )?shauchalaya|toilet(s)?|wc|туалет$",
-        "^accessible|sulabh",
-        "^bar|camping(platz)?|mosque toilet|school$",
-        "^community|council|gemeinde|mairie|municipal|ngo$",
-        "^mck|pu[bp]lic\\s?(toilet)?s?|toilettes publiques|wc umum$",
-        "^private toilets?|wc pribadi$",
+        "^((sulabh )?shauchalaya|toilet(s)?|wc|туалет)$",
+        "^(accessible|sulabh)",
+        "^(bar|camping(platz)?|mosque toilet|school)$",
+        "^(community|council|gemeinde|mairie|municipal|ngo)$",
+        "^(mck|pu[bp]lic\\s?(toilet)?s?|toilettes publiques|wc umum)$",
+        "^(private toilets?|wc pribadi)$",
         "^sonstiger betreiber$"
       ],
       "named": [
@@ -118,6 +118,29 @@
       }
     },
     {
+      "displayName": "Bangalore Metro Rail Corporation Limited",
+      "id": "bangaloremetrorailcorporationlimited-5a8295",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "amenity": "toilets",
+        "operator": "Bangalore Metro Rail Corporation Limited",
+        "operator:short": "BMRCL"
+      }
+    },
+    {
+      "displayName": "BBMP",
+      "id": "bruhatbengalurumahanagarapalike-5a8295",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "amenity": "toilets",
+        "operator": "ಬೃಹತ್ ಬೆಂಗಳೂರು ಮಹಾನಗರ ಪಾಲಿಕೆ",
+        "operator:en": "Bruhat Bengaluru Mahanagara Palike",
+        "operator:ka": "ಬೃಹತ್ ಬೆಂಗಳೂರು ಮಹಾನಗರ ಪಾಲಿಕೆ",
+        "operator:short": "BBMP",
+        "operator:wikidata": "Q4978693"
+      }
+    },
+    {
       "displayName": "BC Parks",
       "id": "bcparks-af8860",
       "locationSet": {
@@ -184,17 +207,6 @@
         "amenity": "toilets",
         "operator": "British Red Cross",
         "operator:wikidata": "Q4970966"
-      }
-    },
-    {
-      "displayName": "Bruhat Bengaluru Mahanagara Palike",
-      "id": "bruhatbengalurumahanagarapalike-5a8295",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "amenity": "toilets",
-        "operator": "Bruhat Bengaluru Mahanagara Palike",
-        "operator:short": "BBMP",
-        "operator:wikidata": "Q4978693"
       }
     },
     {
@@ -350,6 +362,18 @@
         "operator": "City of Ottawa",
         "operator:type": "government",
         "operator:wikidata": "Q5123850"
+      }
+    },
+    {
+      "displayName": "City of Toronto",
+      "id": "cityoftoronto-7c1906",
+      "locationSet": {
+        "include": ["ca-on.geojson"]
+      },
+      "tags": {
+        "amenity": "toilets",
+        "operator": "City of Toronto",
+        "operator:wikidata": "Q172"
       }
     },
     {
@@ -780,7 +804,7 @@
     },
     {
       "displayName": "McDonald's",
-      "id": "mcdonalds-70db25",
+      "id": "mcdonalds-dbdb7d",
       "locationSet": {
         "include": ["001"],
         "exclude": [
@@ -790,7 +814,6 @@
           "cn",
           "eg",
           "fr",
-          "hk",
           "iq",
           "jo",
           "jp",
@@ -799,7 +822,6 @@
           "kz",
           "lb",
           "ma",
-          "mo",
           "no",
           "om",
           "qa",
@@ -826,6 +848,18 @@
         "amenity": "toilets",
         "operator": "Melbourne City Council",
         "operator:wikidata": "Q56477763"
+      }
+    },
+    {
+      "displayName": "Metro Vancouver Regional Parks",
+      "id": "metrovancouverregionalparks-af8860",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "tags": {
+        "amenity": "toilets",
+        "operator": "Metro Vancouver Regional Parks",
+        "operator:wikidata": "Q110072524"
       }
     },
     {
@@ -986,7 +1020,7 @@
       "tags": {
         "amenity": "toilets",
         "operator": "Nordseeheilbad Cuxhaven GmbH",
-        "operator:wikidata": "Q616376"
+        "operator:wikidata": "Q47486923"
       }
     },
     {
@@ -1072,6 +1106,16 @@
       }
     },
     {
+      "displayName": "Orlen",
+      "id": "orlen-dbab0a",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "toilets",
+        "operator": "Orlen",
+        "operator:wikidata": "Q971649"
+      }
+    },
+    {
       "displayName": "Oxfam",
       "id": "oxfam-48c608",
       "locationSet": {"include": ["001"]},
@@ -1123,6 +1167,18 @@
         "amenity": "toilets",
         "operator": "Philmont Scout Ranch",
         "operator:wikidata": "Q7185999"
+      }
+    },
+    {
+      "displayName": "Recreation Sites and Trails BC",
+      "id": "recreationsitesandtrailsbc-af8860",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "tags": {
+        "amenity": "toilets",
+        "operator": "Recreation Sites and Trails BC",
+        "operator:wikidata": "Q125635785"
       }
     },
     {
@@ -1447,13 +1503,24 @@
     },
     {
       "displayName": "Technisches Hilfswerk",
-      "id": "technischeshilfswerk-48c608",
+      "id": "bundesanstalttechnischeshilfswerk-48c608",
       "locationSet": {"include": ["001"]},
+      "matchNames": ["technisches hilfswerk"],
       "tags": {
         "amenity": "toilets",
-        "operator": "Technisches Hilfswerk",
+        "operator": "Bundesanstalt Technisches Hilfswerk",
         "operator:short": "THW",
         "operator:wikidata": "Q697698"
+      }
+    },
+    {
+      "displayName": "Tesco",
+      "id": "tesco-87ae4a",
+      "locationSet": {"include": ["150"]},
+      "tags": {
+        "amenity": "toilets",
+        "operator": "Tesco",
+        "operator:wikidata": "Q487494"
       }
     },
     {
@@ -1636,6 +1703,18 @@
       }
     },
     {
+      "displayName": "Ville de Caen",
+      "id": "villedecaen-c5aca9",
+      "locationSet": {
+        "include": ["fr-nor.geojson"]
+      },
+      "tags": {
+        "amenity": "toilets",
+        "operator": "Ville de Caen",
+        "operator:wikidata": "Q86698825"
+      }
+    },
+    {
       "displayName": "Ville de Lons-le-Saunier",
       "id": "villedelonslesaunier-db1f83",
       "locationSet": {
@@ -1734,11 +1813,14 @@
     },
     {
       "displayName": "Wirtschaftsbetrieb Mainz",
-      "id": "wirtschaftsbetriebmainz-a4f70c",
-      "locationSet": {"include": ["de"]},
+      "id": "wirtschaftsbetriebmainz-2afa87",
+      "locationSet": {
+        "include": ["de-rp.geojson"]
+      },
       "tags": {
         "amenity": "toilets",
-        "operator": "Wirtschaftsbetrieb Mainz"
+        "operator": "Wirtschaftsbetrieb Mainz",
+        "operator:wikidata": "Q133805486"
       }
     },
     {
@@ -2117,6 +2199,15 @@
       }
     },
     {
+      "displayName": "桃園市立桃園高級中等學校",
+      "id": "296ea1-1a4ed3",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "amenity": "toilets",
+        "operator": "桃園市立桃園高級中等學校"
+      }
+    },
+    {
       "displayName": "独立行政法人国立高等専門学校機構",
       "id": "40c6ae-efac16",
       "locationSet": {"include": ["jp"]},
@@ -2129,7 +2220,7 @@
       "displayName": "食物環境衞生署 Food and Environmental Hygiene Department",
       "id": "foodandenvironmentalhygienedepartment-70c95d",
       "locationSet": {"include": ["hk"]},
-      "matchNames": ["fehd", "食物環境衛生署", "食環署"],
+      "matchNames": ["食物環境衛生署"],
       "tags": {
         "amenity": "toilets",
         "operator": "食物環境衞生署 Food and Environmental Hygiene Department",

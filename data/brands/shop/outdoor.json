@@ -279,6 +279,17 @@
       }
     },
     {
+      "displayName": "Husky",
+      "id": "husky-240bcf",
+      "locationSet": {"include": ["cz", "sk"]},
+      "tags": {
+        "brand": "Husky",
+        "brand:wikidata": "Q54973467",
+        "name": "Husky",
+        "shop": "outdoor"
+      }
+    },
+    {
       "displayName": "Jack Wolfskin",
       "id": "jackwolfskin-279671",
       "locationSet": {
@@ -552,6 +563,36 @@
         "name": "上州屋",
         "name:en": "Johshuya",
         "name:ja": "上州屋",
+        "shop": "outdoor"
+      }
+    },
+    {
+      "displayName": "城市綠洲",
+      "id": "metrooasis-887a29",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "brand": "城市綠洲",
+        "brand:en": "Metro Oasis",
+        "brand:wikidata": "Q132360408",
+        "brand:zh": "城市綠洲",
+        "name": "城市綠洲",
+        "name:en": "Metro Oasis",
+        "name:zh": "城市綠洲",
+        "shop": "outdoor"
+      }
+    },
+    {
+      "displayName": "歐都納",
+      "id": "atunas-887a29",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "brand": "歐都納",
+        "brand:en": "Atunas",
+        "brand:wikidata": "Q132360419",
+        "brand:zh": "歐都納",
+        "name": "歐都納",
+        "name:en": "Atunas",
+        "name:zh": "歐都納",
         "shop": "outdoor"
       }
     }

@@ -1139,6 +1139,17 @@
       }
     },
     {
+      "displayName": "Next Level",
+      "id": "nextlevel-144da6",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "brand": "Next Level",
+        "brand:wikidata": "Q132340069",
+        "leisure": "fitness_centre",
+        "name": "Next Level"
+      }
+    },
+    {
       "displayName": "Nordic Wellness",
       "id": "nordicwellness-f113b7",
       "locationSet": {"include": ["se"]},
@@ -1587,6 +1598,17 @@
         "brand:wikidata": "Q7828019",
         "leisure": "fitness_centre",
         "name": "Total Fitness"
+      }
+    },
+    {
+      "displayName": "UFC Gym",
+      "id": "ufcgym-809afb",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "UFC Gym",
+        "brand:wikidata": "Q122511683",
+        "leisure": "fitness_centre",
+        "name": "UFC Gym"
       }
     },
     {

@@ -64,6 +64,7 @@
       "locationSet": {
         "include": ["us-ca.geojson"]
       },
+      "matchNames": ["altamont corridor express"],
       "tags": {
         "network": "ACE",
         "network:wikidata": "Q434302",
@@ -733,6 +734,16 @@
       }
     },
     {
+      "displayName": "Hyderabad MMTS",
+      "id": "hyderabadmmts-7147b7",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "network": "Hyderabad MMTS",
+        "network:wikidata": "Q1952301",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "IC",
       "id": "ic-88d47b",
       "locationSet": {
@@ -757,8 +768,10 @@
     },
     {
       "displayName": "IDOL",
-      "id": "integrovanadopravalibereckehokraje-cc6cef",
-      "locationSet": {"include": ["cz"]},
+      "id": "integrovanadopravalibereckehokraje-592d43",
+      "locationSet": {
+        "include": ["cz-51.geojson"]
+      },
       "tags": {
         "network": "Integrovaná doprava Libereckého kraje",
         "network:short": "IDOL",
@@ -788,8 +801,14 @@
     },
     {
       "displayName": "IDZK (Česko)",
-      "id": "integrovanadopravazlinskehokraje-cc6cef",
-      "locationSet": {"include": ["cz"]},
+      "id": "integrovanadopravazlinskehokraje-e2fb0f",
+      "locationSet": {
+        "include": [
+          "cz-71.geojson",
+          "cz-72.geojson",
+          "cz-80.geojson"
+        ]
+      },
       "tags": {
         "network": "Integrovaná doprava Zlínského kraje",
         "network:short": "IDZK",
@@ -1493,6 +1512,18 @@
       }
     },
     {
+      "displayName": "ÖBB Nightjet",
+      "id": "obbnightjet-f5a1d8",
+      "locationSet": {
+        "include": ["at", "be", "de", "it"]
+      },
+      "tags": {
+        "network": "ÖBB Nightjet",
+        "network:wikidata": "Q28127371",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Oberösterreichischer Verkehrsverbund",
       "id": "oberosterreichischerverkehrsverbund-e51205",
       "locationSet": {
@@ -1512,11 +1543,34 @@
     },
     {
       "displayName": "ODIS",
-      "id": "odis-cc6cef",
-      "locationSet": {"include": ["cz"]},
+      "id": "odis-e2fb0f",
+      "locationSet": {
+        "include": [
+          "cz-71.geojson",
+          "cz-72.geojson",
+          "cz-80.geojson"
+        ]
+      },
       "tags": {
         "network": "ODIS",
         "network:wikidata": "Q12043044",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Onde Verte",
+      "id": "ondeverte-542ecf",
+      "locationSet": {
+        "include": [
+          "ch-be.geojson",
+          "ch-ne.geojson",
+          "ch-vd.geojson",
+          "fr-bfc.geojson"
+        ]
+      },
+      "tags": {
+        "network": "Onde Verte",
+        "network:wikidata": "Q30744145",
         "route": "train"
       }
     },
@@ -1639,6 +1693,16 @@
       "tags": {
         "network": "Queensland Rail Travel",
         "network:wikidata": "Q125878039",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Rajdhani Express",
+      "id": "rajdhaniexpress-7147b7",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "network": "Rajdhani Express",
+        "network:wikidata": "Q379605",
         "route": "train"
       }
     },
@@ -1986,7 +2050,7 @@
       }
     },
     {
-      "displayName": "Société Nationale des Chemins de Fer Luxembourgeois",
+      "displayName": "Société Nationale des Chemins de fer Luxembourgeois",
       "id": "societenationaledescheminsdeferluxembourgeois-7e5466",
       "locationSet": {
         "include": [
@@ -2340,7 +2404,7 @@
       }
     },
     {
-      "displayName": "TRAM Metropolità d'Alcant",
+      "displayName": "TRAM Metropolità d'Alacant",
       "id": "trammetropolitadalacant-2f7cc7",
       "locationSet": {
         "include": [
@@ -2354,7 +2418,7 @@
         "tram alicante",
         "tram metropolitano de alicante"
       ],
-      "note": "This entry is in Alcant, Benidorm and Gata de Gorgos",
+      "note": "This entry is in Alacant, Benidorm and Gata de Gorgos",
       "tags": {
         "network": "TRAM Metropolità d'Alacant",
         "network:wikidata": "Q2063567",
@@ -2628,6 +2692,20 @@
       }
     },
     {
+      "displayName": "Verkehrsverbund Mittelthüringen",
+      "id": "verkehrsverbundmittelthuringen-c1de8d",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
+      "tags": {
+        "network": "Verkehrsverbund Mittelthüringen",
+        "network:guid": "DE-TH-VMT",
+        "network:short": "VMT",
+        "network:wikidata": "Q2516468",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Verkehrsverbund Neckar-Alb-Donau",
       "id": "verkehrsverbundneckaralbdonau-da20e0",
       "locationSet": {"include": ["de"]},
@@ -2761,20 +2839,6 @@
       "tags": {
         "network": "VMS",
         "network:wikidata": "Q1145755",
-        "route": "train"
-      }
-    },
-    {
-      "displayName": "VMT",
-      "id": "verkehrsverbundmittelthuringen-c1de8d",
-      "locationSet": {
-        "include": ["de-th.geojson"]
-      },
-      "tags": {
-        "network": "Verkehrsverbund Mittelthüringen",
-        "network:guid": "DE-TH-VMT",
-        "network:short": "VMT",
-        "network:wikidata": "Q2516468",
         "route": "train"
       }
     },
@@ -2983,17 +3047,22 @@
       "displayName": "Укрзалізниця",
       "id": "ukrainianrailways-216244",
       "locationSet": {"include": ["ua"]},
-      "matchNames": ["ukrzaliznytsia"],
       "tags": {
         "network": "Укрзалізниця",
         "network:en": "Ukrainian Railways",
         "network:short": "УЗ",
+        "network:short:uk": "УЗ",
+        "network:short:uk-Latn": "UZ",
         "network:uk": "Укрзалізниця",
+        "network:uk-Latn": "Ukrzaliznytsia",
         "network:wikidata": "Q923337",
         "operator": "Укрзалізниця",
         "operator:en": "Ukrainian Railways",
         "operator:short": "УЗ",
+        "operator:short:uk": "УЗ",
+        "operator:short:uk-Latn": "UZ",
         "operator:uk": "Укрзалізниця",
+        "operator:uk-Latn": "Ukrzaliznytsia",
         "operator:wikidata": "Q923337",
         "route": "train"
       }

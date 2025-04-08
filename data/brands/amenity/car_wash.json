@@ -15,7 +15,7 @@
         "^wasch(anlage|straße|strasse)$",
         "^کارواش$"
       ],
-      "named": ["^h2o$"]
+      "named": ["^h2o$", "^jet wash$"]
     }
   },
   "items": [
@@ -179,6 +179,18 @@
         "brand": "Costco",
         "brand:wikidata": "Q715583",
         "name": "Costco"
+      }
+    },
+    {
+      "displayName": "Darner",
+      "id": "darner-95225d",
+      "locationSet": {"include": ["sk"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Darner",
+        "brand:wikidata": "Q132343372",
+        "name": "Darner"
       }
     },
     {
@@ -471,6 +483,17 @@
       }
     },
     {
+      "displayName": "Penový raj",
+      "id": "penovyraj-3482c3",
+      "locationSet": {"include": ["cz", "sk"]},
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Penový raj",
+        "brand:wikidata": "Q132352763",
+        "name": "Penový raj"
+      }
+    },
+    {
       "displayName": "Petro-Canada",
       "id": "petrocanada-9ea365",
       "locationSet": {"include": ["ca"]},
@@ -532,6 +555,17 @@
       }
     },
     {
+      "displayName": "Speedway Speedy Wash",
+      "id": "speedywash-244496",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "name": "Speedy Wash"
+      }
+    },
+    {
       "displayName": "Super Wash",
       "id": "superwash-244496",
       "locationSet": {"include": ["us"]},
@@ -579,8 +613,11 @@
     },
     {
       "displayName": "Wash (TotalEnergies)",
-      "id": "wash-43b899",
-      "locationSet": {"include": ["001"]},
+      "id": "wash-8e017a",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["us"]
+      },
       "matchNames": ["total", "total wash"],
       "tags": {
         "amenity": "car_wash",

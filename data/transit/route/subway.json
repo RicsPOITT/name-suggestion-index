@@ -553,8 +553,10 @@
     },
     {
       "displayName": "Pražské metro",
-      "id": "prazskemetro-68f608",
-      "locationSet": {"include": ["cz"]},
+      "id": "prazskemetro-3d3c9d",
+      "locationSet": {
+        "include": ["cz-10.geojson"]
+      },
       "tags": {
         "network": "Pražské metro",
         "network:wikidata": "Q190271",
@@ -646,6 +648,16 @@
       }
     },
     {
+      "displayName": "Riyadh Metro",
+      "id": "riyadhmetro-1c9b91",
+      "locationSet": {"include": ["sa"]},
+      "tags": {
+        "network": "Riyadh Metro",
+        "network:wikidata": "Q3855748",
+        "route": "subway"
+      }
+    },
+    {
       "displayName": "Ruter",
       "id": "ruter-ef49cb",
       "locationSet": {"include": ["no"]},
@@ -681,6 +693,16 @@
         "network": "Mass Rapid Transit",
         "network:short": "MRT",
         "network:wikidata": "Q40176",
+        "route": "subway"
+      }
+    },
+    {
+      "displayName": "SL",
+      "id": "sl-a6b04e",
+      "locationSet": {"include": ["se"]},
+      "tags": {
+        "network": "SL",
+        "network:wikidata": "Q970452",
         "route": "subway"
       }
     },
@@ -809,7 +831,7 @@
       }
     },
     {
-      "displayName": "TRAM Metropolità d'Alcant",
+      "displayName": "TRAM Metropolità d'Alacant",
       "id": "trammetropolitadalacant-1857e6",
       "locationSet": {
         "include": [
@@ -823,7 +845,7 @@
         "tram alicante",
         "tram metropolitano de alicante"
       ],
-      "note": "This entry is in Alcant, Benidorm and Gata de Gorgos",
+      "note": "This entry is in Alacant, Benidorm and Gata de Gorgos",
       "tags": {
         "network": "TRAM Metropolità d'Alacant",
         "network:wikidata": "Q2063567",
@@ -912,6 +934,7 @@
       "locationSet": {
         "include": ["us-baltimore_and_dc.geojson"]
       },
+      "matchNames": ["metrorail"],
       "tags": {
         "network": "Washington Metro",
         "network:wikidata": "Q171221",
@@ -1006,7 +1029,7 @@
       "displayName": "თბილისის მეტროპოლიტენი",
       "id": "tbilisimetro-eb3f06",
       "locationSet": {"include": ["ge"]},
-      "matchNames": ["ttc", "ttc.com.ge"],
+      "matchNames": ["ttc.com.ge"],
       "tags": {
         "network": "თბილისის მეტროპოლიტენი",
         "network:en": "Tbilisi Metro",

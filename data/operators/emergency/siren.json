@@ -1,7 +1,12 @@
 {
   "properties": {
     "path": "operators/emergency/siren",
-    "exclude": {"generic": ["^(fire )?siren$"]}
+    "exclude": {
+      "generic": [
+        "^(fire )?siren$",
+        "^straż pożarna$"
+      ]
+    }
   },
   "items": [
     {
@@ -224,6 +229,18 @@
       }
     },
     {
+      "displayName": "City of Rockwall",
+      "id": "cityofrockwall-034cb0",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "emergency": "siren",
+        "operator": "City of Rockwall",
+        "operator:wikidata": "Q383014"
+      }
+    },
+    {
       "displayName": "City of Sand Springs",
       "id": "cityofsandsprings-058349",
       "locationSet": {
@@ -334,20 +351,26 @@
     },
     {
       "displayName": "HMP",
-      "id": "hmp-af0ad5",
-      "locationSet": {"include": ["cz"]},
+      "id": "hmp-dc1120",
+      "locationSet": {
+        "include": ["cz-10.geojson"]
+      },
       "tags": {
         "emergency": "siren",
-        "operator": "HMP"
+        "operator": "HMP",
+        "operator:wikidata": "Q12034893"
       }
     },
     {
       "displayName": "HZS HMP",
-      "id": "hzshmp-af0ad5",
-      "locationSet": {"include": ["cz"]},
+      "id": "hzshmp-dc1120",
+      "locationSet": {
+        "include": ["cz-10.geojson"]
+      },
       "tags": {
         "emergency": "siren",
-        "operator": "HZS HMP"
+        "operator": "HZS HMP",
+        "operator:wikidata": "Q63002573"
       }
     },
     {
@@ -652,15 +675,6 @@
       }
     },
     {
-      "displayName": "Straż pożarna",
-      "id": "strazpozarna-fe489a",
-      "locationSet": {"include": ["pl"]},
-      "tags": {
-        "emergency": "siren",
-        "operator": "Straż pożarna"
-      }
-    },
-    {
       "displayName": "TIWAG",
       "id": "tiwag-99055c",
       "locationSet": {"include": ["at"]},
@@ -701,6 +715,18 @@
         "emergency": "siren",
         "operator": "Verbandsgemeinde Gerolstein",
         "operator:wikidata": "Q52404118"
+      }
+    },
+    {
+      "displayName": "Verbandsgemeinde Kirchberg",
+      "id": "verbandsgemeindekirchberg-d10492",
+      "locationSet": {
+        "include": ["de-rp.geojson"]
+      },
+      "tags": {
+        "emergency": "siren",
+        "operator": "Verbandsgemeinde Kirchberg",
+        "operator:wikidata": "Q559333"
       }
     },
     {
@@ -746,12 +772,27 @@
       }
     },
     {
-      "displayName": "青梅市",
-      "id": "98f747-1cc03d",
-      "locationSet": {"include": ["jp"]},
+      "displayName": "相模原市",
+      "id": "765f57-87bad6",
+      "locationSet": {
+        "include": ["jp-14.geojson"]
+      },
       "tags": {
         "emergency": "siren",
-        "operator": "青梅市"
+        "operator": "相模原市",
+        "operator:wikidata": "Q209779"
+      }
+    },
+    {
+      "displayName": "青梅市",
+      "id": "98f747-b4cdd2",
+      "locationSet": {
+        "include": ["jp-13.geojson"]
+      },
+      "tags": {
+        "emergency": "siren",
+        "operator": "青梅市",
+        "operator:wikidata": "Q237683"
       }
     }
   ]

@@ -48,12 +48,12 @@
       }
     },
     {
-      "displayName": "Asfinag",
+      "displayName": "ASFINAG",
       "id": "asfinag-ed5273",
       "locationSet": {"include": ["at"]},
       "tags": {
         "emergency": "phone",
-        "operator": "Asfinag",
+        "operator": "ASFINAG",
         "operator:wikidata": "Q297650"
       }
     },
@@ -142,6 +142,18 @@
         "emergency": "phone",
         "operator": "Autostrada Wielkopolska",
         "operator:wikidata": "Q13404090"
+      }
+    },
+    {
+      "displayName": "Berliner Verkehrsbetriebe",
+      "id": "berlinerverkehrsbetriebe-f0b60d",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
+      "tags": {
+        "emergency": "phone",
+        "operator": "Berliner Verkehrsbetriebe",
+        "operator:wikidata": "Q99633"
       }
     },
     {
@@ -284,6 +296,7 @@
       "displayName": "Deutsche Telekom AG",
       "id": "deutschetelekomag-3876cc",
       "locationSet": {"include": ["de"]},
+      "matchNames": ["deutsche telekom"],
       "tags": {
         "emergency": "phone",
         "operator": "Deutsche Telekom AG",
@@ -410,6 +423,16 @@
         "emergency": "phone",
         "operator": "Hope College",
         "operator:wikidata": "Q2475371"
+      }
+    },
+    {
+      "displayName": "Hrvatske autoceste",
+      "id": "hrvatskeautoceste-f2616c",
+      "locationSet": {"include": ["hr"]},
+      "tags": {
+        "emergency": "phone",
+        "operator": "Hrvatske autoceste",
+        "operator:wikidata": "Q1632546"
       }
     },
     {
@@ -603,6 +626,22 @@
       "tags": {
         "emergency": "phone",
         "operator": "Oklahoma State University Police Department"
+      }
+    },
+    {
+      "displayName": "Policía de la Ciudad de Buenos Aires",
+      "id": "policiadelaciudaddebuenosaires-347e4f",
+      "locationSet": {
+        "include": [
+          "ar-b.geojson",
+          "ar-c.geojson"
+        ]
+      },
+      "matchNames": ["policia de la ciudad"],
+      "tags": {
+        "emergency": "phone",
+        "operator": "Policía de la Ciudad de Buenos Aires",
+        "operator:wikidata": "Q28647622"
       }
     },
     {
@@ -888,6 +927,7 @@
       "locationSet": {
         "include": ["au-nsw.geojson"]
       },
+      "matchNames": ["tfnsw"],
       "tags": {
         "emergency": "phone",
         "operator": "Transport for NSW",

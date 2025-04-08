@@ -256,18 +256,6 @@
       }
     },
     {
-      "displayName": "Humana",
-      "id": "humana-bf05c1",
-      "locationSet": {"include": ["001"]},
-      "matchNames": ["humana people to people"],
-      "tags": {
-        "brand": "Humana",
-        "brand:wikidata": "Q1636581",
-        "name": "Humana",
-        "shop": "charity"
-      }
-    },
-    {
       "displayName": "Kirkens Korshær Genbrug",
       "id": "kirkenskorshaergenbrug-40689c",
       "locationSet": {"include": ["dk"]},
@@ -586,6 +574,16 @@
         "brand": "The Salvation Army",
         "brand:wikidata": "Q188307",
         "name": "The Salvation Army",
+        "shop": "charity"
+      }
+    },
+    {
+      "displayName": "Vincent's",
+      "id": "vincents-bbdeed",
+      "locationSet": {"include": ["ie"]},
+      "tags": {
+        "brand": "Vincent's",
+        "name": "Vincent's",
         "shop": "charity"
       }
     },

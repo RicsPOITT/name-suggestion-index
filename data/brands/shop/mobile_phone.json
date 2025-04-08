@@ -35,6 +35,18 @@
       }
     },
     {
+      "displayName": "3Butiken (Sweden)",
+      "id": "3butiken-5d1f83",
+      "locationSet": {"include": ["se"]},
+      "matchNames": ["3", "tre"],
+      "tags": {
+        "brand": "3Butiken",
+        "brand:wikidata": "Q10523825",
+        "name": "3Butiken",
+        "shop": "mobile_phone"
+      }
+    },
+    {
       "displayName": "A1 prodajno mesto",
       "id": "a1prodajnomesto-6945ea",
       "locationSet": {"include": ["rs"]},
@@ -172,6 +184,21 @@
         "brand": "Carphone Warehouse",
         "brand:wikidata": "Q118046",
         "name": "Carphone Warehouse",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Cellcom",
+      "id": "cellcom-0c2e23",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "סלקום",
+        "brand:en": "Cellcom",
+        "brand:he": "סלקום",
+        "brand:wikidata": "Q2450722",
+        "name": "סלקום",
+        "name:en": "Cellcom",
+        "name:he": "סלקום",
         "shop": "mobile_phone"
       }
     },
@@ -406,6 +433,7 @@
       "displayName": "Koodo",
       "id": "koodo-947b24",
       "locationSet": {"include": ["ca"]},
+      "matchNames": ["koodo mobile"],
       "tags": {
         "brand": "Koodo",
         "brand:wikidata": "Q6430529",
@@ -511,6 +539,17 @@
       }
     },
     {
+      "displayName": "Moldcell",
+      "id": "moldcell-a16e28",
+      "locationSet": {"include": ["md"]},
+      "tags": {
+        "brand": "Moldcell",
+        "brand:wikidata": "Q1971178",
+        "name": "Moldcell",
+        "shop": "mobile_phone"
+      }
+    },
+    {
       "displayName": "Moov",
       "id": "moov-6ab8a4",
       "locationSet": {"include": ["ci", "tg"]},
@@ -597,6 +636,22 @@
       }
     },
     {
+      "displayName": "Nova",
+      "id": "nova-d5175a",
+      "locationSet": {"include": ["gr"]},
+      "matchNames": [
+        "nova greece",
+        "wind",
+        "wind hellas"
+      ],
+      "tags": {
+        "brand": "Nova",
+        "brand:wikidata": "Q1608689",
+        "name": "Nova",
+        "shop": "mobile_phone"
+      }
+    },
+    {
       "displayName": "O!Store",
       "id": "ostore-7e5c09",
       "locationSet": {"include": ["kg"]},
@@ -675,9 +730,22 @@
     },
     {
       "displayName": "Orange",
-      "id": "orange-ee5434",
-      "locationSet": {"include": ["001"]},
-      "matchNames": ["agence orange"],
+      "id": "orange-3f18db",
+      "locationSet": {
+        "include": [
+          "002",
+          "150",
+          "gf",
+          "gp",
+          "jo",
+          "mq"
+        ],
+        "exclude": ["ru"]
+      },
+      "matchNames": [
+        "agence orange",
+        "orange egypt"
+      ],
       "tags": {
         "brand": "Orange",
         "brand:wikidata": "Q1431486",
@@ -872,8 +940,11 @@
     },
     {
       "displayName": "Tele2",
-      "id": "tele2-ee5434",
-      "locationSet": {"include": ["001"]},
+      "id": "tele2-7928db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["ru"]
+      },
       "tags": {
         "brand": "Tele2",
         "brand:wikidata": "Q309865",
@@ -1198,6 +1269,23 @@
       }
     },
     {
+      "displayName": "Value Mobile",
+      "id": "valuemobile-cbf626",
+      "locationSet": {
+        "include": [
+          "ca-ab.geojson",
+          "ca-bc.geojson",
+          "ca-on.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Value Mobile",
+        "brand:wikidata": "Q133255811",
+        "name": "Value Mobile",
+        "shop": "mobile_phone"
+      }
+    },
+    {
       "displayName": "Verizon",
       "id": "verizon-ce3e5c",
       "locationSet": {"include": ["us"]},
@@ -1443,18 +1531,6 @@
         "brand": "WIFI_ETECSA",
         "brand:wikidata": "Q490323",
         "name": "WIFI_ETECSA",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "WIND Hellas",
-      "id": "windhellas-d5175a",
-      "locationSet": {"include": ["gr"]},
-      "matchNames": ["wind"],
-      "tags": {
-        "brand": "WIND Hellas",
-        "brand:wikidata": "Q10711016",
-        "name": "WIND Hellas",
         "shop": "mobile_phone"
       }
     },
@@ -1738,6 +1814,51 @@
         "name": "სელფი",
         "name:en": "Cellfie",
         "name:ka": "სელფი",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "הוט מובייל",
+      "id": "hotmobile-0c2e23",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "הוט מובייל",
+        "brand:en": "Hot Mobile",
+        "brand:he": "הוט מובייל",
+        "brand:wikidata": "Q847262",
+        "name": "הוט מובייל",
+        "name:en": "Hot Mobile",
+        "name:he": "הוט מובייל",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "פלאפון",
+      "id": "pelephone-0c2e23",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "פלאפון",
+        "brand:en": "Pelephone",
+        "brand:he": "פלאפון",
+        "brand:wikidata": "Q1536651",
+        "name": "פלאפון",
+        "name:en": "Pelephone",
+        "name:he": "פלאפון",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "פרטנר",
+      "id": "partner-0c2e23",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "פרטנר",
+        "brand:en": "Partner",
+        "brand:he": "פרטנר",
+        "brand:wikidata": "Q2000500",
+        "name": "פרטנר",
+        "name:en": "Partner",
+        "name:he": "פרטנר",
         "shop": "mobile_phone"
       }
     },

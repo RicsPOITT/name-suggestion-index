@@ -266,8 +266,13 @@
     },
     {
       "displayName": "IDSOK",
-      "id": "idsok-2f0afc",
-      "locationSet": {"include": ["cz"]},
+      "id": "idsok-96e584",
+      "locationSet": {
+        "include": [
+          "cz-71.geojson",
+          "cz-72.geojson"
+        ]
+      },
       "tags": {
         "network": "IDSOK",
         "network:wikidata": "Q12021688",
@@ -340,13 +345,14 @@
       }
     },
     {
-      "displayName": "LTZ Łódź",
-      "id": "ltzlodz-ba1938",
+      "displayName": "Lokalny Transport Zbiorowy w Łodzi",
+      "id": "lokalnytransportzbiorowywlodzi-ba1938",
       "locationSet": {"include": ["pl"]},
+      "matchNames": ["ltz łódź"],
       "tags": {
-        "network": "LTZ Łódź",
-        "network:wikidata": "Q1149987",
-        "operator": "MPK Łódź",
+        "network": "Lokalny Transport Zbiorowy w Łodzi",
+        "network:wikidata": "Q133202246",
+        "operator": "MPK-Łódź",
         "operator:wikidata": "Q11780295",
         "route": "tram"
       }
@@ -487,21 +493,28 @@
       }
     },
     {
-      "displayName": "NVV",
-      "id": "nvv-d7e496",
+      "displayName": "Nordhessischer VerkehrsVerbund",
+      "id": "nordhessischerverkehrsverbund-d7e496",
       "locationSet": {
         "include": ["de-he.geojson"]
       },
       "tags": {
-        "network": "NVV",
+        "network": "Nordhessischer VerkehrsVerbund",
+        "network:short": "NVV",
         "network:wikidata": "Q1998056",
         "route": "tram"
       }
     },
     {
       "displayName": "ODIS",
-      "id": "odis-2f0afc",
-      "locationSet": {"include": ["cz"]},
+      "id": "odis-ad1f04",
+      "locationSet": {
+        "include": [
+          "cz-71.geojson",
+          "cz-72.geojson",
+          "cz-80.geojson"
+        ]
+      },
       "tags": {
         "network": "ODIS",
         "network:wikidata": "Q1741955",
@@ -645,6 +658,15 @@
         "network": "Rhein-Main-Verkehrsverbund",
         "network:short": "RMV",
         "network:wikidata": "Q314042",
+        "route": "tram"
+      }
+    },
+    {
+      "displayName": "RU:SAR:Саратов:трамваи",
+      "id": "9ba77b-f97856",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "network": "RU:SAR:Саратов:трамваи",
         "route": "tram"
       }
     },
@@ -815,7 +837,7 @@
       }
     },
     {
-      "displayName": "TRAM Metropolità d'Alcant",
+      "displayName": "TRAM Metropolità d'Alacant",
       "id": "trammetropolitadalacant-da38ab",
       "locationSet": {
         "include": [
@@ -829,7 +851,7 @@
         "tram alicante",
         "tram metropolitano de alicante"
       ],
-      "note": "This entry is in Alcant, Benidorm and Gata de Gorgos",
+      "note": "This entry is in Alacant, Benidorm and Gata de Gorgos",
       "tags": {
         "network": "TRAM Metropolità d'Alacant",
         "network:wikidata": "Q2063567",
@@ -863,6 +885,7 @@
       "displayName": "tramway rabat-salé",
       "id": "strs-24315e",
       "locationSet": {"include": ["ma"]},
+      "matchNames": ["tramway rabat-salé"],
       "tags": {
         "network": "STRS",
         "network:wikidata": "Q948685",
@@ -1064,6 +1087,26 @@
       }
     },
     {
+      "displayName": "Verkehrsverbund Rhein-Neckar",
+      "id": "verkehrsverbundrheinneckar-035e59",
+      "locationSet": {
+        "include": [
+          "de-bw.geojson",
+          "de-he.geojson",
+          "de-rp.geojson"
+        ]
+      },
+      "tags": {
+        "network": "Verkehrsverbund Rhein-Neckar",
+        "network:short": "VRN",
+        "network:wikidata": "Q1553051",
+        "operator": "Rhein-Neckar-Verkehr",
+        "operator:short": "RNV",
+        "operator:wikidata": "Q1650863",
+        "route": "tram"
+      }
+    },
+    {
       "displayName": "Verkehrsverbund Steiermark",
       "id": "verkehrsverbundsteiermark-7e0503",
       "locationSet": {
@@ -1097,6 +1140,22 @@
       }
     },
     {
+      "displayName": "Verkehrsverbund Warnow",
+      "id": "verkehrsverbundwarnow-a3952f",
+      "locationSet": {
+        "include": ["de-mv.geojson"]
+      },
+      "tags": {
+        "network": "Verkehrsverbund Warnow",
+        "network:short": "VVW",
+        "network:wikidata": "Q2516492",
+        "operator": "Rostocker Straßenbahn AG",
+        "operator:short": "RSAG",
+        "operator:wikidata": "Q6718062",
+        "route": "tram"
+      }
+    },
+    {
       "displayName": "VOR",
       "id": "vor-f45fca",
       "locationSet": {
@@ -1108,25 +1167,6 @@
         "operator": "Wiener Linien",
         "operator:short": "WL",
         "operator:wikidata": "Q668849",
-        "route": "tram"
-      }
-    },
-    {
-      "displayName": "VRN",
-      "id": "vrn-035e59",
-      "locationSet": {
-        "include": [
-          "de-bw.geojson",
-          "de-he.geojson",
-          "de-rp.geojson"
-        ]
-      },
-      "tags": {
-        "network": "VRN",
-        "network:wikidata": "Q1553051",
-        "operator": "Rhein-Neckar-Verkehr",
-        "operator:short": "RNV",
-        "operator:wikidata": "Q1650863",
         "route": "tram"
       }
     },
@@ -1174,21 +1214,6 @@
         "operator": "Plauener Straßenbahn GmbH",
         "operator:short": "PSB",
         "operator:wikidata": "Q1635879",
-        "route": "tram"
-      }
-    },
-    {
-      "displayName": "VVW",
-      "id": "vvw-a3952f",
-      "locationSet": {
-        "include": ["de-mv.geojson"]
-      },
-      "tags": {
-        "network": "VVW",
-        "network:wikidata": "Q2516492",
-        "operator": "Rostocker Straßenbahn AG",
-        "operator:short": "RSAG",
-        "operator:wikidata": "Q6718062",
         "route": "tram"
       }
     },
@@ -1265,6 +1290,16 @@
         "network:wikidata": "Q62534866",
         "operator": "Tramwaje Szczecińskie",
         "operator:wikidata": "Q14331058",
+        "route": "tram"
+      }
+    },
+    {
+      "displayName": "ZDMiKP Bydgoszcz",
+      "id": "zdmikpbydgoszcz-ba1938",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "network": "ZDMiKP Bydgoszcz",
+        "network:wikidata": "Q16618278",
         "route": "tram"
       }
     },
@@ -1476,6 +1511,16 @@
         "network": "Московский транспорт",
         "operator": "Мосгортранс",
         "operator:wikidata": "Q1949245",
+        "route": "tram"
+      }
+    },
+    {
+      "displayName": "Омский трамвай",
+      "id": "560843-f97856",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "network": "Омский трамвай",
+        "network:wikidata": "Q3537061",
         "route": "tram"
       }
     },

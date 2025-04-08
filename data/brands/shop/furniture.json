@@ -53,17 +53,6 @@
       }
     },
     {
-      "displayName": "AHF",
-      "id": "ahf-5a41a5",
-      "locationSet": {"include": ["gb"]},
-      "tags": {
-        "brand": "AHF",
-        "brand:wikidata": "Q50132485",
-        "name": "AHF",
-        "shop": "furniture"
-      }
-    },
-    {
       "displayName": "Aiko XXXL",
       "id": "aikoxxxl-685932",
       "locationSet": {"include": ["bg"]},
@@ -164,6 +153,7 @@
         "brand": "ASKO Nábytek",
         "brand:wikidata": "Q58197384",
         "name": "ASKO Nábytek",
+        "name:cs": "ASKO Nábytek",
         "name:sk": "ASKO Nábytok",
         "shop": "furniture"
       }
@@ -397,7 +387,7 @@
     },
     {
       "displayName": "Chateau d'Ax",
-      "id": "chateaudax-c96b56",
+      "id": "chateaudax-dd1a0d",
       "locationSet": {
         "include": [
           "ao",
@@ -409,7 +399,6 @@
           "es",
           "fx",
           "gp",
-          "hk",
           "hr",
           "it",
           "ma",
@@ -656,6 +645,18 @@
       }
     },
     {
+      "displayName": "Fabb Furniture",
+      "id": "fabbfurniture-1e392b",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": ["ahf"],
+      "tags": {
+        "brand": "Fabb Furniture",
+        "brand:wikidata": "Q122241566",
+        "name": "Fabb Furniture",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Fagmøbler",
       "id": "fagmobler-c1bd40",
       "issues": [5500],
@@ -702,7 +703,7 @@
     },
     {
       "displayName": "Forma ideale",
-      "id": "660dda-7d4b0a",
+      "id": "formaideale-7d4b0a",
       "locationSet": {"include": ["rs"]},
       "tags": {
         "brand": "Форма идеале",
@@ -915,16 +916,49 @@
     },
     {
       "displayName": "IKEA",
-      "id": "ikea-70500d",
+      "id": "ikea-d24a4f",
       "locationSet": {
-        "include": ["001"],
-        "exclude": [
-          "cn",
-          "dk",
-          "fi",
-          "jp",
-          "no",
-          "se"
+        "include": [
+          "ae",
+          "at",
+          "au",
+          "be",
+          "bh",
+          "ca",
+          "ch",
+          "cl",
+          "cz",
+          "de",
+          "eg",
+          "es",
+          "fr",
+          "gb",
+          "hr",
+          "hu",
+          "ie",
+          "il",
+          "in",
+          "it",
+          "jo",
+          "kr",
+          "kw",
+          "ma",
+          "mx",
+          "my",
+          "nl",
+          "ph",
+          "pl",
+          "pt",
+          "qa",
+          "ro",
+          "rs",
+          "sa",
+          "sg",
+          "si",
+          "sk",
+          "th",
+          "ua",
+          "us"
         ]
       },
       "tags": {
@@ -951,14 +985,18 @@
     },
     {
       "displayName": "IKEA Planning Studio",
-      "id": "ikeaplanningstudio-6c43fa",
-      "locationSet": {"include": ["de", "pt"]},
+      "id": "ikeaplanningstudio-1705b1",
+      "locationSet": {
+        "include": ["cz", "de", "pt", "sk"]
+      },
       "tags": {
         "brand": "IKEA",
         "brand:wikidata": "Q54078",
         "name": "IKEA Planning Studio",
+        "name:cs": "IKEA Plánovací studio",
         "name:en": "IKEA Planning Studio",
         "name:pt": "IKEA Estúdio de Planificação",
+        "name:sk": "IKEA Plánovacie štúdio",
         "shop": "furniture"
       }
     },
@@ -998,11 +1036,11 @@
     },
     {
       "displayName": "JYSK",
-      "id": "jysk-101bbf",
+      "id": "jysk-9952df",
       "issues": [5509],
       "locationSet": {
         "include": ["001"],
-        "exclude": ["no"]
+        "exclude": ["ge", "no"]
       },
       "matchNames": [
         "dänisches bettenlager",
@@ -1077,6 +1115,17 @@
       }
     },
     {
+      "displayName": "Komfort",
+      "id": "komfort-ad60fa",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Komfort",
+        "brand:wikidata": "Q127275164",
+        "name": "Komfort",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Kwantum",
       "id": "kwantum-2b79f5",
       "locationSet": {"include": ["be", "nl"]},
@@ -1101,18 +1150,6 @@
         "brand": "La-Z-Boy",
         "brand:wikidata": "Q6391583",
         "name": "La-Z-Boy",
-        "shop": "furniture"
-      }
-    },
-    {
-      "displayName": "Lastman's Bad Boy",
-      "id": "lastmansbadboy-a33c55",
-      "locationSet": {"include": ["ca"]},
-      "matchNames": ["bad boy"],
-      "tags": {
-        "brand": "Lastman's Bad Boy",
-        "brand:wikidata": "Q112966669",
-        "name": "Lastman's Bad Boy",
         "shop": "furniture"
       }
     },
@@ -1932,6 +1969,19 @@
         "brand": "Siko",
         "brand:wikidata": "Q58218696",
         "name": "Siko",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Simpo",
+      "id": "simpo-4067f4",
+      "locationSet": {
+        "include": ["ba", "me", "mk", "rs"]
+      },
+      "tags": {
+        "brand": "Simpo",
+        "brand:wikidata": "Q3484793",
+        "name": "Simpo",
         "shop": "furniture"
       }
     },

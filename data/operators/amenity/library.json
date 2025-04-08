@@ -3,12 +3,11 @@
     "path": "operators/amenity/library",
     "exclude": {
       "generic": [
+        "^(library|图书馆)$",
         "^county$",
         "^gemeinde$",
-        "^library$",
         "^mairie$",
-        "^public$",
-        "^图书馆$"
+        "^public$"
       ]
     }
   },
@@ -86,9 +85,9 @@
     },
     {
       "displayName": "Austin Public Library",
-      "id": "austinpubliclibrary-24a277",
+      "id": "austinpubliclibrary-d6c1f4",
       "locationSet": {
-        "include": ["us-tx.geojson"]
+        "include": ["us-tx-austin.geojson"]
       },
       "tags": {
         "amenity": "library",
@@ -778,10 +777,25 @@
       }
     },
     {
-      "displayName": "Cleveland Public Library",
-      "id": "clevelandpubliclibrary-f8d891",
+      "displayName": "Clermont Auvergne Métropole",
+      "id": "clermontauvergnemetropole-391b22",
       "locationSet": {
-        "include": ["us-oh.geojson"]
+        "include": ["fr-ara.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Clermont Auvergne Métropole",
+        "operator:type": "government",
+        "operator:wikidata": "Q762950"
+      }
+    },
+    {
+      "displayName": "Cleveland Public Library",
+      "id": "clevelandpubliclibrary-b425fb",
+      "locationSet": {
+        "include": [
+          "us-oh-cuyahoga_county.geojson"
+        ]
       },
       "tags": {
         "amenity": "library",
@@ -855,6 +869,34 @@
         "operator": "Cornwall Council",
         "operator:type": "government",
         "operator:wikidata": "Q3774189"
+      }
+    },
+    {
+      "displayName": "Cuyahoga County Public Library",
+      "id": "cuyahogacountypubliclibrary-b425fb",
+      "locationSet": {
+        "include": [
+          "us-oh-cuyahoga_county.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Cuyahoga County Public Library",
+        "operator:type": "public",
+        "operator:wikidata": "Q5197076"
+      }
+    },
+    {
+      "displayName": "DC Public Library",
+      "id": "dcpubliclibrary-d8e974",
+      "locationSet": {
+        "include": ["us-dc.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "DC Public Library",
+        "operator:type": "public",
+        "operator:wikidata": "Q5283432"
       }
     },
     {
@@ -1119,19 +1161,6 @@
       }
     },
     {
-      "displayName": "Freie Universität Berlin",
-      "id": "freieuniversitatberlin-8a11d2",
-      "locationSet": {
-        "include": ["de-be.geojson"]
-      },
-      "tags": {
-        "amenity": "library",
-        "operator": "Freie Universität Berlin",
-        "operator:type": "university",
-        "operator:wikidata": "Q2496344"
-      }
-    },
-    {
       "displayName": "FVRLibraries",
       "id": "fortvancouverregionallibraries-48ecdd",
       "locationSet": {
@@ -1288,7 +1317,19 @@
       }
     },
     {
-      "displayName": "JCLS",
+      "displayName": "Istituzione Sistema Biblioteche Centri Culturali",
+      "id": "istituzionesistemabibliotechecentriculturali-7d219c",
+      "locationSet": {
+        "include": ["it-62.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Istituzione Sistema Biblioteche Centri Culturali",
+        "operator:type": "public"
+      }
+    },
+    {
+      "displayName": "Jackson County Library Services",
       "id": "jacksoncountylibraryservices-199ec0",
       "locationSet": {
         "include": ["us-or.geojson"]
@@ -1517,6 +1558,19 @@
       }
     },
     {
+      "displayName": "Landkreis Oder-Spree",
+      "id": "landkreisoderspree-343622",
+      "locationSet": {
+        "include": ["de-bb.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Landkreis Oder-Spree",
+        "operator:type": "government",
+        "operator:wikidata": "Q6178"
+      }
+    },
+    {
       "displayName": "Libraries Tasmania",
       "id": "librariestasmania-41eb09",
       "locationSet": {"include": ["au-tas"]},
@@ -1644,8 +1698,10 @@
     },
     {
       "displayName": "Městská knihovna v Praze",
-      "id": "mestskaknihovnavpraze-cbbd2f",
-      "locationSet": {"include": ["cz"]},
+      "id": "mestskaknihovnavpraze-3c4854",
+      "locationSet": {
+        "include": ["cz-10.geojson"]
+      },
       "tags": {
         "amenity": "library",
         "operator": "Městská knihovna v Praze",
@@ -2209,7 +2265,7 @@
         "amenity": "library",
         "operator": "San Bernardino County Library",
         "operator:type": "public",
-        "operator:wikidata": "Q2901530"
+        "operator:wikidata": "Q30268360"
       }
     },
     {
@@ -2371,6 +2427,17 @@
         "operator:type": "public",
         "operator:wikidata": "Q1784554",
         "ref:isil": "CH-002073-3"
+      }
+    },
+    {
+      "displayName": "Theek 5",
+      "id": "theek5-08efeb",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "Theek 5",
+        "operator:type": "public",
+        "operator:wikidata": "Q59962203"
       }
     },
     {
@@ -2548,6 +2615,7 @@
       },
       "matchNames": [
         "freie universität",
+        "freie universität berlin",
         "fu",
         "fu berlin"
       ],
@@ -2846,6 +2914,16 @@
       "tags": {
         "amenity": "library",
         "operator": "СПб ГБУ «Невская ЦБС»",
+        "operator:type": "public"
+      }
+    },
+    {
+      "displayName": "ЦБС Автозаводского района",
+      "id": "1c44ed-5ddbe5",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "library",
+        "operator": "ЦБС Автозаводского района",
         "operator:type": "public"
       }
     },

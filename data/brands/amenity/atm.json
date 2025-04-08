@@ -15,10 +15,14 @@
       ],
       "templateSource": "brands/amenity/bank",
       "templateTags": {
+        "alt_name": "",
         "amenity": "atm",
+        "full_name": "",
         "name": "",
+        "official_name": "",
         "operator": "{source.tags.brand}",
-        "operator:wikidata": "{source.tags.brand:wikidata}"
+        "operator:wikidata": "{source.tags.brand:wikidata}",
+        "short_name": ""
       }
     },
     {
@@ -296,6 +300,17 @@
         "amenity": "atm",
         "brand": "Hitachi",
         "brand:wikidata": "Q53238"
+      }
+    },
+    {
+      "displayName": "Instacoin",
+      "id": "instacoin-ddac74",
+      "locationSet": {"include": ["ca"]},
+      "matchNames": ["instacoin atm"],
+      "tags": {
+        "amenity": "atm",
+        "brand": "Instacoin",
+        "brand:wikidata": "Q133247271"
       }
     },
     {

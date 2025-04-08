@@ -69,6 +69,16 @@
       }
     },
     {
+      "displayName": "Electrocharge",
+      "id": "electrocharge-59a92d",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Electrocharge",
+        "brand:wikidata": "Q133307258"
+      }
+    },
+    {
       "displayName": "Eviny",
       "id": "eviny-054d0f",
       "locationSet": {"include": ["no"]},
@@ -289,7 +299,9 @@
       "tags": {
         "amenity": "charging_station",
         "brand": "Rivian Adventure Network",
-        "brand:wikidata": "Q7338847"
+        "brand:wikidata": "Q7338847",
+        "operator": "Rivian",
+        "operator:wikidata": "Q7338847"
       }
     },
     {
@@ -300,7 +312,9 @@
       "tags": {
         "amenity": "charging_station",
         "brand": "Rivian Waypoints",
-        "brand:wikidata": "Q7338847"
+        "brand:wikidata": "Q7338847",
+        "operator": "Rivian",
+        "operator:wikidata": "Q7338847"
       }
     },
     {
@@ -326,8 +340,7 @@
         "amenity": "charging_station",
         "brand": "Tesla, Inc.",
         "brand:wikidata": "Q478214",
-        "name": "Tesla Destination Charger",
-        "short_name": "Tesla"
+        "name": "Tesla Destination Charger"
       }
     },
     {
@@ -369,6 +382,7 @@
       "locationSet": {
         "include": ["ch", "de", "fr", "gb", "ie"]
       },
+      "matchNames": ["ubitricity gmbh"],
       "tags": {
         "amenity": "charging_station",
         "brand": "ubitricity",

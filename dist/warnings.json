@@ -1,11 +1,15 @@
 {
   "_meta": {
-    "version": "6.0.20250209",
-    "generated": "2025-02-09T04:33:29.561Z",
+    "version": "6.0.20250406",
+    "generated": "2025-04-06T03:36:00.179Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/warnings.json",
-    "hash": "ccedd36475ba5cd7a745b27335fe9528"
+    "hash": "560f0b26fa54f378c039937487f0ecf5"
   },
   "warnings": [
+    {
+      "qid": "Q782",
+      "msg": "Facebook username @StateOfHawaii: Error: Unsupported get request. Object with ID 'StateOfHawaii' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
     {
       "qid": "Q16139",
       "msg": "Province of Bologna might possibly be replaced by Q18288145"
@@ -14,14 +18,29 @@
       "qid": "Q16183",
       "msg": "Province of Genoa might possibly be replaced by Q18288152"
     },
-    {"qid": "Q27564", "msg": "Dodge might possibly be replaced by Q181114"},
     {"qid": "Q29281", "msg": "Holden might possibly be replaced by Q112728701"},
     {"qid": "Q35953", "msg": "MAN SE might possibly be replaced by Q708667"},
+    {
+      "qid": "Q38283",
+      "msg": "Facebook username @city.yokohama.bunkan: Error: Unsupported get request. Object with ID 'city.yokohama.bunkan' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
     {
       "qid": "Q54173",
       "msg": "General Electric might possibly be replaced by Q1485061"
     },
+    {
+      "qid": "Q57868",
+      "msg": "Oppegård Municipality might possibly be replaced by Q45303406"
+    },
     {"qid": "Q65310", "msg": "Euroset might possibly be replaced by Q65371"},
+    {
+      "qid": "Q168311",
+      "msg": "Gaz de France might possibly be replaced by Q13416787"
+    },
+    {
+      "qid": "Q293650",
+      "msg": "Facebook username @AIKBanka: Error: Unsupported get request. Object with ID 'AIKBanka' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
     {
       "qid": "Q301965",
       "msg": "Sprint Corporation might possibly be replaced by Q3511885"
@@ -32,8 +51,21 @@
     },
     {"qid": "Q377915", "msg": "Agip might possibly be replaced by Q565594"},
     {
-      "qid": "Q647092",
-      "msg": "Banca Intesa might possibly be replaced by Q1343118"
+      "qid": "Q533143",
+      "msg": "Facebook username @IAmCaritas has a restricted access qualifier, but is publicly accessible"
+    },
+    {
+      "qid": "Q538587",
+      "msg": "Facebook username @cartier.usa: Error: Unsupported get request. Object with ID 'cartier.usa' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q608819",
+      "msg": "Facebook username @CEPSAespana: Error: Unsupported get request. Object with ID 'CEPSAespana' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {"qid": "Q684083", "msg": "Alltel might possibly be replaced by Q298594"},
+    {
+      "qid": "Q684355",
+      "msg": "Facebook username @kuonitraveluk: Error: Unsupported get request. Object with ID 'kuonitraveluk' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q685641",
@@ -61,6 +93,14 @@
       "msg": "Federal Administration of Public Revenues might possibly be replaced by Q130607922"
     },
     {"qid": "Q836827", "msg": "Celcom might possibly be replaced by Q3268530"},
+    {
+      "qid": "Q842174",
+      "msg": "Facebook username @EddieBauer: Error: Unsupported get request. Object with ID 'EddieBauer' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q893380",
+      "msg": "Facebook username @BordnaMonaIreland: Error: Unsupported get request. Object with ID 'BordnaMonaIreland' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
     {
       "qid": "Q902650",
       "msg": "Koninklijke DSM might possibly be replaced by Q120091633"
@@ -94,12 +134,28 @@
       "msg": "Enovos Deutschland might possibly be replaced by Q130729048"
     },
     {
+      "qid": "Q1371302",
+      "msg": "Facebook username @TakkoFashionNL: Error: Unsupported get request. Object with ID 'TakkoFashionNL' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q1437742",
+      "msg": "Facebook username @fpcc.tw: Error: Unsupported get request. Object with ID 'fpcc.tw' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q1462383",
       "msg": "Mayersche Buchhandlung might possibly be replaced by Q2408854"
     },
     {
+      "qid": "Q1562826",
+      "msg": "Facebook username @veondigital: Error: Unsupported get request. Object with ID 'veondigital' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q1571798",
       "msg": "Hallo Pizza might possibly be replaced by Q839466"
+    },
+    {
+      "qid": "Q1576634",
+      "msg": "Facebook username @plana.kuechenland: Error: Unsupported get request. Object with ID 'plana.kuechenland' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {"qid": "Q1642431", "msg": "VEW might possibly be replaced by Q138133"},
     {
@@ -127,8 +183,21 @@
       "msg": "Amsterdamsche Kiosk Onderneming might possibly be replaced by Q3317555"
     },
     {
-      "qid": "Q2390074",
-      "msg": "Coop NL might possibly be replaced by Q1978981"
+      "qid": "Q2176418",
+      "msg": "Facebook username @RunnersPoint84: Error: Unsupported get request. Object with ID 'RunnersPoint84' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q2300888",
+      "msg": "Roteb might possibly be replaced by Q133810292"
+    },
+    {
+      "qid": "Q2382166",
+      "msg": "Facebook username @ZiggoCompany: Error: Unsupported get request. Object with ID 'ZiggoCompany' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {"qid": "Q2390074", "msg": "Coop might possibly be replaced by Q1978981"},
+    {
+      "qid": "Q2401704",
+      "msg": "Facebook username @telekomerleben: Error: Unsupported get request. Object with ID 'telekomerleben' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q2479908",
@@ -146,10 +215,6 @@
     {
       "qid": "Q2891018",
       "msg": "Liberbank might possibly be replaced by Q20908850"
-    },
-    {
-      "qid": "Q3006209",
-      "msg": "Facebook username @creditdunord: Error: Unsupported get request. Object with ID 'creditdunord' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q3063934",
@@ -173,6 +238,7 @@
       "qid": "Q3382507",
       "msg": "PicWicToys might possibly be replaced by Q7546779"
     },
+    {"qid": "Q3400834", "msg": "Poweo might possibly be replaced by Q2059978"},
     {
       "qid": "Q3488479",
       "msg": "Facebook username @societemarseillaisedecredit: Error: Unsupported get request. Object with ID 'societemarseillaisedecredit' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
@@ -195,6 +261,14 @@
       "msg": "Vozrozhdenie Bank might possibly be replaced by Q1549389"
     },
     {
+      "qid": "Q4131783",
+      "msg": "Facebook username @gazpromNdm: Error: Unsupported get request. Object with ID 'gazpromNdm' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q4131787",
+      "msg": "Facebook username @gazpromdobychayamburg: Error: Unsupported get request. Object with ID 'gazpromdobychayamburg' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q4304145",
       "msg": "Moscow Industrial Bank might possibly be replaced by Q649100"
     },
@@ -208,10 +282,6 @@
     },
     {"qid": "Q4835088", "msg": "BBVA USA might possibly be replaced by Q38928"},
     {
-      "qid": "Q4854052",
-      "msg": "Banca Românească might possibly be replaced by Q5421544"
-    },
-    {
       "qid": "Q4854143",
       "msg": "Bancpost might possibly be replaced by Q806161"
     },
@@ -220,8 +290,20 @@
       "msg": "Facebook username @BeachCitiesTransit: Error: Unsupported get request. Object with ID 'BeachCitiesTransit' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
+      "qid": "Q4958263",
+      "msg": "Facebook username @BraumsIceCreamandDairyStores: Error: Unsupported get request. Object with ID 'BraumsIceCreamandDairyStores' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q5023914",
+      "msg": "Facebook username @CalpineCareers: Error: Unsupported get request. Object with ID 'CalpineCareers' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q5035481",
       "msg": "Capital Bank Financial might possibly be replaced by Q1419446"
+    },
+    {
+      "qid": "Q5274978",
+      "msg": "Facebook username @Dierbergs: Error: Unsupported get request. Object with ID 'Dierbergs' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q5277826",
@@ -233,12 +315,24 @@
       "msg": "Glitre Energi might possibly be replaced by Q4355084"
     },
     {
+      "qid": "Q5422607",
+      "msg": "Facebook username @Visionworks: Error: Unsupported get request. Object with ID 'Visionworks' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q5444235",
+      "msg": "Facebook username @FergusonTrade: Error: Unsupported get request. Object with ID 'FergusonTrade' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q5453331",
       "msg": "First Midwest Bank might possibly be replaced by Q7084595"
     },
     {
       "qid": "Q5453752",
       "msg": "First Republic Bank might possibly be replaced by Q192314"
+    },
+    {
+      "qid": "Q5527467",
+      "msg": "Facebook username @GatorsDocksideSouthDowntown: Error: Unsupported get request. Object with ID 'GatorsDocksideSouthDowntown' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q5617509",
@@ -250,8 +344,32 @@
       "msg": "City CarShare might possibly be replaced by Q5554388"
     },
     {
+      "qid": "Q5783997",
+      "msg": "Consejo de Educación Secundaria might possibly be replaced by Q119732446"
+    },
+    {
       "qid": "Q5831722",
       "msg": "Facebook username @emtfuenlabrada: Error: Unsupported get request. Object with ID 'emtfuenlabrada' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q6134992",
+      "msg": "Facebook username @estrenasuburbia: Error: Unsupported get request. Object with ID 'estrenasuburbia' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q6276988",
+      "msg": "Facebook username @jordandistrict: Error: Unsupported get request. Object with ID 'jordandistrict' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q6360825",
+      "msg": "Facebook username @KVRTA: Error: Unsupported get request. Object with ID 'KVRTA' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q6480848",
+      "msg": "Facebook username @LCISDconcerns: Error: Unsupported get request. Object with ID 'LCISDconcerns' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q6483998",
+      "msg": "Facebook username @ltfrb.central.office: Error: Unsupported get request. Object with ID 'ltfrb.central.office' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q6642534",
@@ -262,16 +380,36 @@
       "msg": "Facebook username @chernihiv.oblenergo.1998: Error: Unsupported get request. Object with ID 'chernihiv.oblenergo.1998' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
-      "qid": "Q6997922",
-      "msg": "Nestlé Toll House Café might possibly be replaced by Q5598629"
+      "qid": "Q6973040",
+      "msg": "Facebook username @nhacareers: Error: Unsupported get request. Object with ID 'nhacareers' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q7059842",
+      "msg": "Facebook username @northumbriapolice: Error: Unsupported get request. Object with ID 'northumbriapolice' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q7271689",
+      "msg": "Facebook username @QuickChek has a restricted access qualifier, but is publicly accessible"
     },
     {
       "qid": "Q7318069",
       "msg": "Facebook username @ReveraInc: Error: Unsupported get request. Object with ID 'ReveraInc' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
+      "qid": "Q7356461",
+      "msg": "Facebook username @roddapaint: Error: Unsupported get request. Object with ID 'roddapaint' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q7391510",
+      "msg": "Facebook username @smsupermalls: Error: Unsupported get request. Object with ID 'smsupermalls' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q7455694",
       "msg": "Service King Collision Repair might possibly be replaced by Q121435028"
+    },
+    {
+      "qid": "Q7587418",
+      "msg": "St. Catharines Transit might possibly be replaced by Q17017099"
     },
     {
       "qid": "Q7637775",
@@ -286,12 +424,20 @@
       "msg": "Texas Department of Aging and Disability Services might possibly be replaced by Q7707726"
     },
     {
-      "qid": "Q7882701",
-      "msg": "Life Storage might possibly be replaced by Q5422162"
+      "qid": "Q7814150",
+      "msg": "Facebook username @ToledoAreaRTA has a restricted access qualifier, but is publicly accessible"
     },
     {
-      "qid": "Q7887528",
-      "msg": "Facebook username @Vitalant: Error: An unknown error occurred"
+      "qid": "Q7830004",
+      "msg": "Facebook username @TownPumpMT: Error: Unsupported get request. Object with ID 'TownPumpMT' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q7837498",
+      "msg": "Facebook username @Tredyffrin: Error: Unsupported get request. Object with ID 'Tredyffrin' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q7882701",
+      "msg": "Life Storage might possibly be replaced by Q5422162"
     },
     {
       "qid": "Q9082442",
@@ -315,8 +461,12 @@
       "msg": "Facebook username @apoteksgruppen: Error: Unsupported get request. Object with ID 'apoteksgruppen' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
-      "qid": "Q10711016",
-      "msg": "Wind Hellas might possibly be replaced by Q1608689"
+      "qid": "Q10853203",
+      "msg": "Facebook username @vangofb: Error: Unsupported get request. Object with ID 'vangofb' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q10870904",
+      "msg": "Entity for \"Q10870904\" is missing an English label."
     },
     {
       "qid": "Q11130894",
@@ -328,12 +478,12 @@
       "msg": "Facebook username @KodinTerraPori: Error: Unsupported get request. Object with ID 'KodinTerraPori' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
-      "qid": "Q12270598",
-      "msg": "Bulsatcom might possibly be replaced by Q7937522"
+      "qid": "Q12043044",
+      "msg": "Facebook username @kodiscz: Error: Unsupported get request. Object with ID 'kodiscz' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
-      "qid": "Q13028600",
-      "msg": "Facebook username @btabank.by: Error: Unsupported get request. Object with ID 'btabank.by' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+      "qid": "Q12270598",
+      "msg": "Bulsatcom might possibly be replaced by Q7937522"
     },
     {
       "qid": "Q13033234",
@@ -348,12 +498,32 @@
       "msg": "Maxi Toys might possibly be replaced by Q3197009"
     },
     {
+      "qid": "Q16997755",
+      "msg": "Facebook username @JinyaRamenBar: Error: Unsupported get request. Object with ID 'JinyaRamenBar' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q17107560",
+      "msg": "Facebook username @GreatCdnDollarStore: Error: Unsupported get request. Object with ID 'GreatCdnDollarStore' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q17107993",
       "msg": "Nevada Power Company might possibly be replaced by Q1961658"
     },
     {
+      "qid": "Q17310688",
+      "msg": "Facebook username @CafeDelSolDeutschland: Error: Unsupported get request. Object with ID 'CafeDelSolDeutschland' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q17620223",
       "msg": "AGSM Verona might possibly be replaced by Q124713351"
+    },
+    {
+      "qid": "Q18198606",
+      "msg": "Facebook username @MineducRwanda: Error: Unsupported get request. Object with ID 'MineducRwanda' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q19309319",
+      "msg": "Facebook username @sportx.migros: Error: Unsupported get request. Object with ID 'sportx.migros' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q22248311",
@@ -364,12 +534,12 @@
       "msg": "Niagara Mohawk Power Corporation might possibly be replaced by Q1465461"
     },
     {
-      "qid": "Q25857973",
-      "msg": "Fortuna Entertainment Group might possibly be replaced by Q116894616"
-    },
-    {
       "qid": "Q26722428",
       "msg": "MÁV-HÉV Helyiérdekű Vasút Zrt. might possibly be replaced by Q1180332"
+    },
+    {
+      "qid": "Q26822232",
+      "msg": "Facebook username @CcHUBnigeria: Error: Unsupported get request. Object with ID 'CcHUBnigeria' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q27493463",
@@ -405,12 +575,32 @@
     },
     {"qid": "Q48844636", "msg": "Mila might possibly be replaced by Q11693824"},
     {
+      "qid": "Q52159668",
+      "msg": "Facebook username @hammerfachmaerkte: Error: Unsupported get request. Object with ID 'hammerfachmaerkte' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q55316482",
       "msg": "Republic First Bancorp might possibly be replaced by Q16976594"
     },
     {
+      "qid": "Q55627190",
+      "msg": "Facebook username @oOhMediaANZ: Error: Unsupported get request. Object with ID 'oOhMediaANZ' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q56367673",
+      "msg": "Facebook username @cominvestbank: Error: Unsupported get request. Object with ID 'cominvestbank' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q57880478",
       "msg": "Entity for \"Q57880478\" is missing an English label."
+    },
+    {
+      "qid": "Q58557872",
+      "msg": "Facebook username @DopravniPodnikMestaHradceKraloveAs: Error: Unsupported get request. Object with ID 'DopravniPodnikMestaHradceKraloveAs' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q59940713",
+      "msg": "Facebook username @biblionetgn: Error: Unsupported get request. Object with ID 'biblionetgn' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q60573921",
@@ -425,8 +615,12 @@
       "msg": "Facebook username @E.WALD.emobility: Error: Unsupported get request. Object with ID 'E.WALD.emobility' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
-      "qid": "Q62084089",
-      "msg": "Columbia Bank might possibly be replaced by Q7881772"
+      "qid": "Q62021602",
+      "msg": "Share Now might possibly be replaced by Q131572664"
+    },
+    {
+      "qid": "Q62084096",
+      "msg": "Facebook username @columbiabank has a restricted access qualifier, but is publicly accessible"
     },
     {
       "qid": "Q62104168",
@@ -451,6 +645,10 @@
     {
       "qid": "Q63986228",
       "msg": "Facebook username @beldruk: Error: Unsupported get request. Object with ID 'beldruk' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q64760150",
+      "msg": "Facebook username @MosesIsrael: Error: Unsupported get request. Object with ID 'MosesIsrael' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q64979251",
@@ -494,6 +692,10 @@
     },
     {"qid": "Q95984154", "msg": "BB&T might possibly be replaced by Q795486"},
     {
+      "qid": "Q100278556",
+      "msg": "Facebook username @medikamentediegrenze: Error: Unsupported get request. Object with ID 'medikamentediegrenze' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q106362924",
       "msg": "R. P. Home & Harvest might possibly be replaced by Q125924536"
     },
@@ -512,6 +714,30 @@
     {
       "qid": "Q109648675",
       "msg": "Big Red Stores might possibly be replaced by Q3268010"
+    },
+    {
+      "qid": "Q109852336",
+      "msg": "Facebook username @amwine.ru: Error: Unsupported get request. Object with ID 'amwine.ru' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q109859496",
+      "msg": "Facebook username @SpringfieldElectric: Error: Unsupported get request. Object with ID 'SpringfieldElectric' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q110063681",
+      "msg": "Facebook username @AbbotsfordPRC: Error: Unsupported get request. Object with ID 'AbbotsfordPRC' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q110084888",
+      "msg": "Facebook username @WestCoastSelfStorage: Error: Unsupported get request. Object with ID 'WestCoastSelfStorage' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q110543288",
+      "msg": "Facebook username @MillerPaint: Error: Unsupported get request. Object with ID 'MillerPaint' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q110583516",
+      "msg": "Facebook username @investbankbg: Error: Unsupported get request. Object with ID 'investbankbg' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q110958736",
@@ -535,8 +761,12 @@
       "msg": "Facebook username @bec.energy: Error: Unsupported get request. Object with ID 'bec.energy' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
-      "qid": "Q113694089",
-      "msg": "Entity for \"Q113694089\" is missing an English label."
+      "qid": "Q113289672",
+      "msg": "Facebook username @bluecharge.pt: Error: Unsupported get request. Object with ID 'bluecharge.pt' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q114928332",
+      "msg": "Facebook username @goodwillsjv: Error: Unsupported get request. Object with ID 'goodwillsjv' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q115117799",
@@ -555,12 +785,32 @@
       "msg": "Street Fever might possibly be replaced by Q24233996"
     },
     {
+      "qid": "Q117319414",
+      "msg": "Facebook username @BristolStMotors: Error: Unsupported get request. Object with ID 'BristolStMotors' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
       "qid": "Q117834539",
       "msg": "Virginia Electric and Power might possibly be replaced by Q677464"
     },
     {
+      "qid": "Q118383798",
+      "msg": "Facebook username @SunAutoService: Error: Unsupported get request. Object with ID 'SunAutoService' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q121333184",
+      "msg": "Facebook username @emlerswimschool has a restricted access qualifier, but is publicly accessible"
+    },
+    {
       "qid": "Q122453754",
       "msg": "Facebook username @cryprto.base: Error: Unsupported get request. Object with ID 'cryprto.base' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q122959781",
+      "msg": "Facebook username @Zoocenter.bg: Error: Unsupported get request. Object with ID 'Zoocenter.bg' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q122961074",
+      "msg": "Facebook username @linkmediaoutdoor: Error: Unsupported get request. Object with ID 'linkmediaoutdoor' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q123865514",
@@ -596,12 +846,21 @@
       "qid": "Q125761272",
       "msg": "Diona Zagreb might possibly be replaced by Q108169060"
     },
+    {"qid": "Q125959917", "msg": "Wikidata QID redirects to Q1725927"},
+    {
+      "qid": "Q128032138",
+      "msg": "Facebook username @GPJOULECONNECT: Error: Unsupported get request. Object with ID 'GPJOULECONNECT' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
     {"qid": "Q130214157", "msg": "⚠️  Entity for \"Teishoku 8\" was deleted."},
     {"qid": "Q130214215", "msg": "⚠️  Entity for \"Sanlong\" was deleted."},
     {"qid": "Q130214321", "msg": "⚠️  Entity for \"Thai Town\" was deleted."},
     {
       "qid": "Q130214352",
       "msg": "⚠️  Entity for \"Bheart Noodles\" was deleted."
+    },
+    {
+      "qid": "Q130216203",
+      "msg": "Facebook username @magasinsbouticycle: Error: Unsupported get request. Object with ID 'magasinsbouticycle' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     },
     {
       "qid": "Q130302526",
@@ -614,6 +873,14 @@
     {
       "qid": "Q131446713",
       "msg": "Facebook username @agualdimpais: Error: Unsupported get request. Object with ID 'agualdimpais' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+    },
+    {
+      "qid": "Q132736386",
+      "msg": "Facebook username @MarksPizzeria has a restricted access qualifier, but is publicly accessible"
+    },
+    {
+      "qid": "Q133255800",
+      "msg": "Facebook username @wellwisebyshoppers: Error: Unsupported get request. Object with ID 'wellwisebyshoppers' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
     }
   ]
 }

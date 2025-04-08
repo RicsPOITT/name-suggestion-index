@@ -53,6 +53,17 @@
       }
     },
     {
+      "displayName": "5.10.15",
+      "id": "51015-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "5.10.15",
+        "brand:wikidata": "Q128781018",
+        "name": "5.10.15",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "6IXTY8IGHT",
       "id": "6ixty8ight-7905dc",
       "locationSet": {
@@ -561,6 +572,20 @@
       }
     },
     {
+      "displayName": "Anna Bella",
+      "id": "annabella-dd2826",
+      "locationSet": {
+        "include": ["ca-on.geojson"]
+      },
+      "tags": {
+        "brand": "Anna Bella",
+        "brand:wikidata": "Q133255703",
+        "clothes": "women",
+        "name": "Anna Bella",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Anna van Toor",
       "id": "annavantoor-91c4cd",
       "locationSet": {"include": ["nl"]},
@@ -629,7 +654,7 @@
       "matchNames": ["青木"],
       "tags": {
         "brand": "AOKI",
-        "brand:wikidata": "Q11189480",
+        "brand:wikidata": "Q125461833",
         "clothes": "men",
         "name": "AOKI",
         "name:en": "AOKI",
@@ -912,6 +937,18 @@
       }
     },
     {
+      "displayName": "Bandi",
+      "id": "bandi-111ecf",
+      "locationSet": {"include": ["cz", "sk"]},
+      "tags": {
+        "brand": "Bandi",
+        "brand:wikidata": "Q130557207",
+        "clothes": "suits",
+        "name": "Bandi",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Barbour",
       "id": "barbour-3937bd",
       "locationSet": {"include": ["001"]},
@@ -924,9 +961,9 @@
     },
     {
       "displayName": "Beams",
-      "id": "beams-6cd39e",
+      "id": "beams-3dc647",
       "locationSet": {
-        "include": ["cn", "hk", "th", "tw"]
+        "include": ["cn", "th", "tw"]
       },
       "tags": {
         "brand": "Beams",
@@ -1735,6 +1772,18 @@
       }
     },
     {
+      "displayName": "Bytom",
+      "id": "bytom-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Bytom",
+        "brand:wikidata": "Q9386296",
+        "clothes": "suits",
+        "name": "Bytom",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "C&A",
       "id": "canda-3937bd",
       "locationSet": {"include": ["001"]},
@@ -1834,6 +1883,19 @@
         "brand": "Camaïeu",
         "brand:wikidata": "Q2934647",
         "name": "Camaïeu",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Camel Active",
+      "id": "camelactive-1cce02",
+      "locationSet": {
+        "include": ["150", "cy", "ru"]
+      },
+      "tags": {
+        "brand": "Camel Active",
+        "brand:wikidata": "Q20057140",
+        "name": "Camel Active",
         "shop": "clothes"
       }
     },
@@ -2099,6 +2161,16 @@
         "brand": "Chanel",
         "brand:wikidata": "Q218115",
         "name": "Chanel",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Change",
+      "id": "change-b5590c",
+      "locationSet": {"include": ["150"]},
+      "tags": {
+        "brand": "Change",
+        "name": "Change",
         "shop": "clothes"
       }
     },
@@ -2696,21 +2768,25 @@
     },
     {
       "displayName": "Đak",
-      "id": "dak-2c2f75",
-      "locationSet": {"include": ["rs"]},
+      "id": "dak-b30b0f",
+      "locationSet": {
+        "include": ["ba", "me", "rs"]
+      },
       "matchNames": [
         "đak outlet",
+        "đak sport",
         "djak",
         "djak sport",
         "ђак спорт"
       ],
       "tags": {
-        "brand": "Đak Sport",
+        "brand": "Đak",
         "brand:wikidata": "Q132131063",
         "clothes": "sports",
         "name": "Đak",
         "name:en": "Đak",
         "name:sr": "Ђак",
+        "name:sr-Latn": "Đak",
         "shop": "clothes"
       }
     },
@@ -3257,7 +3333,7 @@
       }
     },
     {
-      "displayName": "e5 Mode",
+      "displayName": "E5 Mode",
       "id": "e5mode-b561cd",
       "locationSet": {"include": ["be"]},
       "matchNames": ["e5"],
@@ -3277,6 +3353,16 @@
         "brand:wikidata": "Q121493862",
         "clothes": "men;women",
         "name": "Earthbound Trading Company",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Eclipse",
+      "id": "eclipse-9e1367",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "brand": "Eclipse",
+        "name": "Eclipse",
         "shop": "clothes"
       }
     },
@@ -3434,6 +3520,22 @@
       }
     },
     {
+      "displayName": "emon依夢",
+      "id": "emon-9293e1",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "brand": "emon依夢",
+        "brand:en": "emon",
+        "brand:wikidata": "Q132360486",
+        "brand:zh": "依夢",
+        "clothes": "underwear",
+        "name": "emon依夢",
+        "name:en": "emon",
+        "name:zh": "依夢",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Emporio Armani",
       "id": "emporioarmani-3937bd",
       "locationSet": {"include": ["001"]},
@@ -3466,19 +3568,6 @@
         "brand:wikidata": "Q3590998",
         "name": "Éric Bompard",
         "shop": "clothes"
-      }
-    },
-    {
-      "displayName": "Ermenegildo Zegna",
-      "id": "ermenegildozegna-3937bd",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "brand": "Ermenegildo Zegna",
-        "brand:wikidata": "Q1355904",
-        "clothes": "men",
-        "name": "Ermenegildo Zegna",
-        "shop": "clothes",
-        "short_name": "Zegna"
       }
     },
     {
@@ -4429,6 +4518,16 @@
       }
     },
     {
+      "displayName": "Greenpoint",
+      "id": "greenpoint-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Greenpoint",
+        "name": "Greenpoint",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "GU",
       "id": "gu-ff89be",
       "locationSet": {
@@ -4867,6 +4966,19 @@
       }
     },
     {
+      "displayName": "Humana",
+      "id": "humana-3937bd",
+      "locationSet": {"include": ["001"]},
+      "matchNames": ["humana people to people"],
+      "tags": {
+        "brand": "Humana",
+        "brand:wikidata": "Q1636581",
+        "name": "Humana",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Hunkemöller",
       "id": "hunkemoller-4950a4",
       "locationSet": {
@@ -5028,6 +5140,17 @@
       }
     },
     {
+      "displayName": "Izac",
+      "id": "izac-90f7b7",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Izac",
+        "brand:wikidata": "Q127514827",
+        "name": "Izac",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "IZOD",
       "id": "izod-3937bd",
       "locationSet": {"include": ["001"]},
@@ -5130,6 +5253,18 @@
         "brand": "Jacqui E",
         "brand:wikidata": "Q118383260",
         "name": "Jacqui E",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "JAM",
+      "id": "jam-bd328b",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["jam clothing"],
+      "tags": {
+        "brand": "JAM",
+        "brand:wikidata": "Q129814709",
+        "name": "JAM",
         "shop": "clothes"
       }
     },
@@ -5436,6 +5571,17 @@
       }
     },
     {
+      "displayName": "kaes.",
+      "id": "kaes-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "kaes.",
+        "brand:wikidata": "Q132530549",
+        "name": "kaes.",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Kanzler",
       "id": "kanzler-102c33",
       "locationSet": {"include": ["kz", "ru"]},
@@ -5569,6 +5715,17 @@
       }
     },
     {
+      "displayName": "Kenzo",
+      "id": "kenzo-3937bd",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Kenzo",
+        "brand:wikidata": "Q895795",
+        "name": "Kenzo",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Kiabi",
       "id": "kiabi-3937bd",
       "locationSet": {"include": ["001"]},
@@ -5682,6 +5839,18 @@
         "brand": "Koton",
         "brand:wikidata": "Q6063877",
         "name": "Koton",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Kubenz",
+      "id": "kubenz-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Kubenz",
+        "brand:wikidata": "Q133730812",
+        "clothes": "suits",
+        "name": "Kubenz",
         "shop": "clothes"
       }
     },
@@ -5832,6 +6001,17 @@
       }
     },
     {
+      "displayName": "Lanidor",
+      "id": "lanidor-3ddf3b",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "brand": "Lanidor",
+        "brand:wikidata": "Q6487053",
+        "name": "Lanidor",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Laura",
       "id": "laura-9e1367",
       "locationSet": {"include": ["ca"]},
@@ -5856,8 +6036,11 @@
     },
     {
       "displayName": "LC Waikiki",
-      "id": "lcwaikiki-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "lcwaikiki-ca469e",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["ge"]
+      },
       "tags": {
         "brand": "LC Waikiki",
         "brand:wikidata": "Q3205965",
@@ -5933,6 +6116,16 @@
         "brand": "Lee Cooper",
         "brand:wikidata": "Q260230",
         "name": "Lee Cooper",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Lee Wrangler",
+      "id": "leewrangler-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Lee Wrangler",
+        "name": "Lee Wrangler",
         "shop": "clothes"
       }
     },
@@ -6068,7 +6261,7 @@
       }
     },
     {
-      "displayName": "LIVE!",
+      "displayName": "Live!",
       "id": "live-03923a",
       "locationSet": {
         "include": ["br", "us-fl.geojson"]
@@ -6259,14 +6452,28 @@
     },
     {
       "displayName": "Lululemon",
-      "id": "lululemon-211268",
+      "id": "lululemon-4bc474",
       "locationSet": {
         "include": [
+          "ae",
           "au",
           "ca",
+          "ch",
+          "cn",
           "de",
+          "dk",
+          "es",
+          "fr",
           "gb",
+          "ie",
+          "jp",
+          "kr",
+          "kw",
+          "nl",
+          "no",
           "nz",
+          "sa",
+          "se",
           "us"
         ]
       },
@@ -6276,6 +6483,22 @@
         "clothes": "men;women",
         "name": "Lululemon",
         "official_name": "Lululemon Athletica",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Luna",
+      "id": "luna-ee6563",
+      "locationSet": {
+        "include": ["ba", "me", "rs", "si"]
+      },
+      "tags": {
+        "brand": "Luna",
+        "brand:wikidata": "Q133254189",
+        "clothes": "women",
+        "name": "Luna",
+        "name:sr": "Луна",
+        "name:sr-Latn": "Luna",
         "shop": "clothes"
       }
     },
@@ -6360,6 +6583,17 @@
         "brand:wikidata": "Q6735419",
         "clothes": "underwear;women",
         "name": "Maidenform",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Maison 123",
+      "id": "maison123-f2b18a",
+      "locationSet": {"include": ["be", "fx"]},
+      "tags": {
+        "brand": "Maison 123",
+        "brand:wikidata": "Q128033893",
+        "name": "Maison 123",
         "shop": "clothes"
       }
     },
@@ -6996,6 +7230,22 @@
       }
     },
     {
+      "displayName": "Momotaro Jeans",
+      "id": "momotarojeans-85f881",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "brand": "Momotaro Jeans",
+        "brand:en": "Momotaro Jeans",
+        "brand:ja": "桃太郎 ジーンズ",
+        "brand:wikidata": "Q116875248",
+        "clothes": "denim",
+        "name": "Momotaro Jeans",
+        "name:en": "Momotaro Jeans",
+        "name:ja": "桃太郎 ジーンズ",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Moncler",
       "id": "moncler-3937bd",
       "locationSet": {"include": ["001"]},
@@ -7179,6 +7429,18 @@
         "brand:wikidata": "Q129561262",
         "clothes": "sports",
         "name": "Mr Price Sport",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Mr. Big & Tall",
+      "id": "mrbigandtall-9e1367",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "brand": "Mr. Big & Tall",
+        "brand:wikidata": "Q132720946",
+        "clothes": "men",
+        "name": "Mr. Big & Tall",
         "shop": "clothes"
       }
     },
@@ -7588,6 +7850,17 @@
       }
     },
     {
+      "displayName": "Off-White",
+      "id": "offwhite-3937bd",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Off-White",
+        "brand:wikidata": "Q53472173",
+        "name": "Off-White",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Okaïdi",
       "id": "okaidi-eea264",
       "locationSet": {
@@ -7734,6 +8007,17 @@
         "brand": "oodji",
         "brand:wikidata": "Q172108",
         "name": "oodji",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "OPEN32",
+      "id": "open32-91c4cd",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "brand": "OPEN32",
+        "brand:wikidata": "Q131523005",
+        "name": "OPEN32",
         "shop": "clothes"
       }
     },
@@ -8521,6 +8805,7 @@
       "tags": {
         "brand": "Primigi",
         "brand:wikidata": "Q122205702",
+        "clothes": "babies;children",
         "name": "Primigi Store",
         "shop": "clothes"
       }
@@ -8706,6 +8991,17 @@
       }
     },
     {
+      "displayName": "Raymond",
+      "id": "raymond-f8e8b1",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "brand": "Raymond",
+        "brand:wikidata": "Q3537018",
+        "name": "Raymond",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Reebok",
       "id": "reebok-3937bd",
       "locationSet": {"include": ["001"]},
@@ -8798,6 +9094,17 @@
         "name": "Renuar",
         "name:en": "Renuar",
         "name:he": "רנואר",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Replay",
+      "id": "replay-b5590c",
+      "locationSet": {"include": ["150"]},
+      "tags": {
+        "brand": "Replay",
+        "brand:wikidata": "Q1654538",
+        "name": "Replay",
         "shop": "clothes"
       }
     },
@@ -9101,6 +9408,19 @@
       }
     },
     {
+      "displayName": "Salsa",
+      "id": "salsa-dfc082",
+      "locationSet": {
+        "include": ["de", "es", "fx", "pt"]
+      },
+      "tags": {
+        "brand": "Salsa",
+        "brand:wikidata": "Q110709358",
+        "name": "Salsa",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Saltrock",
       "id": "saltrock-7b1694",
       "locationSet": {"include": ["gb"]},
@@ -9108,6 +9428,17 @@
         "brand": "Saltrock",
         "brand:wikidata": "Q7406195",
         "name": "Saltrock",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Sam 73",
+      "id": "sam73-5134d4",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "Sam 73",
+        "brand:wikidata": "Q58605483",
+        "name": "Sam 73",
         "shop": "clothes"
       }
     },
@@ -10084,8 +10415,10 @@
     },
     {
       "displayName": "Tatuum",
-      "id": "tatuum-196c99",
-      "locationSet": {"include": ["pl"]},
+      "id": "tatuum-a6485d",
+      "locationSet": {
+        "include": ["cz", "hu", "pl", "sk"]
+      },
       "tags": {
         "brand": "Tatuum",
         "brand:wikidata": "Q28673883",
@@ -10348,6 +10681,17 @@
       }
     },
     {
+      "displayName": "Tom Ford",
+      "id": "tomford-3937bd",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Tom Ford",
+        "brand:wikidata": "Q105476592",
+        "name": "Tom Ford",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Tom Tailor",
       "id": "tomtailor-3937bd",
       "locationSet": {"include": ["001"]},
@@ -10557,6 +10901,12 @@
       "displayName": "Triumph",
       "id": "triumph-3937bd",
       "locationSet": {"include": ["001"]},
+      "matchNames": [
+        "amo's style",
+        "트라이엄프 인터내셔널",
+        "トリンプ",
+        "黛安芬"
+      ],
       "tags": {
         "brand": "Triumph",
         "brand:wikidata": "Q671216",
@@ -10782,6 +11132,18 @@
         "brand": "UpWest",
         "brand:wikidata": "Q110972906",
         "name": "UpWest",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Urban Kids",
+      "id": "urbankids-9e1367",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "brand": "Urban Kids",
+        "brand:wikidata": "Q133255740",
+        "clothes": "children",
+        "name": "Urban Kids",
         "shop": "clothes"
       }
     },
@@ -11016,13 +11378,23 @@
     },
     {
       "displayName": "Vilebrequin",
-      "id": "vilebrequin-d0cb12",
-      "locationSet": {"include": ["fr", "it"]},
+      "id": "vilebrequin-3937bd",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "brand": "Vilebrequin",
         "brand:wikidata": "Q3558391",
         "clothes": "swimwear",
         "name": "Vilebrequin",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Vilet",
+      "id": "vilet-7b6907",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Vilet",
+        "name": "Vilet",
         "shop": "clothes"
       }
     },
@@ -11083,6 +11455,19 @@
       }
     },
     {
+      "displayName": "Vovk",
+      "id": "vovk-e79eb2",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["вовк"],
+      "tags": {
+        "brand": "Vovk",
+        "brand:wikidata": "Q132709124",
+        "clothes": "women",
+        "name": "Vovk",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Vuori",
       "id": "vuori-0a21d9",
       "locationSet": {"include": ["us"]},
@@ -11097,6 +11482,7 @@
       "displayName": "Wacoal",
       "id": "wacoal-3937bd",
       "locationSet": {"include": ["001"]},
+      "matchNames": ["와코루", "ワコール", "華歌爾"],
       "tags": {
         "brand": "Wacoal",
         "brand:wikidata": "Q909522",
@@ -11454,6 +11840,17 @@
       }
     },
     {
+      "displayName": "worldbox",
+      "id": "worldbox-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "worldbox",
+        "brand:wikidata": "Q133589392",
+        "name": "worldbox",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "XIOS",
       "id": "xios-0a21d9",
       "locationSet": {"include": ["us"]},
@@ -11619,6 +12016,19 @@
         "brand": "Zeeman",
         "brand:wikidata": "Q184399",
         "name": "Zeeman",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Zegna",
+      "id": "zegna-3937bd",
+      "locationSet": {"include": ["001"]},
+      "matchNames": ["ermenegildo zegna"],
+      "tags": {
+        "brand": "Zegna",
+        "brand:wikidata": "Q1355904",
+        "clothes": "men",
+        "name": "Zegna",
         "shop": "clothes"
       }
     },
@@ -11914,11 +12324,12 @@
       }
     },
     {
-      "displayName": "ელსი ვაიქიქი",
+      "displayName": "ელსი ვაიკიკი",
       "id": "lcwaikiki-82a2eb",
       "locationSet": {"include": ["ge"]},
       "tags": {
         "brand": "ელსი ვაიკიკი",
+        "brand:en": "LC Waikiki",
         "brand:ka": "ელსი ვაიკიკი",
         "brand:wikidata": "Q3205965",
         "name": "ელსი ვაიკიკი",
@@ -11956,6 +12367,25 @@
         "name:ka": "ოკაიდი",
         "operator": "ოკაიდი",
         "operator:ka": "ოკაიდი",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "ردتاغ",
+      "id": "95270f-c3d0a3",
+      "locationSet": {
+        "include": [
+          "ae",
+          "bh",
+          "kw",
+          "om",
+          "qa",
+          "sa"
+        ]
+      },
+      "tags": {
+        "brand": "ردتاغ",
+        "name": "ردتاغ",
         "shop": "clothes"
       }
     },
@@ -12171,6 +12601,21 @@
         "name": "ワークマン",
         "name:en": "Workman",
         "name:ja": "ワークマン",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "伊蕾名店",
+      "id": "ileyed-9293e1",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "brand": "伊蕾名店",
+        "brand:en": "ILEYED",
+        "brand:wikidata": "Q132360513",
+        "brand:zh": "伊蕾名店",
+        "name": "伊蕾名店",
+        "name:en": "ILEYED",
+        "name:zh": "伊蕾名店",
         "shop": "clothes"
       }
     },

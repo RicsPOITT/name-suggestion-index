@@ -240,6 +240,17 @@
       }
     },
     {
+      "displayName": "Drogerie Polskie",
+      "id": "drogeriepolskie-650b49",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Drogerie Polskie",
+        "brand:wikidata": "Q133373948",
+        "name": "Drogerie Polskie",
+        "shop": "chemist"
+      }
+    },
+    {
       "displayName": "Etos",
       "id": "etos-994f1e",
       "locationSet": {"include": ["nl"]},
@@ -308,6 +319,17 @@
       }
     },
     {
+      "displayName": "Jawa",
+      "id": "jawa-650b49",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Jawa",
+        "brand:wikidata": "Q132587568",
+        "name": "Jawa",
+        "shop": "chemist"
+      }
+    },
+    {
       "displayName": "Kruidvat",
       "id": "kruidvat-9445a8",
       "locationSet": {
@@ -317,6 +339,17 @@
         "brand": "Kruidvat",
         "brand:wikidata": "Q2226366",
         "name": "Kruidvat",
+        "shop": "chemist"
+      }
+    },
+    {
+      "displayName": "laboo",
+      "id": "laboo-650b49",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "laboo",
+        "brand:wikidata": "Q132527571",
+        "name": "laboo",
         "shop": "chemist"
       }
     },
@@ -427,6 +460,7 @@
           "se"
         ]
       },
+      "matchTags": ["shop/variety_store"],
       "tags": {
         "brand": "Normal",
         "brand:wikidata": "Q19562429",

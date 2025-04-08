@@ -302,6 +302,20 @@
       }
     },
     {
+      "displayName": "Emack & Bolio's",
+      "id": "emackandbolios-0a049d",
+      "locationSet": {
+        "include": ["cn", "kr", "us"]
+      },
+      "matchNames": ["emack & boilios"],
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Emack & Bolio's",
+        "brand:wikidata": "Q5368759",
+        "name": "Emack & Bolio's"
+      }
+    },
+    {
       "displayName": "Freddo",
       "id": "freddo-3a94a6",
       "locationSet": {
@@ -358,6 +372,17 @@
         "cuisine": "ice_cream",
         "name": "Gelatissimo",
         "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Gelato Borelli",
+      "id": "gelatoborelli-9359b6",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Gelato Borelli",
+        "brand:wikidata": "Q132745627",
+        "name": "Gelato Borelli"
       }
     },
     {
@@ -438,11 +463,12 @@
     },
     {
       "displayName": "Häagen-Dazs",
-      "id": "haagendazs-61f56c",
+      "id": "haagendazs-d2458e",
       "locationSet": {
-        "include": ["001", "hk", "mo"],
-        "exclude": ["cn"]
+        "include": ["001"],
+        "exclude": ["mainland china"]
       },
+      "note": "locationSet definition is equivalent to worldwide including Hong Kong and Macau, but excluding the remainder of China",
       "tags": {
         "amenity": "ice_cream",
         "brand": "Häagen-Dazs",
@@ -878,6 +904,18 @@
       }
     },
     {
+      "displayName": "San Paolo Gelato & Café",
+      "id": "sanpaologelatoandcafe-9359b6",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "San Paolo Gelato & Café",
+        "brand:wikidata": "Q132745494",
+        "name": "San Paolo Gelato & Café",
+        "short_name": "San Paolo"
+      }
+    },
+    {
       "displayName": "Shake's",
       "id": "shakes-8697a4",
       "locationSet": {"include": ["us"]},
@@ -1155,6 +1193,17 @@
       }
     },
     {
+      "displayName": "Айсберри",
+      "id": "752309-ee0efa",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Айсберри",
+        "brand:wikidata": "Q126909850",
+        "name": "Айсберри"
+      }
+    },
+    {
       "displayName": "Славица",
       "id": "slavica-ee0efa",
       "locationSet": {"include": ["ru"]},
@@ -1237,8 +1286,11 @@
     },
     {
       "displayName": "哈根达斯",
-      "id": "haagendazs-460b92",
-      "locationSet": {"include": ["cn"]},
+      "id": "haagendazs-136fc8",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
       "tags": {
         "amenity": "ice_cream",
         "brand": "哈根达斯",

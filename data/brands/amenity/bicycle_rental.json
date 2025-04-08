@@ -421,7 +421,8 @@
         "brand:wikidata": "Q17402113",
         "network": "BiciMAD",
         "network:wikidata": "Q17402113",
-        "operator": "EMT Madrid",
+        "operator": "Empresa Municipal de Transportes de Madrid",
+        "operator:short": "EMT Madrid",
         "operator:type": "government",
         "operator:wikidata": "Q1094755"
       }
@@ -897,6 +898,7 @@
         "network": "BiZi",
         "network:wikidata": "Q953933",
         "operator": "UTE Bicicletas Zaragoza",
+        "operator:type": "private",
         "operator:wikidata": "Q130680947"
       }
     },
@@ -1164,6 +1166,27 @@
         "operator": "Lyft",
         "operator:type": "private",
         "operator:wikidata": "Q17077936"
+      }
+    },
+    {
+      "displayName": "CapMetro Bikeshare",
+      "id": "capmetrobikeshare-3cfeab",
+      "locationSet": {
+        "include": ["us-tx-austin.geojson"]
+      },
+      "matchNames": ["metrobike"],
+      "tags": {
+        "amenity": "bicycle_rental",
+        "bicycle_rental": "docking_station",
+        "brand": "CapMetro Bikeshare",
+        "brand:wikidata": "Q133802038",
+        "fee": "yes",
+        "network": "CapMetro Bikeshare",
+        "network:wikidata": "Q133802038",
+        "operator": "CapMetro",
+        "operator:type": "public",
+        "operator:wikidata": "Q587830",
+        "rental": "ebike"
       }
     },
     {
@@ -2599,7 +2622,7 @@
         "network": "MOL Bubi",
         "network:wikidata": "Q16971969",
         "operator": "BKK",
-        "operator:type": "private",
+        "operator:type": "public",
         "operator:wikidata": "Q608917"
       }
     },
@@ -2613,6 +2636,20 @@
         "network": "Monopattini Elettrici BIT Mobility La Spezia",
         "operator": "BIT Mobility",
         "operator:type": "private"
+      }
+    },
+    {
+      "displayName": "Moovo",
+      "id": "moovo-1bb859",
+      "locationSet": {"include": ["tw"]},
+      "matchNames": ["youbike", "youbike 微笑單車"],
+      "tags": {
+        "amenity": "bicycle_rental",
+        "bicycle_rental": "docking_station",
+        "brand": "Moovo",
+        "brand:wikidata": "Q17370530",
+        "network": "Moovo",
+        "network:wikidata": "Q17370530"
       }
     },
     {
@@ -2721,7 +2758,7 @@
       }
     },
     {
-      "displayName": "Nextbike Cyprus",
+      "displayName": "nextbike Cyprus",
       "id": "nextbike-063331",
       "locationSet": {"include": ["cy"]},
       "tags": {
@@ -2743,23 +2780,6 @@
         "amenity": "bicycle_rental",
         "brand": "nextbike Niederösterreich",
         "brand:wikidata": "Q121951638",
-        "operator": "Nextbike",
-        "operator:type": "private",
-        "operator:wikidata": "Q2351279"
-      }
-    },
-    {
-      "displayName": "Nibelungen-Bike",
-      "id": "nibelungenbike-497979",
-      "locationSet": {
-        "include": [[10.52, 52.26, 10]]
-      },
-      "tags": {
-        "amenity": "bicycle_rental",
-        "brand": "Nibelungen-Bike",
-        "brand:wikidata": "Q117301923",
-        "network": "Nibelungen-Bike",
-        "network:wikidata": "Q117301923",
         "operator": "Nextbike",
         "operator:type": "private",
         "operator:wikidata": "Q2351279"
@@ -3046,6 +3066,20 @@
       }
     },
     {
+      "displayName": "POGOH",
+      "id": "pogoh-d5d8a9",
+      "locationSet": {
+        "include": ["us-pa.geojson"]
+      },
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "POGOH",
+        "network": "POGOH",
+        "operator": "Bike Share Pittsburgh",
+        "operator:type": "private_non_profit"
+      }
+    },
+    {
       "displayName": "PotsdamRad",
       "id": "potsdamrad-5a761a",
       "locationSet": {
@@ -3187,6 +3221,22 @@
         "brand": "PubliBike",
         "brand:wikidata": "Q3555363",
         "network": "Sion",
+        "operator": "PubliBike",
+        "operator:type": "private",
+        "operator:wikidata": "Q3555363"
+      }
+    },
+    {
+      "displayName": "PubliBike (Velo Bern)",
+      "id": "publibike-a8de7e",
+      "locationSet": {
+        "include": [[7.45, 46.95, 10]]
+      },
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "PubliBike",
+        "brand:wikidata": "Q3555363",
+        "network": "Velo Bern",
         "operator": "PubliBike",
         "operator:type": "private",
         "operator:wikidata": "Q3555363"
@@ -3438,23 +3488,19 @@
       "displayName": "sigo E-Lastenrad Sharing",
       "id": "sigo-937152",
       "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "sigo e-lastenrad sharing",
+        "sigo e-lastenrad standort"
+      ],
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "sigo",
+        "brand:wikidata": "Q109659526",
         "network": "sigo",
+        "network:wikidata": "Q109659526",
         "operator": "sigo",
         "operator:type": "private",
         "operator:wikidata": "Q109659526"
-      }
-    },
-    {
-      "displayName": "sigo E-Lastenrad Standort",
-      "id": "sigoelastenradstandort-937152",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "amenity": "bicycle_rental",
-        "brand": "sigo E-Lastenrad Standort",
-        "name": "sigo E-Lastenrad Standort"
       }
     },
     {
@@ -3823,10 +3869,7 @@
         "amenity": "bicycle_rental",
         "brand": "TINK",
         "brand:wikidata": "Q130301909",
-        "network": "TINK",
-        "operator": "Nextbike",
-        "operator:type": "private",
-        "operator:wikidata": "Q2351279"
+        "network": "TINK"
       }
     },
     {
@@ -4286,19 +4329,21 @@
       }
     },
     {
-      "displayName": "Velohauptstadt",
-      "id": "velohauptstadt-a8de7e",
+      "displayName": "VELOLEO",
+      "id": "veloleo-497979",
       "locationSet": {
-        "include": [[7.45, 46.95, 10]]
+        "include": [[10.52, 52.26, 10]]
       },
-      "matchNames": ["velo bern"],
+      "matchNames": ["nibelungen bike"],
       "tags": {
         "amenity": "bicycle_rental",
-        "brand": "Velohauptstadt",
-        "network": "Velo Bern",
-        "operator": "PubliBike",
+        "brand": "VELOLEO",
+        "brand:wikidata": "Q117301923",
+        "network": "VELOLEO",
+        "network:wikidata": "Q117301923",
+        "operator": "Nextbike",
         "operator:type": "private",
-        "operator:wikidata": "Q3555363"
+        "operator:wikidata": "Q2351279"
       }
     },
     {
@@ -4577,26 +4622,6 @@
       }
     },
     {
-      "displayName": "YouBike 微笑單車",
-      "id": "youbike-1bb859",
-      "locationSet": {"include": ["tw"]},
-      "tags": {
-        "amenity": "bicycle_rental",
-        "bicycle_rental": "docking_station",
-        "brand": "YouBike 微笑單車",
-        "brand:en": "YouBike",
-        "brand:wikidata": "Q20687952",
-        "brand:zh": "微笑單車",
-        "network": "YouBike 微笑單車",
-        "network:en": "YouBike",
-        "network:wikidata": "Q20687952",
-        "network:zh": "微笑單車",
-        "operator": "Giant",
-        "operator:type": "private",
-        "operator:wikidata": "Q703557"
-      }
-    },
-    {
       "displayName": "Yulu",
       "id": "yulu-6d1b20",
       "locationSet": {"include": ["in"]},
@@ -4738,7 +4763,7 @@
       "tags": {
         "access": "customers",
         "amenity": "bicycle_rental",
-        "authentication:app": "true",
+        "authentication:app": "yes",
         "bicycle_rental": "docking_station",
         "brand": "서울자전거 따릉이",
         "brand:en": "Seoul Bike",

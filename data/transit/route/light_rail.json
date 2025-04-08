@@ -19,6 +19,7 @@
         "network": "Baltimore Light RailLink",
         "network:wikidata": "Q3333820",
         "operator": "Maryland Transit Administration",
+        "operator:short": "MTA",
         "operator:wikidata": "Q1863801",
         "route": "light_rail"
       }
@@ -46,6 +47,7 @@
         "network": "Circumvesuviana",
         "network:wikidata": "Q867565",
         "operator": "Ente Autonomo Volturno",
+        "operator:short": "EAV",
         "operator:wikidata": "Q3726202",
         "route": "light_rail"
       }
@@ -549,7 +551,7 @@
       }
     },
     {
-      "displayName": "TRAM Metropolità d'Alcant",
+      "displayName": "TRAM Metropolità d'Alacant",
       "id": "trammetropolitadalacant-b52bbd",
       "locationSet": {
         "include": [
@@ -563,7 +565,7 @@
         "tram alicante",
         "tram metropolitano de alicante"
       ],
-      "note": "This entry is in Alcant, Benidorm and Gata de Gorgos",
+      "note": "This entry is in Alacant, Benidorm and Gata de Gorgos",
       "tags": {
         "network": "TRAM Metropolità d'Alacant",
         "network:wikidata": "Q2063567",

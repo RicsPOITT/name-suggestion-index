@@ -94,6 +94,17 @@
       }
     },
     {
+      "displayName": "Gaik",
+      "id": "gaik-436f1d",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Gaik",
+        "brand:wikidata": "Q132527653",
+        "name": "Gaik",
+        "shop": "butcher"
+      }
+    },
+    {
       "displayName": "Gzella",
       "id": "gzella-436f1d",
       "locationSet": {"include": ["pl"]},
@@ -151,6 +162,28 @@
         "brand": "Mago",
         "brand:wikidata": "Q131904610",
         "name": "Mago",
+        "shop": "butcher"
+      }
+    },
+    {
+      "displayName": "Makovec",
+      "id": "makovec-699c48",
+      "locationSet": {"include": ["cz", "sk"]},
+      "tags": {
+        "brand": "Makovec",
+        "brand:wikidata": "Q58623471",
+        "name": "Makovec",
+        "shop": "butcher"
+      }
+    },
+    {
+      "displayName": "Mäsiarstvo u Býka",
+      "id": "masiarstvoubyka-d81898",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "Mäsiarstvo u Býka",
+        "brand:wikidata": "Q133262589",
+        "name": "Mäsiarstvo u Býka",
         "shop": "butcher"
       }
     },
