@@ -241,13 +241,14 @@
     },
     {
       "displayName": "BestDrive",
-      "id": "bestdrive-1b7e7a",
+      "id": "bestdrive-301101",
       "locationSet": {
         "include": [
           "bw",
           "cz",
           "fx",
           "na",
+          "no",
           "sk",
           "za"
         ]
@@ -279,6 +280,20 @@
         "brand": "Brakes Plus",
         "brand:wikidata": "Q62075246",
         "name": "Brakes Plus",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "displayName": "Budget Brake & Muffler Auto Centres",
+      "id": "budgetbrakeandmufflerautocentres-455142",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": ["budget brake"],
+      "tags": {
+        "brand": "Budget Brake & Muffler Auto Centres",
+        "brand:wikidata": "Q135205842",
+        "name": "Budget Brake & Muffler Auto Centres",
         "shop": "car_repair"
       }
     },
@@ -1240,6 +1255,18 @@
         "brand": "Quickpoint",
         "brand:wikidata": "Q110510602",
         "name": "Quickpoint",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "displayName": "Rapid Pare Brise",
+      "id": "rapidparebrise-98e3a2",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Rapid Pare Brise",
+        "brand:wikidata": "Q112064766",
+        "name": "Rapid Pare Brise",
+        "service:vehicle:glass": "yes",
         "shop": "car_repair"
       }
     },

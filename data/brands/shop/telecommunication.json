@@ -373,6 +373,17 @@
       }
     },
     {
+      "displayName": "Inwi",
+      "id": "inwi-53dbca",
+      "locationSet": {"include": ["ma"]},
+      "tags": {
+        "brand": "Inwi",
+        "brand:wikidata": "Q1388949",
+        "name": "Inwi",
+        "shop": "telecommunication"
+      }
+    },
+    {
       "displayName": "Magenta",
       "id": "magenta-a73137",
       "locationSet": {"include": ["at"]},
@@ -392,6 +403,21 @@
         "brand": "Malitel",
         "brand:wikidata": "Q6743829",
         "name": "Malitel",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "displayName": "Maroc Telecom اتصالات المغرب",
+      "id": "maroctelecom-53dbca",
+      "locationSet": {"include": ["ma"]},
+      "tags": {
+        "brand": "Maroc Telecom اتصالات المغرب",
+        "brand:ar": "اتصالات المغرب",
+        "brand:fr": "Maroc Telecom",
+        "brand:wikidata": "Q2299942",
+        "name": "Maroc Telecom اتصالات المغرب",
+        "name:ar": "اتصالات المغرب",
+        "name:fr": "Maroc Telecom",
         "shop": "telecommunication"
       }
     },
@@ -623,7 +649,12 @@
       "displayName": "Vivacom",
       "id": "vivacom-5ceaa9",
       "locationSet": {"include": ["bg"]},
-      "matchNames": ["бтк", "вивател"],
+      "matchNames": [
+        "bulsatcom",
+        "бтк",
+        "булсатком",
+        "вивател"
+      ],
       "tags": {
         "brand": "Vivacom",
         "brand:wikidata": "Q7937522",
@@ -735,19 +766,6 @@
         "brand": "Yettel",
         "brand:wikidata": "Q1780171",
         "name": "Yettel",
-        "shop": "telecommunication"
-      }
-    },
-    {
-      "displayName": "Булсатком",
-      "id": "bulsatcom-5ceaa9",
-      "locationSet": {"include": ["bg"]},
-      "tags": {
-        "brand": "Булсатком",
-        "brand:wikidata": "Q12270598",
-        "name": "Булсатком",
-        "name:bg": "Булсатком",
-        "name:en": "Bulsatcom",
         "shop": "telecommunication"
       }
     },

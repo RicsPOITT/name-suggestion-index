@@ -9,7 +9,6 @@
       "named": [
         "^eks/nok$",
         "^enbw( ag)?$",
-        "^illuminating comapny/cleveland public power$",
         "^une – sen$"
       ]
     }
@@ -54,6 +53,18 @@
       ],
       "tags": {
         "operator": "A CELER",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "A&N Electric Cooperative",
+      "id": "aandnelectriccooperative-b14c84",
+      "locationSet": {
+        "include": ["us-va.geojson"]
+      },
+      "tags": {
+        "operator": "A&N Electric Cooperative",
+        "operator:wikidata": "Q39058854",
         "power": "substation"
       }
     },
@@ -149,17 +160,6 @@
       }
     },
     {
-      "displayName": "Agder Energi",
-      "id": "agderenergi-ba6ae8",
-      "locationSet": {"include": ["no"]},
-      "matchNames": ["agder energi nett"],
-      "tags": {
-        "operator": "Agder Energi",
-        "operator:wikidata": "Q4355084",
-        "power": "substation"
-      }
-    },
-    {
       "displayName": "Alabama Power",
       "id": "alabamapower-569b0d",
       "locationSet": {
@@ -173,13 +173,16 @@
       }
     },
     {
-      "displayName": "Albtal-Verkehrs-Gesellschaft mbH",
-      "id": "albtalverkehrsgesellschaftmbh-dda049",
+      "displayName": "Albtal-Verkehrs-Gesellschaft",
+      "id": "albtalverkehrsgesellschaft-dda049",
       "locationSet": {
         "include": ["de-bw.geojson"]
       },
+      "matchNames": [
+        "albtal-verkehrs-gesellschaft mbh"
+      ],
       "tags": {
-        "operator": "Albtal-Verkehrs-Gesellschaft mbH",
+        "operator": "Albtal-Verkehrs-Gesellschaft",
         "operator:short": "AVG",
         "operator:wikidata": "Q896547",
         "power": "substation"
@@ -199,13 +202,17 @@
       }
     },
     {
-      "displayName": "Allgäuer Kraftwerke GmbH Sonthofen",
-      "id": "allgauerkraftwerkegmbhsonthofen-218486",
+      "displayName": "Allgäuer Kraftwerke",
+      "id": "allgauerkraftwerke-218486",
       "locationSet": {
         "include": ["de-by.geojson"]
       },
+      "matchNames": [
+        "allgäuer kraftwerke gmbh sonthofen"
+      ],
       "tags": {
-        "operator": "Allgäuer Kraftwerke GmbH Sonthofen",
+        "operator": "Allgäuer Kraftwerke",
+        "operator:wikidata": "Q133861949",
         "power": "substation"
       }
     },
@@ -518,7 +525,7 @@
       }
     },
     {
-      "displayName": "ATM",
+      "displayName": "ATM (Milano)",
       "id": "atm-60dbb3",
       "locationSet": {
         "include": ["it-25.geojson"]
@@ -650,18 +657,20 @@
       }
     },
     {
-      "displayName": "AVU AG",
-      "id": "avuag-26c4cf",
+      "displayName": "AVU Netz",
+      "id": "avunetz-26c4cf",
       "locationSet": {
         "include": ["de-nw.geojson"]
       },
       "matchNames": [
         "aktiengesellschaft für versorgungsunternehmen",
+        "avu",
+        "avu ag",
         "avu netz gmbh"
       ],
       "tags": {
-        "operator": "AVU AG",
-        "operator:wikidata": "Q422118",
+        "operator": "AVU Netz",
+        "operator:wikidata": "Q124369250",
         "power": "substation"
       }
     },
@@ -674,6 +683,15 @@
       "tags": {
         "operator": "Axpo/EKZ",
         "operator:wikidata": "Q679525",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "AYEDAŞ",
+      "id": "ayedas-13aefb",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "operator": "AYEDAŞ",
         "power": "substation"
       }
     },
@@ -842,25 +860,66 @@
       },
       "tags": {
         "operator": "Berliner Verkehrsbetriebe",
+        "operator:short": "BVG",
         "operator:wikidata": "Q99633",
         "power": "substation"
       }
     },
     {
+      "displayName": "Berliner Wasserbetriebe",
+      "id": "berlinerwasserbetriebe-e93127",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
+      "tags": {
+        "operator": "Berliner Wasserbetriebe",
+        "operator:wikidata": "Q821856",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "BESCOM",
-      "id": "bescom-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "bescom-d84d19",
+      "locationSet": {
+        "include": ["in-ka.geojson"]
+      },
       "tags": {
         "operator": "BESCOM",
         "power": "substation"
       }
     },
     {
+      "displayName": "Better Energy A/S",
+      "id": "betterenergyas-c14e50",
+      "locationSet": {
+        "include": ["dk-83.geojson"]
+      },
+      "tags": {
+        "operator": "Better Energy A/S",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Better Energy Stevning P/S",
+      "id": "betterenergystevningps-c14e50",
+      "locationSet": {
+        "include": ["dk-83.geojson"]
+      },
+      "tags": {
+        "operator": "Better Energy Stevning P/S",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Bihar State Electricity Board",
-      "id": "biharstateelectricityboard-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "biharstateelectricityboard-416051",
+      "locationSet": {
+        "include": ["in-br.geojson"]
+      },
+      "matchNames": ["state electricity board"],
       "tags": {
         "operator": "Bihar State Electricity Board",
+        "operator:wikidata": "Q17049842",
         "power": "substation"
       }
     },
@@ -1102,6 +1161,18 @@
       }
     },
     {
+      "displayName": "BS Energy",
+      "id": "bsenergy-1af6be",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "operator": "BS Energy",
+        "operator:wikidata": "Q797031",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Burgo",
       "id": "burgo-5e9b52",
       "locationSet": {"include": ["it"]},
@@ -1207,7 +1278,7 @@
       }
     },
     {
-      "displayName": "Cemig",
+      "displayName": "CEMIG",
       "id": "cemig-acc4a0",
       "locationSet": {"include": ["br"]},
       "matchNames": [
@@ -1215,7 +1286,7 @@
         "cemig geração e transmissão sa"
       ],
       "tags": {
-        "operator": "Cemig",
+        "operator": "CEMIG",
         "operator:wikidata": "Q1121202",
         "power": "substation"
       }
@@ -1375,14 +1446,26 @@
     },
     {
       "displayName": "Chicago Transit Authority",
-      "id": "chicagotransitauthority-09b582",
+      "id": "chicagotransitauthority-bdf128",
       "locationSet": {
-        "include": ["us-il.geojson"]
+        "include": ["us-il-cook_county.geojson"]
       },
       "tags": {
         "operator": "Chicago Transit Authority",
         "operator:short": "CTA",
         "operator:wikidata": "Q117309",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Choptank Electric Cooperative",
+      "id": "choptankelectriccooperative-62c87b",
+      "locationSet": {
+        "include": ["us-md.geojson"]
+      },
+      "tags": {
+        "operator": "Choptank Electric Cooperative",
+        "operator:wikidata": "Q5104886",
         "power": "substation"
       }
     },
@@ -1425,6 +1508,15 @@
       }
     },
     {
+      "displayName": "City of Dover",
+      "id": "cityofdover-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "City of Dover",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "City of Lakeland",
       "id": "cityoflakeland-8432e2",
       "locationSet": {
@@ -1445,6 +1537,16 @@
       "tags": {
         "operator": "City of Tallahassee",
         "operator:wikidata": "Q37043",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "City of Tshwane",
+      "id": "cityoftshwane-ae9b5d",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "operator": "City of Tshwane",
+        "operator:wikidata": "Q1094207",
         "power": "substation"
       }
     },
@@ -1869,6 +1971,18 @@
       }
     },
     {
+      "displayName": "Core Electric Cooperative",
+      "id": "coreelectriccooperative-80514d",
+      "locationSet": {
+        "include": ["us-co.geojson"]
+      },
+      "tags": {
+        "operator": "Core Electric Cooperative",
+        "operator:wikidata": "Q131346286",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Corn Belt Energy Corporation",
       "id": "cornbeltenergycorporation-09b582",
       "locationSet": {
@@ -1909,6 +2023,17 @@
       "tags": {
         "operator": "Cosern",
         "operator:wikidata": "Q18477769",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Cowlitz Public Utility District",
+      "id": "cowlitzpublicutilitydistrict-99a087",
+      "locationSet": {
+        "include": ["us-wa.geojson"]
+      },
+      "tags": {
+        "operator": "Cowlitz Public Utility District",
         "power": "substation"
       }
     },
@@ -1978,16 +2103,6 @@
       }
     },
     {
-      "displayName": "CSG",
-      "id": "csg-f1135f",
-      "locationSet": {"include": ["cn"]},
-      "tags": {
-        "operator": "CSG",
-        "operator:wikidata": "Q209039",
-        "power": "substation"
-      }
-    },
-    {
       "displayName": "CTEEP",
       "id": "cteep-acc4a0",
       "locationSet": {"include": ["br"]},
@@ -2029,8 +2144,10 @@
     },
     {
       "displayName": "Dakshin Haryana Bijli Vitran Nigam Limited",
-      "id": "dakshinharyanabijlivitrannigamlimited-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "dakshinharyanabijlivitrannigamlimited-24a6a9",
+      "locationSet": {
+        "include": ["in-hr.geojson"]
+      },
       "matchNames": [
         "dakshin haryana bijli vitran nigam limited (dhbvn)"
       ],
@@ -2100,6 +2217,15 @@
       }
     },
     {
+      "displayName": "DEER",
+      "id": "deer-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "DEER",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Delaware Electric Cooperative",
       "id": "delawareelectriccooperative-2687bf",
       "locationSet": {
@@ -2119,8 +2245,10 @@
     },
     {
       "displayName": "Delhi Transco Limited",
-      "id": "delhitranscolimited-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "delhitranscolimited-11b8a1",
+      "locationSet": {
+        "include": ["in-dl.geojson"]
+      },
       "tags": {
         "operator": "Delhi Transco Limited",
         "operator:wikidata": "Q5253827",
@@ -2164,11 +2292,17 @@
       }
     },
     {
-      "displayName": "Dessauer Stromversorgung GmbH",
-      "id": "dessauerstromversorgunggmbh-7ff171",
-      "locationSet": {"include": ["de"]},
+      "displayName": "Dessauer Stromversorgung",
+      "id": "dessauerstromversorgung-caeb06",
+      "locationSet": {
+        "include": ["de-st.geojson"]
+      },
+      "matchNames": [
+        "dessauer stomversorgung gmbh",
+        "dessauer stromversorgung gmbh"
+      ],
       "tags": {
-        "operator": "Dessauer Stromversorgung GmbH",
+        "operator": "Dessauer Stromversorgung",
         "power": "substation"
       }
     },
@@ -2453,8 +2587,8 @@
       }
     },
     {
-      "displayName": "E.DIS Netz GmbH",
-      "id": "edisnetzgmbh-b09616",
+      "displayName": "E.DIS Netz",
+      "id": "edisnetz-b09616",
       "locationSet": {
         "include": [
           "de-bb.geojson",
@@ -2463,11 +2597,12 @@
       },
       "matchNames": [
         "e.dis",
+        "e.dis netz gmbh",
         "e.on edis",
         "e.on edis ag"
       ],
       "tags": {
-        "operator": "E.DIS Netz GmbH",
+        "operator": "E.DIS Netz",
         "operator:wikidata": "Q124377743",
         "power": "substation"
       }
@@ -2703,6 +2838,18 @@
       "tags": {
         "operator": "Edison",
         "operator:wikidata": "Q912872",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Edmonton Transit Service",
+      "id": "edmontontransitservice-ebf474",
+      "locationSet": {
+        "include": ["ca-ab.geojson"]
+      },
+      "tags": {
+        "operator": "Edmonton Transit Service",
+        "operator:wikidata": "Q3048058",
         "power": "substation"
       }
     },
@@ -3019,6 +3166,16 @@
       }
     },
     {
+      "displayName": "Elektro Ljubljana",
+      "id": "elektroljubljana-71ceba",
+      "locationSet": {"include": ["si"]},
+      "tags": {
+        "operator": "Elektro Ljubljana",
+        "operator:wikidata": "Q30294660",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Elektro MB",
       "id": "elektromb-71ceba",
       "locationSet": {"include": ["si"]},
@@ -3283,7 +3440,7 @@
       "displayName": "Enarga Operator Oddział Toruń",
       "id": "enargaoperatoroddzialtorun-83e94a",
       "locationSet": {"include": ["pl"]},
-      "note": "Missing wikidata item",
+      "note": "ISO 3166-2 PL-04, PL-28; Missing wikidata item",
       "tags": {
         "operator": "Enarga Operator Oddział Toruń",
         "power": "substation"
@@ -3324,7 +3481,10 @@
       "displayName": "Endesa",
       "id": "endesa-294d99",
       "locationSet": {"include": ["es"]},
-      "matchNames": ["sevillana endesa"],
+      "matchNames": [
+        "sevillana de electricidad",
+        "sevillana endesa"
+      ],
       "tags": {
         "operator": "Endesa",
         "operator:wikidata": "Q1275336",
@@ -3649,6 +3809,21 @@
       }
     },
     {
+      "displayName": "Energieversorgung Filstal",
+      "id": "energieversorgungfilstal-dda049",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": [
+        "energieversorgung filstal gmbh & co. kg"
+      ],
+      "tags": {
+        "operator": "Energieversorgung Filstal",
+        "operator:wikidata": "Q130556538",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Energieversorgung Mittelrhein",
       "id": "energieversorgungmittelrhein-4afb0a",
       "locationSet": {
@@ -3659,6 +3834,21 @@
         "operator": "Energieversorgung Mittelrhein",
         "operator:short": "evm",
         "operator:wikidata": "Q1341466",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Energieversorgung Offenbach",
+      "id": "energieversorgungoffenbach-43eb08",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "matchNames": [
+        "energieversorgung offenbach ag"
+      ],
+      "tags": {
+        "operator": "Energieversorgung Offenbach",
+        "operator:wikidata": "Q1341471",
         "power": "substation"
       }
     },
@@ -3965,6 +4155,15 @@
       }
     },
     {
+      "displayName": "ENWG Energienetze Weimar GmbH & Co. KG",
+      "id": "enwgenergienetzeweimargmbhandcokg-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "ENWG Energienetze Weimar GmbH & Co. KG",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "enwor",
       "id": "enwor-26c4cf",
       "locationSet": {
@@ -4144,6 +4343,22 @@
       }
     },
     {
+      "displayName": "Equinor",
+      "id": "equinor-3116d1",
+      "locationSet": {
+        "include": [
+          [2.167, 58.735, 300],
+          "gb",
+          "no"
+        ]
+      },
+      "tags": {
+        "operator": "Equinor",
+        "operator:wikidata": "Q1776022",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "ERDF",
       "id": "erdf-90b6b6",
       "locationSet": {"include": ["fx"]},
@@ -4220,6 +4435,16 @@
       "tags": {
         "operator": "ESP Electricity",
         "operator:wikidata": "Q114567232",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "ESSA",
+      "id": "essa-8e2bec",
+      "locationSet": {"include": ["co"]},
+      "tags": {
+        "operator": "ESSA",
+        "operator:wikidata": "Q5829022",
         "power": "substation"
       }
     },
@@ -4954,6 +5179,15 @@
       }
     },
     {
+      "displayName": "GETCO",
+      "id": "getco-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "GETCO",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "GEW Wilhelmshaven",
       "id": "gewwilhelmshaven-1af6be",
       "locationSet": {
@@ -5193,6 +5427,42 @@
       }
     },
     {
+      "displayName": "GWW",
+      "id": "gww-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "GWW",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Halberstädter Stadtwerke",
+      "id": "halberstadterstadtwerke-caeb06",
+      "locationSet": {
+        "include": ["de-st.geojson"]
+      },
+      "tags": {
+        "operator": "Halberstädter Stadtwerke",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Hamburger Energienetze",
+      "id": "hamburgerenergienetze-de1365",
+      "locationSet": {
+        "include": ["de-hh.geojson"]
+      },
+      "matchNames": [
+        "hamburger energienetze gmbh",
+        "stromnetz hamburg"
+      ],
+      "tags": {
+        "operator": "Hamburger Energienetze",
+        "operator:wikidata": "Q130127016",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "HanseWerk",
       "id": "hansewerk-7ff171",
       "locationSet": {"include": ["de"]},
@@ -5263,6 +5533,16 @@
       "tags": {
         "operator": "HEP",
         "operator:wikidata": "Q13636760",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "HERA",
+      "id": "hera-5e9b52",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "operator": "HERA",
+        "operator:wikidata": "Q3785095",
         "power": "substation"
       }
     },
@@ -5430,6 +5710,22 @@
       }
     },
     {
+      "displayName": "IKB",
+      "id": "ikb-8d025f",
+      "locationSet": {
+        "include": ["at-7.geojson"]
+      },
+      "matchNames": [
+        "ikb ag",
+        "innsbrucker kommunalbetriebe"
+      ],
+      "tags": {
+        "operator": "IKB",
+        "operator:wikidata": "Q1275183",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Illuminating Company",
       "id": "illuminatingcompany-7dabf9",
       "locationSet": {
@@ -5554,6 +5850,15 @@
       "tags": {
         "operator": "Infraestruturas de Portugal",
         "operator:wikidata": "Q20730106",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Infraestruturas de Portugal, S.A.",
+      "id": "infraestruturasdeportugalsa-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Infraestruturas de Portugal, S.A.",
         "power": "substation"
       }
     },
@@ -5694,6 +5999,16 @@
         "operator": "Jacksonville Electric Authority",
         "operator:short": "JEA",
         "operator:wikidata": "Q17068270",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Jämtkraft",
+      "id": "jamtkraft-44b3db",
+      "locationSet": {"include": ["se"]},
+      "tags": {
+        "operator": "Jämtkraft",
+        "operator:wikidata": "Q10541693",
         "power": "substation"
       }
     },
@@ -5845,8 +6160,10 @@
     },
     {
       "displayName": "Karnataka Power Corporation Limited",
-      "id": "karnatakapowercorporationlimited-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "karnatakapowercorporationlimited-d84d19",
+      "locationSet": {
+        "include": ["in-ka.geojson"]
+      },
       "matchNames": ["kpcl"],
       "tags": {
         "operator": "Karnataka Power Corporation Limited",
@@ -5905,8 +6222,10 @@
     },
     {
       "displayName": "Kerala State Electricity Board",
-      "id": "keralastateelectricityboard-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "keralastateelectricityboard-27a2f0",
+      "locationSet": {
+        "include": ["in-kl.geojson"]
+      },
       "tags": {
         "operator": "Kerala State Electricity Board",
         "operator:short": "KSEB",
@@ -5992,8 +6311,10 @@
     },
     {
       "displayName": "KPTCL",
-      "id": "kptcl-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "kptcl-d84d19",
+      "locationSet": {
+        "include": ["in-ka.geojson"]
+      },
       "tags": {
         "operator": "KPTCL",
         "operator:wikidata": "Q17064153",
@@ -6017,6 +6338,9 @@
       "locationSet": {
         "include": ["de-he.geojson"]
       },
+      "matchNames": [
+        "kreiswerke main-kinzig gmbh"
+      ],
       "tags": {
         "operator": "Kreiswerke Main-Kinzig",
         "operator:wikidata": "Q1787841",
@@ -6193,6 +6517,17 @@
       "locationSet": {"include": ["ls"]},
       "tags": {
         "operator": "Lesotho Electricity Company",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Lewis County Public Utility District",
+      "id": "lewiscountypublicutilitydistrict-99a087",
+      "locationSet": {
+        "include": ["us-wa.geojson"]
+      },
+      "tags": {
+        "operator": "Lewis County Public Utility District",
         "power": "substation"
       }
     },
@@ -6471,6 +6806,16 @@
       }
     },
     {
+      "displayName": "MA Polska S.A.",
+      "id": "mapolskasa-83e94a",
+      "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-26",
+      "tags": {
+        "operator": "MA Polska S.A.",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Magdeburger Verkehrsbetriebe",
       "id": "magdeburgerverkehrsbetriebe-caeb06",
       "locationSet": {
@@ -6483,6 +6828,19 @@
         "operator": "Magdeburger Verkehrsbetriebe",
         "operator:short": "MVB",
         "operator:wikidata": "Q1883929",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Maingau Energie",
+      "id": "maingauenergie-43eb08",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "matchNames": ["maingau energie gmbh"],
+      "tags": {
+        "operator": "Maingau Energie",
+        "operator:wikidata": "Q28811800",
         "power": "substation"
       }
     },
@@ -6626,6 +6984,23 @@
       }
     },
     {
+      "displayName": "MDU",
+      "id": "mdu-b39e3b",
+      "locationSet": {
+        "include": [
+          "us-mt.geojson",
+          "us-nd.geojson",
+          "us-sd.geojson"
+        ]
+      },
+      "matchNames": ["montana-dakota utilities"],
+      "tags": {
+        "operator": "MDU",
+        "operator:wikidata": "Q6715200",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Mellom",
       "id": "mellom-ba6ae8",
       "locationSet": {"include": ["no"]},
@@ -6680,6 +7055,15 @@
       "tags": {
         "operator": "Metra",
         "operator:wikidata": "Q1814208",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Metro do Porto",
+      "id": "metrodoporto-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Metro do Porto",
         "power": "substation"
       }
     },
@@ -6872,8 +7256,10 @@
     },
     {
       "displayName": "MSETCL",
-      "id": "msetcl-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "msetcl-df265e",
+      "locationSet": {
+        "include": ["in-mh.geojson"]
+      },
       "tags": {
         "operator": "MSETCL",
         "operator:wikidata": "Q6733360",
@@ -6926,6 +7312,16 @@
       "tags": {
         "operator": "N-ERGIE Netz",
         "operator:wikidata": "Q124370254",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "N1 A/S",
+      "id": "n1as-3aeb55",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "operator": "N1 A/S",
+        "operator:wikidata": "Q130348827",
         "power": "substation"
       }
     },
@@ -7021,11 +7417,27 @@
       }
     },
     {
+      "displayName": "National Transmission Company South Africa",
+      "id": "nationaltransmissioncompanysouthafrica-ae9b5d",
+      "locationSet": {"include": ["za"]},
+      "matchNames": [
+        "national transmission company of south africa",
+        "national transmission company south africa soc ltd"
+      ],
+      "tags": {
+        "operator": "National Transmission Company South Africa",
+        "operator:short": "NTCSA",
+        "operator:wikidata": "Q122929389",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Naturgy",
       "id": "naturgy-5490e4",
       "locationSet": {
         "include": ["ar-j.geojson", "es", "pa"]
       },
+      "matchNames": ["union fenosa"],
       "tags": {
         "operator": "Naturgy",
         "operator:wikidata": "Q474690",
@@ -7231,8 +7643,8 @@
       }
     },
     {
-      "displayName": "Netze BW GmbH",
-      "id": "netzebwgmbh-dda049",
+      "displayName": "Netze BW",
+      "id": "netzebw-dda049",
       "locationSet": {
         "include": ["de-bw.geojson"]
       },
@@ -7243,23 +7655,27 @@
         "enbw regional ag",
         "energie-versorgung schwaben ag",
         "neckarwerke",
-        "netze bw"
+        "netze bw gmbh"
       ],
       "tags": {
-        "operator": "Netze BW GmbH",
+        "operator": "Netze BW",
         "operator:wikidata": "Q16854888",
         "power": "substation"
       }
     },
     {
-      "displayName": "Netze Magdeburg GmbH",
-      "id": "netzemagdeburggmbh-caeb06",
+      "displayName": "Netze Magdeburg",
+      "id": "netzemagdeburg-caeb06",
       "locationSet": {
         "include": ["de-st.geojson"]
       },
-      "note": "Might be related to Städtische Werke Magdeburg (SWM)",
+      "matchNames": [
+        "netze magdeburg gmbh",
+        "städtische werke magdeburg",
+        "swm"
+      ],
       "tags": {
-        "operator": "Netze Magdeburg GmbH",
+        "operator": "Netze Magdeburg",
         "operator:wikidata": "Q55167662",
         "power": "substation"
       }
@@ -7467,6 +7883,17 @@
       "tags": {
         "operator": "Noranett",
         "operator:wikidata": "Q117454648",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Nord Energi Net A/S",
+      "id": "nordenerginetas-9dbdcb",
+      "locationSet": {
+        "include": ["dk-81.geojson"]
+      },
+      "tags": {
+        "operator": "Nord Energi Net A/S",
         "power": "substation"
       }
     },
@@ -7704,6 +8131,15 @@
       }
     },
     {
+      "displayName": "OEDAŞ",
+      "id": "oedas-13aefb",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "operator": "OEDAŞ",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Ohio Edison",
       "id": "ohioedison-7dabf9",
       "locationSet": {
@@ -7851,6 +8287,15 @@
       }
     },
     {
+      "displayName": "OtagoNet",
+      "id": "otagonet-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "OtagoNet",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "OtagoNet Joint Venture",
       "id": "otagonetjointventure-8d74a7",
       "locationSet": {"include": ["nz"]},
@@ -7978,15 +8423,6 @@
       }
     },
     {
-      "displayName": "PBE",
-      "id": "pbe-531b98",
-      "locationSet": {"include": ["be"]},
-      "tags": {
-        "operator": "PBE",
-        "power": "substation"
-      }
-    },
-    {
       "displayName": "PEA",
       "id": "pea-8cb22b",
       "locationSet": {"include": ["th"]},
@@ -8098,18 +8534,19 @@
       }
     },
     {
-      "displayName": "Pfalzwerke AG",
-      "id": "pfalzwerkeag-4afb0a",
+      "displayName": "Pfalzwerke Netz",
+      "id": "pfalzwerkenetz-4afb0a",
       "locationSet": {
         "include": ["de-rp.geojson"]
       },
       "matchNames": [
         "pfalzwerke",
+        "pfalzwerke ag",
         "pfalzwerke netz ag"
       ],
       "tags": {
-        "operator": "Pfalzwerke AG",
-        "operator:wikidata": "Q2082280",
+        "operator": "Pfalzwerke Netz",
+        "operator:wikidata": "Q124370297",
         "power": "substation"
       }
     },
@@ -8120,15 +8557,6 @@
       "tags": {
         "operator": "PGCB",
         "operator:wikidata": "Q16254830",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "PGCIL",
-      "id": "pgcil-487ae0",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "operator": "PGCIL",
         "power": "substation"
       }
     },
@@ -8263,12 +8691,16 @@
       }
     },
     {
-      "displayName": "Power Grid Corporation of India Ltd",
-      "id": "powergridcorporationofindialtd-487ae0",
+      "displayName": "Power Grid Corporation of India Limited",
+      "id": "powergridcorporationofindialimited-487ae0",
       "locationSet": {"include": ["in"]},
-      "matchNames": ["powergrid"],
+      "matchNames": [
+        "power grid corporation of india ltd",
+        "powergrid"
+      ],
       "tags": {
-        "operator": "Power Grid Corporation of India Ltd",
+        "operator": "Power Grid Corporation of India Limited",
+        "operator:short": "PGCIL",
         "operator:wikidata": "Q3400886",
         "power": "substation"
       }
@@ -8411,6 +8843,18 @@
       }
     },
     {
+      "displayName": "Provinciale Brabantse Energiemaatschappij",
+      "id": "provincialebrabantseenergiemaatschappij-0dc036",
+      "locationSet": {
+        "include": ["be-vbr.geojson"]
+      },
+      "tags": {
+        "operator": "Provinciale Brabantse Energiemaatschappij",
+        "operator:short": "PBE",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "PSO",
       "id": "publicservicecompanyofoklahoma-b5d3f3",
       "locationSet": {
@@ -8503,6 +8947,15 @@
       }
     },
     {
+      "displayName": "RAH",
+      "id": "rah-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "RAH",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Rappahannock Electric Cooperative",
       "id": "rappahannockelectriccooperative-b14c84",
       "locationSet": {
@@ -8528,6 +8981,7 @@
       "displayName": "RE Busko",
       "id": "rebusko-83e94a",
       "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-12, PL-26",
       "tags": {
         "operator": "RE Busko",
         "power": "substation"
@@ -8537,6 +8991,7 @@
       "displayName": "RE Jędrzejów",
       "id": "rejedrzejow-83e94a",
       "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-26",
       "tags": {
         "operator": "RE Jędrzejów",
         "power": "substation"
@@ -8544,8 +8999,10 @@
     },
     {
       "displayName": "RE Kozienice",
-      "id": "rekozienice-83e94a",
-      "locationSet": {"include": ["pl"]},
+      "id": "rekozienice-eda926",
+      "locationSet": {
+        "include": ["pl-14.geojson"]
+      },
       "tags": {
         "operator": "RE Kozienice",
         "power": "substation"
@@ -8555,6 +9012,7 @@
       "displayName": "RE Miechów",
       "id": "remiechow-83e94a",
       "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-12, PL-26",
       "tags": {
         "operator": "RE Miechów",
         "power": "substation"
@@ -8597,11 +9055,25 @@
     },
     {
       "displayName": "regionalwerk Bodensee",
-      "id": "regionalwerkbodensee-7ff171",
-      "locationSet": {"include": ["de"]},
+      "id": "regionalwerkbodensee-dda049",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "operator": "regionalwerk Bodensee",
         "operator:wikidata": "Q1463526",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Regionetz",
+      "id": "regionetz-26c4cf",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "tags": {
+        "operator": "Regionetz",
+        "operator:wikidata": "Q133566977",
         "power": "substation"
       }
     },
@@ -8639,8 +9111,10 @@
     },
     {
       "displayName": "RESA",
-      "id": "resa-531b98",
-      "locationSet": {"include": ["be"]},
+      "id": "resa-1f0fda",
+      "locationSet": {
+        "include": ["be-wlg.geojson"]
+      },
       "tags": {
         "operator": "RESA",
         "power": "substation"
@@ -8836,11 +9310,17 @@
       }
     },
     {
-      "displayName": "S-Bahn Berlin GmbH",
-      "id": "sbahnberlingmbh-7ff171",
-      "locationSet": {"include": ["de"]},
+      "displayName": "S-Bahn Berlin",
+      "id": "sbahnberlin-34e3ba",
+      "locationSet": {
+        "include": [
+          "de-bb.geojson",
+          "de-be.geojson"
+        ]
+      },
+      "matchNames": ["s-bahn berlin gmbh"],
       "tags": {
-        "operator": "S-Bahn Berlin GmbH",
+        "operator": "S-Bahn Berlin",
         "operator:wikidata": "Q99654",
         "power": "substation"
       }
@@ -9033,17 +9513,17 @@
       }
     },
     {
-      "displayName": "Schleswig-Holstein Netz AG",
-      "id": "schleswigholsteinnetzag-5fcfdc",
+      "displayName": "Schleswig-Holstein Netz",
+      "id": "schleswigholsteinnetz-5fcfdc",
       "locationSet": {
         "include": ["de-sh.geojson"]
       },
       "matchNames": [
-        "schleswig-holstein netz",
+        "schleswig-holstein netz ag",
         "sh netz ag"
       ],
       "tags": {
-        "operator": "Schleswig-Holstein Netz AG",
+        "operator": "Schleswig-Holstein Netz",
         "operator:wikidata": "Q2239261",
         "power": "substation"
       }
@@ -9056,6 +9536,7 @@
         "scottish and southern energy",
         "scottish hydro electric",
         "scottish hydro electric power distribution",
+        "short=ssen",
         "southern electric",
         "sse"
       ],
@@ -9114,16 +9595,6 @@
       }
     },
     {
-      "displayName": "Sevillana de Electricidad",
-      "id": "sevillanadeelectricidad-294d99",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "operator": "Sevillana de Electricidad",
-        "operator:wikidata": "Q2876789",
-        "power": "substation"
-      }
-    },
-    {
       "displayName": "Sharyland Utilities",
       "id": "sharylandutilities-9e5147",
       "locationSet": {
@@ -9137,8 +9608,10 @@
     },
     {
       "displayName": "Sibelga",
-      "id": "sibelga-531b98",
-      "locationSet": {"include": ["be"]},
+      "id": "sibelga-d427f7",
+      "locationSet": {
+        "include": ["be-bru.geojson"]
+      },
       "tags": {
         "operator": "Sibelga",
         "operator:wikidata": "Q743846",
@@ -9151,11 +9624,12 @@
       "locationSet": {"include": ["fx"]},
       "matchNames": [
         "sicae somme cambraisis",
-        "sicae somme cambrésis"
+        "sicae somme cambrésis",
+        "sicae-somme"
       ],
       "tags": {
         "operator": "SICAE de la Somme et du Cambraisis",
-        "operator:wikidata": "Q130730715",
+        "operator:wikidata": "Q112115660",
         "power": "substation"
       }
     },
@@ -9318,6 +9792,25 @@
       }
     },
     {
+      "displayName": "South Western Railway",
+      "id": "southwesternrailway-f5a935",
+      "locationSet": {
+        "include": [
+          "in-ap.geojson",
+          "in-ga.geojson",
+          "in-ka.geojson",
+          "in-mh.geojson",
+          "in-tn.geojson"
+        ]
+      },
+      "tags": {
+        "operator": "South Western Railway",
+        "operator:short": "SWR",
+        "operator:wikidata": "Q3595518",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Southern California Edison",
       "id": "southerncaliforniaedison-9f24bd",
       "locationSet": {
@@ -9330,6 +9823,24 @@
         "operator": "Southern California Edison",
         "operator:short": "SCE",
         "operator:wikidata": "Q1706317",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Southern Railway",
+      "id": "southernrailway-ad6d42",
+      "locationSet": {
+        "include": [
+          "in-ap.geojson",
+          "in-ka.geojson",
+          "in-kl.geojson",
+          "in-tn.geojson"
+        ]
+      },
+      "tags": {
+        "operator": "Southern Railway",
+        "operator:short": "SR",
+        "operator:wikidata": "Q3276096",
         "power": "substation"
       }
     },
@@ -9437,15 +9948,6 @@
       }
     },
     {
-      "displayName": "SR",
-      "id": "sr-487ae0",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "operator": "SR",
-        "power": "substation"
-      }
-    },
-    {
       "displayName": "SRD",
       "id": "srd-90b6b6",
       "locationSet": {"include": ["fx"]},
@@ -9485,6 +9987,17 @@
       "tags": {
         "operator": "SSEN Transmission",
         "operator:wikidata": "Q114423668",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Städtische Betriebswerke Luckenwalde",
+      "id": "stadtischebetriebswerkeluckenwalde-f7a8ec",
+      "locationSet": {
+        "include": ["de-bb.geojson"]
+      },
+      "tags": {
+        "operator": "Städtische Betriebswerke Luckenwalde",
         "power": "substation"
       }
     },
@@ -9741,6 +10254,15 @@
       }
     },
     {
+      "displayName": "Stadtwerke Garbsen",
+      "id": "stadtwerkegarbsen-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Stadtwerke Garbsen",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Stadtwerke Gießen",
       "id": "stadtwerkegiessen-43eb08",
       "locationSet": {
@@ -9766,13 +10288,14 @@
       }
     },
     {
-      "displayName": "Stadtwerke Görlitz AG",
-      "id": "stadtwerkegorlitzag-8b3810",
+      "displayName": "Stadtwerke Görlitz",
+      "id": "stadtwerkegorlitz-8b3810",
       "locationSet": {
         "include": ["de-sn.geojson"]
       },
+      "matchNames": ["stadtwerke görlitz ag"],
       "tags": {
-        "operator": "Stadtwerke Görlitz AG",
+        "operator": "Stadtwerke Görlitz",
         "operator:wikidata": "Q113465035",
         "power": "substation"
       }
@@ -10325,6 +10848,27 @@
       }
     },
     {
+      "displayName": "Stadtwerke Schwaz",
+      "id": "stadtwerkeschwaz-fc3a87",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "Stadtwerke Schwaz",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Stadtwerke Schweinfurt",
+      "id": "stadtwerkeschweinfurt-218486",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "tags": {
+        "operator": "Stadtwerke Schweinfurt",
+        "operator:wikidata": "Q130303093",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Stadtwerke Senftenberg",
       "id": "stadtwerkesenftenberg-f7a8ec",
       "locationSet": {
@@ -10526,8 +11070,10 @@
     },
     {
       "displayName": "Stoen Operator",
-      "id": "stoenoperator-83e94a",
-      "locationSet": {"include": ["pl"]},
+      "id": "stoenoperator-eda926",
+      "locationSet": {
+        "include": ["pl-14.geojson"]
+      },
       "matchNames": [
         "rwe stoen operator",
         "stoen operator sp. z o.o."
@@ -10582,19 +11128,6 @@
       }
     },
     {
-      "displayName": "Stromnetz Hamburg",
-      "id": "stromnetzhamburg-de1365",
-      "locationSet": {
-        "include": ["de-hh.geojson"]
-      },
-      "matchNames": ["stromnetz hamburg gmbh"],
-      "tags": {
-        "operator": "Stromnetz Hamburg",
-        "operator:wikidata": "Q18028215",
-        "power": "substation"
-      }
-    },
-    {
       "displayName": "Stromnetzgesellschaft Herrenberg",
       "id": "stromnetzgesellschaftherrenberg-dda049",
       "locationSet": {
@@ -10610,11 +11143,16 @@
       }
     },
     {
-      "displayName": "Stromversorgung Angermünde GmbH",
-      "id": "stromversorgungangermundegmbh-7ff171",
-      "locationSet": {"include": ["de"]},
+      "displayName": "Stromversorgung Angermünde",
+      "id": "stromversorgungangermunde-f7a8ec",
+      "locationSet": {
+        "include": ["de-bb.geojson"]
+      },
+      "matchNames": [
+        "stromversorgung angermünde gmbh"
+      ],
       "tags": {
-        "operator": "Stromversorgung Angermünde GmbH",
+        "operator": "Stromversorgung Angermünde",
         "power": "substation"
       }
     },
@@ -10817,35 +11355,30 @@
       }
     },
     {
-      "displayName": "SWKiel Netz GmbH",
-      "id": "swkielnetzgmbh-7ff171",
+      "displayName": "SWKiel Netz",
+      "id": "swkielnetz-7ff171",
       "locationSet": {"include": ["de"]},
+      "matchNames": ["swkiel netz gmbh"],
       "tags": {
-        "operator": "SWKiel Netz GmbH",
+        "operator": "SWKiel Netz",
         "operator:wikidata": "Q130385984",
         "power": "substation"
       }
     },
     {
-      "displayName": "SWR",
-      "id": "swr-487ae0",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "operator": "SWR",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "SWU Stadtwerke Ulm/Neu-Ulm GmbH",
-      "id": "swustadtwerkeulmneuulmgmbh-d11add",
+      "displayName": "SWU Stadtwerke Ulm/Neu-Ulm",
+      "id": "swustadtwerkeulmneuulm-d11add",
       "locationSet": {
         "include": [
           "de-bw.geojson",
           "de-by.geojson"
         ]
       },
+      "matchNames": [
+        "swu stadtwerke ulm/neu-ulm gmbh"
+      ],
       "tags": {
-        "operator": "SWU Stadtwerke Ulm/Neu-Ulm GmbH",
+        "operator": "SWU Stadtwerke Ulm/Neu-Ulm",
         "operator:short": "SWU",
         "operator:wikidata": "Q2328644",
         "power": "substation"
@@ -10874,6 +11407,34 @@
       }
     },
     {
+      "displayName": "Syna",
+      "id": "syna-5b72d4",
+      "locationSet": {
+        "include": [
+          "de-bw.geojson",
+          "de-he.geojson"
+        ]
+      },
+      "matchNames": ["syna gmbh"],
+      "tags": {
+        "operator": "Syna",
+        "operator:wikidata": "Q124371315",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Synergie Maurienne",
+      "id": "synergiemaurienne-5ba542",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
+      "tags": {
+        "operator": "Synergie Maurienne",
+        "operator:wikidata": "Q92913206",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Tacoma Power",
       "id": "tacomapower-301545",
       "locationSet": {"include": ["us"]},
@@ -10895,8 +11456,10 @@
     },
     {
       "displayName": "TANGEDCO",
-      "id": "tangedco-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "tangedco-9c9b0c",
+      "locationSet": {
+        "include": ["in-tn.geojson"]
+      },
       "tags": {
         "operator": "TANGEDCO",
         "operator:wikidata": "Q17074901",
@@ -10905,10 +11468,13 @@
     },
     {
       "displayName": "TANTRANSCO",
-      "id": "tantransco-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "tantransco-9c9b0c",
+      "locationSet": {
+        "include": ["in-tn.geojson"]
+      },
       "tags": {
         "operator": "TANTRANSCO",
+        "operator:wikidata": "Q17074936",
         "power": "substation"
       }
     },
@@ -10939,13 +11505,16 @@
       }
     },
     {
-      "displayName": "Technische Werke Ludwigshafen AG",
-      "id": "technischewerkeludwigshafenag-4afb0a",
+      "displayName": "Technische Werke Ludwigshafen",
+      "id": "technischewerkeludwigshafen-4afb0a",
       "locationSet": {
         "include": ["de-rp.geojson"]
       },
+      "matchNames": [
+        "technische werke ludwigshafen ag"
+      ],
       "tags": {
-        "operator": "Technische Werke Ludwigshafen AG",
+        "operator": "Technische Werke Ludwigshafen",
         "operator:short": "TWL",
         "operator:wikidata": "Q2399357",
         "power": "substation"
@@ -11004,6 +11573,7 @@
       "locationSet": {"include": ["my"]},
       "matchNames": [
         "tenaga nasional berhad",
+        "tenaga nasional bhd",
         "tenaga national berhad",
         "tnb"
       ],
@@ -11222,8 +11792,10 @@
     },
     {
       "displayName": "TNEB",
-      "id": "tneb-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "tneb-9c9b0c",
+      "locationSet": {
+        "include": ["in-tn.geojson"]
+      },
       "tags": {
         "operator": "TNEB",
         "operator:wikidata": "Q7670848",
@@ -11269,6 +11841,7 @@
       "displayName": "Tramwaje Śląskie",
       "id": "tramwajeslaskie-83e94a",
       "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-24",
       "tags": {
         "operator": "Tramwaje Śląskie",
         "operator:wikidata": "Q9361097",
@@ -11277,8 +11850,10 @@
     },
     {
       "displayName": "Tramwaje Warszawskie",
-      "id": "tramwajewarszawskie-83e94a",
-      "locationSet": {"include": ["pl"]},
+      "id": "tramwajewarszawskie-eda926",
+      "locationSet": {
+        "include": ["pl-14.geojson"]
+      },
       "tags": {
         "operator": "Tramwaje Warszawskie",
         "operator:wikidata": "Q9360809",
@@ -11363,13 +11938,24 @@
       }
     },
     {
-      "displayName": "TransnetBW GmbH",
-      "id": "transnetbwgmbh-dda049",
+      "displayName": "Transnet",
+      "id": "transnet-ae9b5d",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "operator": "Transnet",
+        "operator:wikidata": "Q820804",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "TransnetBW",
+      "id": "transnetbw-dda049",
       "locationSet": {
         "include": ["de-bw.geojson"]
       },
+      "matchNames": ["transnetbw gmbh"],
       "tags": {
-        "operator": "TransnetBW GmbH",
+        "operator": "TransnetBW",
         "operator:wikidata": "Q1672772",
         "power": "substation"
       }
@@ -11433,6 +12019,16 @@
       }
     },
     {
+      "displayName": "Tren Maya",
+      "id": "trenmaya-e47698",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "operator": "Tren Maya",
+        "operator:wikidata": "Q125130546",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Trenes Argentinos",
       "id": "trenesargentinos-e1c05a",
       "locationSet": {"include": ["ar"]},
@@ -11466,10 +12062,13 @@
     },
     {
       "displayName": "TSTRANSCO",
-      "id": "tstransco-487ae0",
-      "locationSet": {"include": ["in"]},
+      "id": "tstransco-925678",
+      "locationSet": {
+        "include": ["in-ts.geojson"]
+      },
       "tags": {
         "operator": "TSTRANSCO",
+        "operator:wikidata": "Q18636656",
         "power": "substation"
       }
     },
@@ -11494,6 +12093,16 @@
         "operator": "Türkiye Cumhuriyeti Devlet Demiryolları",
         "operator:short": "TCDD",
         "operator:wikidata": "Q499967",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Turku Energia",
+      "id": "turkuenergia-a5d6ed",
+      "locationSet": {"include": ["fi"]},
+      "tags": {
+        "operator": "Turku Energia",
+        "operator:wikidata": "Q11898749",
         "power": "substation"
       }
     },
@@ -11557,6 +12166,7 @@
         "south eastern power networks",
         "southern power networks",
         "spn",
+        "uk power networks (spn)",
         "uk power networks plc"
       ],
       "tags": {
@@ -11594,16 +12204,6 @@
       "matchNames": ["unifi, inc."],
       "tags": {
         "operator": "Unifi",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "Union Fenosa",
-      "id": "unionfenosa-294d99",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "operator": "Union Fenosa",
-        "operator:wikidata": "Q2095439",
         "power": "substation"
       }
     },
@@ -11668,14 +12268,14 @@
       }
     },
     {
-      "displayName": "United States Steel",
-      "id": "unitedstatessteel-569b0d",
+      "displayName": "United States Steel Corporation",
+      "id": "unitedstatessteelcorporation-569b0d",
       "locationSet": {
         "include": ["us-al.geojson"]
       },
       "matchNames": ["united states steel corp"],
       "tags": {
-        "operator": "United States Steel",
+        "operator": "United States Steel Corporation",
         "operator:wikidata": "Q72539",
         "power": "substation"
       }
@@ -11857,13 +12457,16 @@
       }
     },
     {
-      "displayName": "Verkehrsbetrieb Potsdam GmbH",
-      "id": "verkehrsbetriebpotsdamgmbh-f7a8ec",
+      "displayName": "Verkehrsbetrieb Potsdam",
+      "id": "verkehrsbetriebpotsdam-f7a8ec",
       "locationSet": {
         "include": ["de-bb.geojson"]
       },
+      "matchNames": [
+        "verkehrsbetrieb potsdam gmbh"
+      ],
       "tags": {
-        "operator": "Verkehrsbetrieb Potsdam GmbH",
+        "operator": "Verkehrsbetrieb Potsdam",
         "operator:wikidata": "Q2516117",
         "power": "substation"
       }
@@ -11952,8 +12555,16 @@
     },
     {
       "displayName": "Viesgo Distribución Eléctrica",
-      "id": "viesgodistribucionelectrica-294d99",
-      "locationSet": {"include": ["es"]},
+      "id": "viesgodistribucionelectrica-f5fe9f",
+      "locationSet": {
+        "include": [
+          "es-bu.geojson",
+          "es-lu.geojson",
+          "es-o.geojson",
+          "es-p.geojson",
+          "es-s.geojson"
+        ]
+      },
       "matchNames": ["viesgo"],
       "tags": {
         "operator": "Viesgo Distribución Eléctrica",
@@ -12061,6 +12672,7 @@
       "displayName": "Vores Elnet",
       "id": "voreselnet-3aeb55",
       "locationSet": {"include": ["dk"]},
+      "matchNames": ["vores elnet a/s"],
       "tags": {
         "operator": "Vores Elnet",
         "power": "substation"
@@ -12344,6 +12956,7 @@
       "displayName": "WO",
       "id": "wo-83e94a",
       "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-18",
       "tags": {
         "operator": "WO",
         "power": "substation"
@@ -12365,13 +12978,14 @@
       }
     },
     {
-      "displayName": "WSW Netz GmbH",
-      "id": "wswnetzgmbh-26c4cf",
+      "displayName": "WSW Netz",
+      "id": "wswnetz-26c4cf",
       "locationSet": {
         "include": ["de-nw.geojson"]
       },
+      "matchNames": ["wsw netz gmbh"],
       "tags": {
-        "operator": "WSW Netz GmbH",
+        "operator": "WSW Netz",
         "operator:wikidata": "Q124371392",
         "power": "substation"
       }
@@ -12415,6 +13029,7 @@
       "displayName": "Západoslovenská distribučná",
       "id": "zapadoslovenskadistribucna-052fd4",
       "locationSet": {"include": ["sk"]},
+      "note": "ISO 3166-2 SK-BL, SK-NI, SK-TA",
       "tags": {
         "operator": "Západoslovenská distribučná",
         "operator:wikidata": "Q108169353",
@@ -12425,6 +13040,7 @@
       "displayName": "ZDMK",
       "id": "zdmk-83e94a",
       "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-12",
       "tags": {
         "operator": "ZDMK",
         "power": "substation"
@@ -12457,8 +13073,11 @@
       "displayName": "АО \"ДРСК\"",
       "id": "037cea-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": ["оао \"дрск\""],
+      "note": "ISO 3166-2 RU-PRI, RU-KHA, RU-SA, RU-YEV, RU-AMU",
       "tags": {
         "operator": "АО \"ДРСК\"",
+        "operator:wikidata": "Q4153434",
         "power": "substation"
       }
     },
@@ -12466,8 +13085,39 @@
       "displayName": "АО \"ИЭСК\"",
       "id": "f7ee36-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-IRK",
       "tags": {
         "operator": "АО \"ИЭСК\"",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "АО \"ОРЭС-Тольятти\"",
+      "id": "fbbdbc-42843b",
+      "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAM",
+      "tags": {
+        "operator": "АО \"ОРЭС-Тольятти\"",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "АО \"РЭС\"",
+      "id": "1547de-42843b",
+      "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-OMS, RU-NVS, RU-KK, RU-KEM, RU-KYA",
+      "tags": {
+        "operator": "АО \"РЭС\"",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "АО \"Самарская сетевая компания\"",
+      "id": "4e721a-42843b",
+      "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAM",
+      "tags": {
+        "operator": "АО \"Самарская сетевая компания\"",
         "power": "substation"
       }
     },
@@ -12475,62 +13125,31 @@
       "displayName": "АО \"Сетевая компания\"",
       "id": "e19896-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-TA",
       "tags": {
         "operator": "АО \"Сетевая компания\"",
+        "operator:wikidata": "Q113410736",
         "power": "substation"
       }
     },
     {
-      "displayName": "АО ОРЭС-Тольятти",
-      "id": "fbbdbc-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "АО ОРЭС-Тольятти",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "АО ОЭК",
-      "id": "1fec25-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "АО ОЭК",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "АО РЭС",
-      "id": "1547de-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "АО РЭС",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "АО Самарская сетевая компания",
-      "id": "4e721a-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "АО Самарская сетевая компания",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "АО Энергосетевая компания",
+      "displayName": "АО «Энергосетевая компания»",
       "id": "73c515-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
-        "operator": "АО Энергосетевая компания",
+        "operator": "АО «Энергосетевая компания»",
         "power": "substation"
       }
     },
     {
-      "displayName": "АО Янтарьэнерго",
-      "id": "f0d7c2-42843b",
+      "displayName": "АО СУЭНКО",
+      "id": "8e6ee5-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": ["пао суэнко"],
+      "note": "ISO 3166-2 RU-KGN",
       "tags": {
-        "operator": "АО Янтарьэнерго",
+        "operator": "АО СУЭНКО",
         "power": "substation"
       }
     },
@@ -12538,6 +13157,7 @@
       "displayName": "Белгородэнерго",
       "id": "73280b-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-BEL",
       "tags": {
         "operator": "Белгородэнерго",
         "power": "substation"
@@ -12565,6 +13185,7 @@
       "displayName": "Брянскэнерго",
       "id": "b5ae9b-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-BRY",
       "tags": {
         "operator": "Брянскэнерго",
         "power": "substation"
@@ -12606,6 +13227,7 @@
       "displayName": "ВМУ-2",
       "id": "e6ee9e-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-VOR",
       "tags": {
         "operator": "ВМУ-2",
         "power": "substation"
@@ -12626,6 +13248,10 @@
       "displayName": "Воронежская Горэлектросеть",
       "id": "54f75b-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": [
+        "муп \"воронежская горэлектросеть\""
+      ],
+      "note": "ISO 3166-2 RU-VOR",
       "tags": {
         "operator": "Воронежская Горэлектросеть",
         "power": "substation"
@@ -12644,6 +13270,7 @@
       "displayName": "ГорЭлектро",
       "id": "8b0f6a-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-TVE",
       "tags": {
         "operator": "ГорЭлектро",
         "power": "substation"
@@ -12653,6 +13280,7 @@
       "displayName": "Горэлектросети",
       "id": "bcde51-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KHM",
       "tags": {
         "operator": "Горэлектросети",
         "power": "substation"
@@ -12664,6 +13292,7 @@
       "locationSet": {"include": ["by"]},
       "tags": {
         "operator": "Гродноэнерго",
+        "operator:wikidata": "Q61744233",
         "power": "substation"
       }
     },
@@ -12707,6 +13336,7 @@
       "displayName": "ДЭС",
       "id": "44f383-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-PRI",
       "tags": {
         "operator": "ДЭС",
         "power": "substation"
@@ -12716,8 +13346,10 @@
       "displayName": "Екатеринбургская электросетевая компания",
       "id": "11d53c-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SVE",
       "tags": {
         "operator": "Екатеринбургская электросетевая компания",
+        "operator:short": "ЕЭСК",
         "power": "substation"
       }
     },
@@ -12796,15 +13428,6 @@
       }
     },
     {
-      "displayName": "ЕЭСК",
-      "id": "912089-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ЕЭСК",
-        "power": "substation"
-      }
-    },
-    {
       "displayName": "Житомиробленерго",
       "id": "4419a9-b0b17c",
       "locationSet": {"include": ["ua"]},
@@ -12830,6 +13453,7 @@
       "displayName": "ЗАО \"НРЕС\"",
       "id": "54244c-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SA",
       "tags": {
         "operator": "ЗАО \"НРЕС\"",
         "power": "substation"
@@ -12839,6 +13463,7 @@
       "displayName": "ЗАО \"Энергетика и Связь Строительства\"",
       "id": "a4c9ec-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAM",
       "tags": {
         "operator": "ЗАО \"Энергетика и Связь Строительства\"",
         "power": "substation"
@@ -12858,6 +13483,7 @@
       "displayName": "Зевс",
       "id": "95d425-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "Зевс",
         "power": "substation"
@@ -12876,6 +13502,7 @@
       "displayName": "ИжГЭТ",
       "id": "51239f-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-UD",
       "tags": {
         "operator": "ИжГЭТ",
         "power": "substation"
@@ -12885,6 +13512,7 @@
       "displayName": "Каббалкэнерго",
       "id": "37ea32-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KB, RU-SE",
       "tags": {
         "operator": "Каббалкэнерго",
         "power": "substation"
@@ -12894,6 +13522,7 @@
       "displayName": "Казанские электрические сети",
       "id": "946b82-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-TA",
       "tags": {
         "operator": "Казанские электрические сети",
         "power": "substation"
@@ -12903,6 +13532,7 @@
       "displayName": "Калмэнерго",
       "id": "96c48a-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KL, RU-STA",
       "tags": {
         "operator": "Калмэнерго",
         "power": "substation"
@@ -12912,6 +13542,8 @@
       "displayName": "Калугаэнерго",
       "id": "efe635-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": ["оао \"калугаэнерго\""],
+      "note": "ISO 3166-2 RU-KLU",
       "tags": {
         "operator": "Калугаэнерго",
         "power": "substation"
@@ -12945,6 +13577,7 @@
         "знам'янський рем",
         "кіровоградський міський рем",
         "кіровоградський рем",
+        "новгородківський рем",
         "олександрівський рем"
       ],
       "tags": {
@@ -12957,6 +13590,7 @@
       "displayName": "Колэнерго",
       "id": "2c502b-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-MUR",
       "tags": {
         "operator": "Колэнерго",
         "operator:wikidata": "Q4229038",
@@ -12986,6 +13620,7 @@
       "displayName": "Курскэнерго",
       "id": "54f35b-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KRS",
       "tags": {
         "operator": "Курскэнерго",
         "power": "substation"
@@ -12995,6 +13630,7 @@
       "displayName": "Левашинсие РЭС",
       "id": "ad4392-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-DA",
       "tags": {
         "operator": "Левашинсие РЭС",
         "power": "substation"
@@ -13004,8 +13640,11 @@
       "displayName": "Ленэнерго",
       "id": "e6193d-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": ["пао \"ленэнерго\""],
+      "note": "ISO 3166-2 RU-LEN, RU-SPE, RU-NGR",
       "tags": {
         "operator": "Ленэнерго",
+        "operator:wikidata": "Q4258700",
         "power": "substation"
       }
     },
@@ -13013,6 +13652,7 @@
       "displayName": "Липецкэнерго",
       "id": "1bab13-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-LIP",
       "tags": {
         "operator": "Липецкэнерго",
         "power": "substation"
@@ -13022,6 +13662,7 @@
       "displayName": "ЛОЭСК",
       "id": "c6dafd-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-LEN, RU-VLG",
       "tags": {
         "operator": "ЛОЭСК",
         "operator:wikidata": "Q4258112",
@@ -13089,6 +13730,7 @@
       "displayName": "МКП МТК \"Воронежпассажиртранс\"",
       "id": "759720-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-VOR",
       "tags": {
         "operator": "МКП МТК \"Воронежпассажиртранс\"",
         "power": "substation"
@@ -13108,6 +13750,7 @@
       "displayName": "Московско-Рязанское отделение",
       "id": "715db6-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-RYA",
       "tags": {
         "operator": "Московско-Рязанское отделение",
         "power": "substation"
@@ -13117,8 +13760,10 @@
       "displayName": "МОЭК",
       "id": "738c38-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-MOS, RU-MOW",
       "tags": {
         "operator": "МОЭК",
+        "operator:wikidata": "Q4303935",
         "power": "substation"
       }
     },
@@ -13126,6 +13771,11 @@
       "displayName": "МОЭСК",
       "id": "8e35df-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": [
+        "оао \"моэск\"",
+        "пао «моэск»"
+      ],
+      "note": "ISO 3166-2 RU-MOS, RU-MOW",
       "tags": {
         "operator": "МОЭСК",
         "power": "substation"
@@ -13135,8 +13785,23 @@
       "displayName": "МП «Инженерные сети»",
       "id": "25b7da-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "МП «Инженерные сети»",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "МРСК Волги",
+      "id": "c61f8b-42843b",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": [
+        "оао «мрск волги»",
+        "пао «мрск волги»"
+      ],
+      "note": "ISO 3166-2 RU-CU, RU-MO, RU-SAR",
+      "tags": {
+        "operator": "МРСК Волги",
         "power": "substation"
       }
     },
@@ -13144,6 +13809,7 @@
       "displayName": "МРСК Урала - Пермэнерго",
       "id": "59bd60-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-PER",
       "tags": {
         "operator": "МРСК Урала - Пермэнерго",
         "power": "substation"
@@ -13153,6 +13819,10 @@
       "displayName": "МРСК Центра",
       "id": "86e0e8-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": [
+        "оао \"мрск центра\"",
+        "пао \"мрск центра\""
+      ],
       "tags": {
         "operator": "МРСК Центра",
         "power": "substation"
@@ -13171,17 +13841,9 @@
       "displayName": "МРСК-1",
       "id": "06d162-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KOS, RU-TVE, RU-YAR",
       "tags": {
         "operator": "МРСК-1",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "МУП \"Воронежская горэлектросеть\"",
-      "id": "0d91bc-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "МУП \"Воронежская горэлектросеть\"",
         "power": "substation"
       }
     },
@@ -13189,6 +13851,7 @@
       "displayName": "МУП \"НЭСК\"",
       "id": "1cd58b-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-ARK",
       "tags": {
         "operator": "МУП \"НЭСК\"",
         "power": "substation"
@@ -13198,6 +13861,7 @@
       "displayName": "МУП \"Электросервис\"",
       "id": "ec75dd-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAK",
       "tags": {
         "operator": "МУП \"Электросервис\"",
         "power": "substation"
@@ -13207,6 +13871,7 @@
       "displayName": "МУП УльГЭС",
       "id": "faf577-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-ULY",
       "tags": {
         "operator": "МУП УльГЭС",
         "power": "substation"
@@ -13216,6 +13881,7 @@
       "displayName": "Набережночелнинские электрические сети",
       "id": "ef9589-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-TA",
       "tags": {
         "operator": "Набережночелнинские электрические сети",
         "power": "substation"
@@ -13245,27 +13911,10 @@
       }
     },
     {
-      "displayName": "НЧЭС",
-      "id": "ee5b30-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "НЧЭС",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО \"ДРСК\"",
-      "id": "b3f527-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО \"ДРСК\"",
-        "power": "substation"
-      }
-    },
-    {
       "displayName": "ОАО \"Ивэнерго\"",
       "id": "e0767f-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-IVA",
       "tags": {
         "operator": "ОАО \"Ивэнерго\"",
         "power": "substation"
@@ -13275,17 +13924,9 @@
       "displayName": "ОАО \"Иркутская электросетевая компания\"",
       "id": "f618c9-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-IRK",
       "tags": {
         "operator": "ОАО \"Иркутская электросетевая компания\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО \"Калугаэнерго\"",
-      "id": "015423-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО \"Калугаэнерго\"",
         "power": "substation"
       }
     },
@@ -13293,35 +13934,9 @@
       "displayName": "ОАО \"КЭСК\"",
       "id": "581d7e-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KR",
       "tags": {
         "operator": "ОАО \"КЭСК\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО \"МОЭСК\"",
-      "id": "f37282-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО \"МОЭСК\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО \"МРСК Центра\"",
-      "id": "904e6b-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО \"МРСК Центра\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО \"МРСК ЮГА\"",
-      "id": "6822f3-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО \"МРСК ЮГА\"",
         "power": "substation"
       }
     },
@@ -13329,17 +13944,10 @@
       "displayName": "ОАО \"Пермэнерго\"",
       "id": "671b35-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-PER",
       "tags": {
         "operator": "ОАО \"Пермэнерго\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО \"РЖД\"",
-      "id": "5ea107-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО \"РЖД\"",
+        "operator:wikidata": "Q4351575",
         "power": "substation"
       }
     },
@@ -13347,35 +13955,9 @@
       "displayName": "ОАО \"Тюменьэнерго\" ПАО \"Россети\"",
       "id": "d6b97f-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KHM",
       "tags": {
         "operator": "ОАО \"Тюменьэнерго\" ПАО \"Россети\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО \"ФСК ЕЭС\"",
-      "id": "a80300-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО \"ФСК ЕЭС\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО «МРСК Волги»",
-      "id": "c46792-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО «МРСК Волги»",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ОАО «РусГидро»",
-      "id": "ef0fa4-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ОАО «РусГидро»",
         "power": "substation"
       }
     },
@@ -13389,11 +13971,21 @@
       }
     },
     {
-      "displayName": "Объединенная энергетическая компания",
-      "id": "a76e6a-42843b",
-      "locationSet": {"include": ["ru"]},
+      "displayName": "Объединенная энергетическая компания (Москва)",
+      "id": "a76e6a-95ab39",
+      "locationSet": {
+        "include": ["ru"],
+        "exclude": [
+          "ru-len.geojson",
+          "ru-spe.geojson"
+        ]
+      },
+      "matchNames": ["ао «оэк»"],
+      "note": "ISO 3166-2 RU-MOW",
       "tags": {
         "operator": "Объединенная энергетическая компания",
+        "operator:short": "ОЭК",
+        "operator:wikidata": "Q4330418",
         "power": "substation"
       }
     },
@@ -13414,6 +14006,7 @@
       "displayName": "ОКЭ",
       "id": "32fefa-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-IRK",
       "tags": {
         "operator": "ОКЭ",
         "power": "substation"
@@ -13423,6 +14016,7 @@
       "displayName": "ООО 'Мосэнергосбыт – Жуковский'",
       "id": "f2ea4d-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-MOS",
       "tags": {
         "operator": "ООО 'Мосэнергосбыт – Жуковский'",
         "power": "substation"
@@ -13432,6 +14026,7 @@
       "displayName": "ООО \"АСЭП\"",
       "id": "fcb8cf-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-ARK",
       "tags": {
         "operator": "ООО \"АСЭП\"",
         "power": "substation"
@@ -13441,6 +14036,7 @@
       "displayName": "ООО \"Востокнефтепровод\"",
       "id": "23025a-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-AMU, RU-SA",
       "tags": {
         "operator": "ООО \"Востокнефтепровод\"",
         "power": "substation"
@@ -13450,6 +14046,7 @@
       "displayName": "ООО \"НПЭК\"",
       "id": "de5c0d-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "ООО \"НПЭК\"",
         "power": "substation"
@@ -13459,6 +14056,7 @@
       "displayName": "ООО «Волгоэлектросеть»",
       "id": "c7d843-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "ООО «Волгоэлектросеть»",
         "power": "substation"
@@ -13468,6 +14066,7 @@
       "displayName": "ООО «Заводские сети»",
       "id": "d64417-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "ООО «Заводские сети»",
         "power": "substation"
@@ -13477,6 +14076,7 @@
       "displayName": "ООО «Зефс-Энерго»",
       "id": "5a5566-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "ООО «Зефс-Энерго»",
         "power": "substation"
@@ -13486,6 +14086,7 @@
       "displayName": "ООО «Электросети»",
       "id": "eb6366-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "ООО «Электросети»",
         "power": "substation"
@@ -13495,6 +14096,7 @@
       "displayName": "ООО «Энергосети»",
       "id": "6330e4-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "ООО «Энергосети»",
         "power": "substation"
@@ -13504,6 +14106,7 @@
       "displayName": "Орёлэнерго",
       "id": "387c6f-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-ORL",
       "tags": {
         "operator": "Орёлэнерго",
         "power": "substation"
@@ -13513,6 +14116,7 @@
       "displayName": "Оренбургэнерго, Восточные электрические сети",
       "id": "19fafa-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-ORE",
       "tags": {
         "operator": "Оренбургэнерго, Восточные электрические сети",
         "power": "substation"
@@ -13522,35 +14126,34 @@
       "displayName": "ОЭЗ ППТ Алабуга",
       "id": "3d674b-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-TA",
       "tags": {
         "operator": "ОЭЗ ППТ Алабуга",
         "power": "substation"
       }
     },
     {
-      "displayName": "ОЭК",
-      "id": "f1ee6a-42843b",
-      "locationSet": {"include": ["ru"]},
+      "displayName": "ОЭК (Санкт-Петербург)",
+      "id": "f1ee6a-714b65",
+      "locationSet": {
+        "include": [
+          "ru-len.geojson",
+          "ru-spe.geojson"
+        ]
+      },
       "tags": {
         "operator": "ОЭК",
         "power": "substation"
       }
     },
     {
-      "displayName": "ПАО \"КАМЧАТСКЭНЕРГО\"",
+      "displayName": "ПАО \"Камчатскэнерго\"",
       "id": "905a61-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KAM",
       "tags": {
-        "operator": "ПАО \"КАМЧАТСКЭНЕРГО\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО \"Ленэнерго\"",
-      "id": "7771ec-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО \"Ленэнерго\"",
+        "operator": "ПАО \"Камчатскэнерго\"",
+        "operator:wikidata": "Q4211802",
         "power": "substation"
       }
     },
@@ -13558,6 +14161,7 @@
       "displayName": "ПАО \"МРСК Волги\" - Самарские РС",
       "id": "464ab6-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAM, RU-ULY",
       "tags": {
         "operator": "ПАО \"МРСК Волги\" - Самарские РС",
         "power": "substation"
@@ -13567,6 +14171,7 @@
       "displayName": "ПАО \"МРСК Северного Кавказа\"",
       "id": "c7bf83-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-CE, RU-KC",
       "tags": {
         "operator": "ПАО \"МРСК Северного Кавказа\"",
         "power": "substation"
@@ -13589,26 +14194,9 @@
       "displayName": "ПАО \"МРСК Сибири\" - \"Красноярскэнерго\"",
       "id": "6e8a25-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KYA",
       "tags": {
         "operator": "ПАО \"МРСК Сибири\" - \"Красноярскэнерго\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО \"МРСК Центра\"",
-      "id": "ec167f-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО \"МРСК Центра\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО \"МРСК ЮГА\"",
-      "id": "6e0b52-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО \"МРСК ЮГА\"",
         "power": "substation"
       }
     },
@@ -13616,44 +14204,9 @@
       "displayName": "ПАО \"Россети Волга\"/Филиал \"Саратовские распределительные сети\"",
       "id": "80a090-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAR",
       "tags": {
         "operator": "ПАО \"Россети Волга\"/Филиал \"Саратовские распределительные сети\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО \"Россети\"",
-      "id": "3ff2a0-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО \"Россети\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО \"ФСК ЕЭС\"",
-      "id": "3783e2-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО \"ФСК ЕЭС\"",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО «МОЭСК»",
-      "id": "6ef0d7-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО «МОЭСК»",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО «МРСК Волги»",
-      "id": "2dbdf2-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО «МРСК Волги»",
         "power": "substation"
       }
     },
@@ -13661,17 +14214,10 @@
       "displayName": "ПАО «МРСК Сибири»",
       "id": "471e51-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-AL, RU-ALT",
       "tags": {
         "operator": "ПАО «МРСК Сибири»",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО «МРСК Центра и Приволжья»",
-      "id": "458c19-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО «МРСК Центра и Приволжья»",
+        "operator:wikidata": "Q4273588",
         "power": "substation"
       }
     },
@@ -13679,6 +14225,7 @@
       "displayName": "ПАО «Россети Волга»",
       "id": "edfd51-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAM, RU-SAR",
       "tags": {
         "operator": "ПАО «Россети Волга»",
         "power": "substation"
@@ -13688,8 +14235,10 @@
       "displayName": "ПАО «Россети Кубань»",
       "id": "3b4dee-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-AD, RU-KDA",
       "tags": {
         "operator": "ПАО «Россети Кубань»",
+        "operator:wikidata": "Q4243549",
         "power": "substation"
       }
     },
@@ -13697,26 +14246,9 @@
       "displayName": "ПАО «Россети Центр и Приволжье»",
       "id": "d3b505-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "ПАО «Россети Центр и Приволжье»",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО РЖД",
-      "id": "418917-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО РЖД",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "ПАО СУЭНКО",
-      "id": "11be48-42843b",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "operator": "ПАО СУЭНКО",
         "power": "substation"
       }
     },
@@ -13769,6 +14301,7 @@
       "displayName": "ПО \"Калужские электрические сети\"",
       "id": "43cf85-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KLU",
       "tags": {
         "operator": "ПО \"Калужские электрические сети\"",
         "power": "substation"
@@ -13778,6 +14311,7 @@
       "displayName": "ПО \"Кировские электрические сети\"",
       "id": "dee5a1-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KLU",
       "tags": {
         "operator": "ПО \"Кировские электрические сети\"",
         "power": "substation"
@@ -13787,6 +14321,7 @@
       "displayName": "ПО \"Кировские электросети\"",
       "id": "c9b087-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KLU",
       "tags": {
         "operator": "ПО \"Кировские электросети\"",
         "power": "substation"
@@ -13796,6 +14331,7 @@
       "displayName": "ПО \"Обнинские электрические сети\"",
       "id": "5f68df-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KLU",
       "tags": {
         "operator": "ПО \"Обнинские электрические сети\"",
         "power": "substation"
@@ -13805,6 +14341,7 @@
       "displayName": "ПО \"Сасовские электрические сети\"",
       "id": "fc6b1d-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-MO, RU-RYA",
       "tags": {
         "operator": "ПО \"Сасовские электрические сети\"",
         "power": "substation"
@@ -13838,6 +14375,7 @@
       "displayName": "Производственное отделение \"Воркутинские электрические сети\"",
       "id": "40cf3b-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KO",
       "tags": {
         "operator": "Производственное отделение \"Воркутинские электрические сети\"",
         "power": "substation"
@@ -13847,6 +14385,7 @@
       "displayName": "Промтехэнерго",
       "id": "f25d09-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NVS",
       "tags": {
         "operator": "Промтехэнерго",
         "power": "substation"
@@ -13866,6 +14405,7 @@
       "displayName": "РЖД - Свердловская ЖД",
       "id": "c51d28-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-PER",
       "tags": {
         "operator": "РЖД - Свердловская ЖД",
         "power": "substation"
@@ -13891,6 +14431,7 @@
       "displayName": "Россети",
       "id": "rosseti-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": ["пао \"россети\""],
       "tags": {
         "operator": "Россети",
         "operator:en": "Rosseti",
@@ -13901,8 +14442,13 @@
     },
     {
       "displayName": "Россети Ленэнерго",
-      "id": "f46a1f-42843b",
-      "locationSet": {"include": ["ru"]},
+      "id": "f46a1f-714b65",
+      "locationSet": {
+        "include": [
+          "ru-len.geojson",
+          "ru-spe.geojson"
+        ]
+      },
       "tags": {
         "operator": "Россети Ленэнерго",
         "power": "substation"
@@ -13912,8 +14458,25 @@
       "displayName": "Россети Тюмень",
       "id": "0f6078-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KHM, RU-YAN",
       "tags": {
         "operator": "Россети Тюмень",
+        "operator:wikidata": "Q16708986",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "Россети Юг",
+      "id": "d62d15-42843b",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": [
+        "оао \"мрск юга\"",
+        "пао \"мрск юга\""
+      ],
+      "note": "ISO 3166-2 RU-KL, RU-ROS",
+      "tags": {
+        "operator": "Россети Юг",
+        "operator:wikidata": "Q4273591",
         "power": "substation"
       }
     },
@@ -13921,6 +14484,7 @@
       "displayName": "Россети, филиал ПАО \"МРСК Сибири\" - \"Хакасэнерго\", Усть-Абаканский РЭС",
       "id": "2b4f93-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-KK",
       "tags": {
         "operator": "Россети, филиал ПАО \"МРСК Сибири\" - \"Хакасэнерго\", Усть-Абаканский РЭС",
         "power": "substation"
@@ -13930,6 +14494,7 @@
       "displayName": "Российские железные дороги",
       "id": "russianrailways-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": ["оао \"ржд\"", "пао ржд"],
       "tags": {
         "operator": "Российские железные дороги",
         "operator:en": "Russian Railways",
@@ -13940,9 +14505,21 @@
       }
     },
     {
+      "displayName": "РусГидро",
+      "id": "70aabc-42843b",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": ["оао «русгидро»"],
+      "tags": {
+        "operator": "РусГидро",
+        "operator:wikidata": "Q2035424",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "Рязаньэнерго",
       "id": "0eb03f-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-RYA",
       "tags": {
         "operator": "Рязаньэнерго",
         "power": "substation"
@@ -13952,6 +14529,7 @@
       "displayName": "Сахалинэнерго",
       "id": "sakhalinenergo-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAK",
       "tags": {
         "operator": "Сахалинэнерго",
         "operator:en": "Sakhalinenergo",
@@ -13964,6 +14542,7 @@
       "displayName": "Свердловская дирекция инфраструктуры АО «РЖД»",
       "id": "95d511-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-PER, RU-SVE, RU-UD, RU-YAN",
       "tags": {
         "operator": "Свердловская дирекция инфраструктуры АО «РЖД»",
         "power": "substation"
@@ -13973,17 +14552,23 @@
       "displayName": "Свердловская дирекция по энергообеспечению Трансэнерго АО «РЖД»",
       "id": "cef8cc-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-PER, RU-SVE, RU-UD",
       "tags": {
         "operator": "Свердловская дирекция по энергообеспечению Трансэнерго АО «РЖД»",
         "power": "substation"
       }
     },
     {
-      "displayName": "Свердловская железная дорога - филиал ОАО «РЖД»",
-      "id": "f9fd92-42843b",
+      "displayName": "Свердловская железная дорога",
+      "id": "91b4bf-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": [
+        "свердловская железная дорога - филиал оао «ржд»"
+      ],
+      "note": "ISO 3166-2 RU-SVE",
       "tags": {
-        "operator": "Свердловская железная дорога - филиал ОАО «РЖД»",
+        "operator": "Свердловская железная дорога",
+        "operator:wikidata": "Q2095427",
         "power": "substation"
       }
     },
@@ -14001,6 +14586,7 @@
       "displayName": "Сормовский РЭС",
       "id": "b5355a-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NIZ",
       "tags": {
         "operator": "Сормовский РЭС",
         "power": "substation"
@@ -14010,6 +14596,7 @@
       "displayName": "Ставропольэнерго",
       "id": "e89e2a-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-STA",
       "tags": {
         "operator": "Ставропольэнерго",
         "power": "substation"
@@ -14083,6 +14670,7 @@
       "displayName": "УЭВ СО РАН",
       "id": "289fb6-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-NVS",
       "tags": {
         "operator": "УЭВ СО РАН",
         "power": "substation"
@@ -14092,6 +14680,7 @@
       "displayName": "Филиал \"Распределительные сети\" ПАО \"Сахалинэнерго\"",
       "id": "6bca9c-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAK",
       "tags": {
         "operator": "Филиал \"Распределительные сети\" ПАО \"Сахалинэнерго\"",
         "power": "substation"
@@ -14101,6 +14690,7 @@
       "displayName": "Филиал «Россети Северный Кавказ» - «Ставропольэнерго»",
       "id": "a04cc1-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-STA",
       "tags": {
         "operator": "Филиал «Россети Северный Кавказ» - «Ставропольэнерго»",
         "power": "substation"
@@ -14110,6 +14700,7 @@
       "displayName": "Филиал ОАО \"ИЭСК\" \"Южные электрические сети\"",
       "id": "6fce2c-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-IRK",
       "tags": {
         "operator": "Филиал ОАО \"ИЭСК\" \"Южные электрические сети\"",
         "power": "substation"
@@ -14119,6 +14710,7 @@
       "displayName": "Филиал ОАО \"МРСК Центра\" - \"Ярэнерго\"",
       "id": "edfaac-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-YAR",
       "tags": {
         "operator": "Филиал ОАО \"МРСК Центра\" - \"Ярэнерго\"",
         "power": "substation"
@@ -14128,6 +14720,7 @@
       "displayName": "Филиал ПАО \"МРСК Волги\" - \"Оренбургэнерго\"",
       "id": "95bc7d-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-ORE",
       "tags": {
         "operator": "Филиал ПАО \"МРСК Волги\" - \"Оренбургэнерго\"",
         "power": "substation"
@@ -14137,6 +14730,7 @@
       "displayName": "Филиал ПАО \"МРСК Сибири\" -\"Омскэнерго\"",
       "id": "7977c5-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-OMS",
       "tags": {
         "operator": "Филиал ПАО \"МРСК Сибири\" -\"Омскэнерго\"",
         "power": "substation"
@@ -14146,6 +14740,7 @@
       "displayName": "филиал ПАО \"МРСК Юга\" - \"Ростовэнерго\"",
       "id": "229251-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-ROS",
       "tags": {
         "operator": "филиал ПАО \"МРСК Юга\" - \"Ростовэнерго\"",
         "power": "substation"
@@ -14155,6 +14750,7 @@
       "displayName": "Филиал ПАО \"Россети Волга\" - \"Саратовские РС\"",
       "id": "d084cf-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-SAR",
       "tags": {
         "operator": "Филиал ПАО \"Россети Волга\" - \"Саратовские РС\"",
         "power": "substation"
@@ -14164,6 +14760,7 @@
       "displayName": "Филиал ПАО \"Россети Сибирь\" -\"Омскэнерго\"",
       "id": "ebdcd3-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-OMS",
       "tags": {
         "operator": "Филиал ПАО \"Россети Сибирь\" -\"Омскэнерго\"",
         "power": "substation"
@@ -14173,6 +14770,7 @@
       "displayName": "Филиал ПАО \"Россети Юг\" - \"Волгоградэнерго\"",
       "id": "9db934-42843b",
       "locationSet": {"include": ["ru"]},
+      "note": "ISO 3166-2 RU-VGG",
       "tags": {
         "operator": "Филиал ПАО \"Россети Юг\" - \"Волгоградэнерго\"",
         "power": "substation"
@@ -14191,6 +14789,10 @@
       "displayName": "ФСК ЕЭС",
       "id": "fgcues-42843b",
       "locationSet": {"include": ["ru"]},
+      "matchNames": [
+        "оао \"фск еэс\"",
+        "пао \"фск еэс\""
+      ],
       "tags": {
         "operator": "ФСК ЕЭС",
         "operator:en": "FGC UES",
@@ -14287,6 +14889,19 @@
       }
     },
     {
+      "displayName": "Янтарьэнерго",
+      "id": "1080b9-c02736",
+      "locationSet": {
+        "include": ["ru-kgd.geojson"]
+      },
+      "matchNames": ["ао янтарьэнерго"],
+      "tags": {
+        "operator": "Янтарьэнерго",
+        "operator:wikidata": "Q4538282",
+        "power": "substation"
+      }
+    },
+    {
       "displayName": "الشركة التونسية للكهرباء والغاز",
       "id": "tunisiancompanyofelectricityandgas-753f7e",
       "locationSet": {"include": ["tn"]},
@@ -14350,6 +14965,7 @@
       "displayName": "中国南方电网",
       "id": "chinasouthernpowergrid-f1135f",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["csg", "南方电网"],
       "tags": {
         "operator": "中国南方电网",
         "operator:en": "China Southern Power Grid",
@@ -14439,23 +15055,20 @@
     },
     {
       "displayName": "北陸電力送配電",
-      "id": "hokurikuelectricpowertransmissionanddistributioncompany-85251b",
-      "locationSet": {"include": ["jp"]},
+      "id": "hokurikuelectricpowertransmissionanddistributioncompany-ac505c",
+      "locationSet": {
+        "include": [
+          "jp-16.geojson",
+          "jp-17.geojson",
+          "jp-18.geojson"
+        ]
+      },
       "matchNames": ["北陸電力", "北陸電力株式会社"],
       "tags": {
         "operator": "北陸電力送配電",
         "operator:en": "Hokuriku Electric Power Transmission & Distribution Company",
         "operator:ja": "北陸電力送配電",
         "operator:wikidata": "Q65142438",
-        "power": "substation"
-      }
-    },
-    {
-      "displayName": "南方电网",
-      "id": "c6d1c4-f1135f",
-      "locationSet": {"include": ["cn"]},
-      "tags": {
-        "operator": "南方电网",
         "power": "substation"
       }
     },
@@ -14473,8 +15086,15 @@
     },
     {
       "displayName": "四国電力送配電",
-      "id": "shikokuelectricpowertransmissionanddistributioncompany-85251b",
-      "locationSet": {"include": ["jp"]},
+      "id": "shikokuelectricpowertransmissionanddistributioncompany-e3b241",
+      "locationSet": {
+        "include": [
+          "jp-36.geojson",
+          "jp-37.geojson",
+          "jp-38.geojson",
+          "jp-39.geojson"
+        ]
+      },
       "matchNames": ["四国電力", "四国電力株式会社"],
       "tags": {
         "operator": "四国電力送配電",
@@ -14500,6 +15120,7 @@
       "displayName": "国网江苏省电力有限公司常州供电分公司",
       "id": "112c1d-f1135f",
       "locationSet": {"include": ["cn"]},
+      "note": "ISO 3166-2 CN-JS",
       "tags": {
         "operator": "国网江苏省电力有限公司常州供电分公司",
         "power": "substation"
@@ -14512,6 +15133,7 @@
         "include": ["cn"],
         "exclude": ["hk", "mo"]
       },
+      "note": "ISO 3166-2 CN-JS",
       "tags": {
         "operator": "国网江苏省电力有限公司无锡供电分公司",
         "power": "substation"
@@ -14530,6 +15152,7 @@
       "displayName": "广东电网茂名供电局",
       "id": "3f219a-f1135f",
       "locationSet": {"include": ["cn"]},
+      "note": "ISO 3166-2 CN-GD",
       "tags": {
         "operator": "广东电网茂名供电局",
         "power": "substation"
@@ -14563,8 +15186,16 @@
     },
     {
       "displayName": "東武鉄道",
-      "id": "toburailway-85251b",
-      "locationSet": {"include": ["jp"]},
+      "id": "toburailway-a16c32",
+      "locationSet": {
+        "include": [
+          "jp-09.geojson",
+          "jp-10.geojson",
+          "jp-11.geojson",
+          "jp-12.geojson",
+          "jp-13.geojson"
+        ]
+      },
       "matchNames": ["東武鉄道株式会社"],
       "tags": {
         "operator": "東武鉄道",
@@ -14578,9 +15209,21 @@
       }
     },
     {
-      "displayName": "沖縄電力",
-      "id": "okinawaelectricpowercompany-85251b",
+      "displayName": "東海旅客鉄道",
+      "id": "b40412-85251b",
       "locationSet": {"include": ["jp"]},
+      "tags": {
+        "operator": "東海旅客鉄道",
+        "operator:wikidata": "Q513679",
+        "power": "substation"
+      }
+    },
+    {
+      "displayName": "沖縄電力",
+      "id": "okinawaelectricpowercompany-50678b",
+      "locationSet": {
+        "include": ["jp-47.geojson"]
+      },
       "matchNames": ["沖縄電力株式会社"],
       "tags": {
         "operator": "沖縄電力",
@@ -14593,7 +15236,7 @@
     },
     {
       "displayName": "澳門電力股份有限公司 Companhia de Electricidade de Macau",
-      "id": "e30df9-9f60fb",
+      "id": "companhiadeelectricidadedemacau-9f60fb",
       "locationSet": {"include": ["mo"]},
       "tags": {
         "operator": "澳門電力股份有限公司 Companhia de Electricidade de Macau",

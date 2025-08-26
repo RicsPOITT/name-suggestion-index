@@ -24,7 +24,6 @@
         "brand:ja": "バスキン・ロビンス",
         "brand:wikidata": "Q584601",
         "brand:zh": "31冰淇淋",
-        "cuisine": "ice_cream",
         "name": "31冰淇淋",
         "name:en": "Baskin-Robbins",
         "name:ja": "サーティワンアイスクリーム",
@@ -110,6 +109,16 @@
       }
     },
     {
+      "displayName": "Sweet Jesus",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Sweet Jesus",
+        "brand:wikidata": "Q135969904",
+        "name": "Sweet Jesus",
+      }
+    },
+    {
       "displayName": "Andy's Frozen Custard",
       "id": "andysfrozencustard-8697a4",
       "locationSet": {"include": ["us"]},
@@ -145,7 +154,6 @@
         "amenity": "ice_cream",
         "brand": "Baskin-Robbins",
         "brand:wikidata": "Q584601",
-        "cuisine": "ice_cream",
         "name": "Baskin-Robbins"
       }
     },
@@ -157,7 +165,6 @@
         "amenity": "ice_cream",
         "brand": "Ben & Jerry's",
         "brand:wikidata": "Q816412",
-        "cuisine": "ice_cream",
         "name": "Ben & Jerry's"
       }
     },
@@ -184,7 +191,6 @@
         "amenity": "ice_cream",
         "brand": "Bruster's Ice Cream",
         "brand:wikidata": "Q4979810",
-        "cuisine": "ice_cream",
         "name": "Bruster's Ice Cream"
       }
     },
@@ -196,7 +202,6 @@
         "amenity": "ice_cream",
         "brand": "Carvel",
         "brand:wikidata": "Q5047520",
-        "cuisine": "ice_cream",
         "name": "Carvel",
         "takeaway": "yes"
       }
@@ -220,7 +225,6 @@
         "amenity": "ice_cream",
         "brand": "Cold Rock Ice Creamery",
         "brand:wikidata": "Q2982390",
-        "cuisine": "ice_cream",
         "name": "Cold Rock Ice Creamery",
         "takeaway": "yes"
       }
@@ -234,7 +238,6 @@
         "amenity": "ice_cream",
         "brand": "Cold Stone Creamery",
         "brand:wikidata": "Q1094923",
-        "cuisine": "ice_cream",
         "name": "Cold Stone Creamery"
       }
     },
@@ -263,7 +266,6 @@
         "amenity": "ice_cream",
         "brand": "Creams",
         "brand:wikidata": "Q111811895",
-        "cuisine": "ice_cream",
         "name": "Creams"
       }
     },
@@ -275,7 +277,6 @@
         "amenity": "ice_cream",
         "brand": "D'Onofrio",
         "brand:wikidata": "Q5203166",
-        "cuisine": "ice_cream",
         "name": "D'Onofrio"
       }
     },
@@ -334,7 +335,6 @@
         "amenity": "ice_cream",
         "brand": "Freddo",
         "brand:wikidata": "Q28823999",
-        "cuisine": "ice_cream",
         "name": "Freddo"
       }
     },
@@ -346,7 +346,6 @@
         "amenity": "ice_cream",
         "brand": "Gelateria di Berna",
         "brand:wikidata": "Q111714021",
-        "cuisine": "ice_cream",
         "name": "Gelateria di Berna",
         "takeaway": "yes"
       }
@@ -369,7 +368,6 @@
         "amenity": "ice_cream",
         "brand": "Gelatissimo",
         "brand:wikidata": "Q105270111",
-        "cuisine": "ice_cream",
         "name": "Gelatissimo",
         "takeaway": "yes"
       }
@@ -405,7 +403,6 @@
         "amenity": "ice_cream",
         "brand": "Graeter's",
         "brand:wikidata": "Q5592430",
-        "cuisine": "ice_cream",
         "name": "Graeter's",
         "takeaway": "yes"
       }
@@ -419,7 +416,6 @@
         "amenity": "ice_cream",
         "brand": "Grido",
         "brand:wikidata": "Q5885724",
-        "cuisine": "ice_cream",
         "name": "Grido"
       }
     },
@@ -445,7 +441,6 @@
         "amenity": "ice_cream",
         "brand": "Grom",
         "brand:wikidata": "Q3776892",
-        "cuisine": "ice_cream",
         "name": "Grom",
         "takeaway": "yes"
       }
@@ -614,7 +609,6 @@
         "amenity": "ice_cream",
         "brand": "Lody Bonano",
         "brand:wikidata": "Q126195991",
-        "cuisine": "ice_cream",
         "name": "Lody Bonano",
         "takeaway": "yes"
       }
@@ -641,7 +635,6 @@
         "amenity": "ice_cream",
         "brand": "Marble Slab Creamery",
         "brand:wikidata": "Q17020087",
-        "cuisine": "ice_cream",
         "name": "Marble Slab Creamery"
       }
     },
@@ -685,7 +678,6 @@
         "amenity": "ice_cream",
         "brand": "Messina",
         "brand:wikidata": "Q120668671",
-        "cuisine": "ice_cream",
         "name": "Messina"
       }
     },
@@ -708,7 +700,6 @@
         "amenity": "ice_cream",
         "brand": "Naturals",
         "brand:wikidata": "Q24439154",
-        "cuisine": "ice_cream",
         "name": "Naturals"
       }
     },
@@ -744,7 +735,6 @@
         "amenity": "ice_cream",
         "brand": "Orange Leaf Frozen Yogurt",
         "brand:wikidata": "Q18155467",
-        "cuisine": "ice_cream",
         "name": "Orange Leaf Frozen Yogurt"
       }
     },
@@ -816,7 +806,6 @@
         "amenity": "ice_cream",
         "brand": "Popsy",
         "brand:wikidata": "Q100156171",
-        "cuisine": "ice_cream",
         "name": "Popsy",
         "official_name": "Helados Gourmet Popsy",
         "takeaway": "yes"
@@ -835,7 +824,6 @@
         "amenity": "ice_cream",
         "brand": "Ralph's Italian Ices",
         "brand:wikidata": "Q62576909",
-        "cuisine": "ice_cream",
         "name": "Ralph's Italian Ices",
         "official_name": "Ralph's Famous Italian Ices"
       }
@@ -871,7 +859,6 @@
         "amenity": "ice_cream",
         "brand": "Regma",
         "brand:wikidata": "Q108135319",
-        "cuisine": "ice_cream",
         "name": "Regma"
       }
     },
@@ -888,7 +875,6 @@
         "amenity": "ice_cream",
         "brand": "Rita's Italian Ice",
         "brand:wikidata": "Q7336456",
-        "cuisine": "ice_cream",
         "name": "Rita's Italian Ice"
       }
     },
@@ -913,6 +899,18 @@
         "brand:wikidata": "Q132745494",
         "name": "San Paolo Gelato & Café",
         "short_name": "San Paolo"
+      }
+    },
+    {
+      "displayName": "Sarita",
+      "id": "sarita-ff2f38",
+      "locationSet": {
+        "include": ["bz", "gt", "hn", "sv"]
+      },
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Sarita",
+        "name": "Sarita"
       }
     },
     {
@@ -1018,7 +1016,6 @@
         "amenity": "ice_cream",
         "brand": "Swensen's",
         "brand:wikidata": "Q6640658",
-        "cuisine": "ice_cream",
         "name": "Swensen's"
       }
     },
@@ -1043,7 +1040,6 @@
         "amenity": "ice_cream",
         "brand": "The Baked Bear",
         "brand:wikidata": "Q110714390",
-        "cuisine": "ice_cream",
         "name": "The Baked Bear",
         "short_name": "Baked Bear",
         "takeaway": "yes"
@@ -1278,7 +1274,6 @@
         "brand:en": "Baskin-Robbins",
         "brand:ja": "バスキン・ロビンス",
         "brand:wikidata": "Q584601",
-        "cuisine": "ice_cream",
         "name": "サーティワンアイスクリーム",
         "name:en": "Baskin-Robbins",
         "name:ja": "サーティワンアイスクリーム"
@@ -1298,6 +1293,21 @@
         "name": "哈根达斯",
         "name:en": "Häagen-Dazs",
         "name:zh": "哈根达斯"
+      }
+    },
+    {
+      "displayName": "野人先生",
+      "id": "95c33c-136fc8",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "野人先生",
+        "brand:wikidata": "Q135686550",
+        "name": "野人先生",
+        "name:zh": "野人先生"
       }
     },
     {
@@ -1361,7 +1371,6 @@
         "brand:en": "My-Teaice",
         "brand:wikidata": "Q111744761",
         "brand:zh": "麦甜艾斯",
-        "cuisine": "ice_cream",
         "name": "麦甜艾斯",
         "name:en": "My-Teaice",
         "name:zh": "麦甜艾斯"

@@ -667,6 +667,7 @@
       "locationSet": {
         "include": ["cz", "de", "gb", "ie", "sk"]
       },
+      "matchNames": ["o²"],
       "tags": {
         "brand": "O2",
         "brand:wikidata": "Q1759255",
@@ -692,6 +693,18 @@
       "tags": {
         "brand": "One",
         "name": "One",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "One NZ",
+      "id": "onenz-5219b0",
+      "locationSet": {"include": ["nz"]},
+      "matchNames": ["vodafone"],
+      "tags": {
+        "brand": "One NZ",
+        "brand:wikidata": "Q7939291",
+        "name": "One NZ",
         "shop": "mobile_phone"
       }
     },
@@ -990,17 +1003,6 @@
       }
     },
     {
-      "displayName": "Telenor India",
-      "id": "telenor-733df6",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "brand": "Telenor",
-        "brand:wikidata": "Q3358931",
-        "name": "Telenor",
-        "shop": "mobile_phone"
-      }
-    },
-    {
       "displayName": "Telenor Pakistan",
       "id": "telenor-20e3f8",
       "locationSet": {"include": ["pk"]},
@@ -1289,6 +1291,9 @@
       "displayName": "Verizon",
       "id": "verizon-ce3e5c",
       "locationSet": {"include": ["us"]},
+      "matchNames": [
+        "verizon authorized retailer"
+      ],
       "preserveTags": ["^name"],
       "tags": {
         "alt_name": "Verizon Wireless",
@@ -1311,12 +1316,12 @@
     },
     {
       "displayName": "Viettel Store",
-      "id": "a1prodajnomesto-4fc1f0",
+      "id": "viettelstore-4fc1f0",
       "locationSet": {"include": ["vn"]},
       "tags": {
         "brand": "Viettel Store",
         "brand:wikidata": "Q123493815",
-        "name": "A1 prodajno mesto",
+        "name": "Viettel Store",
         "shop": "mobile_phone"
       }
     },
@@ -1429,6 +1434,7 @@
           "cz",
           "de",
           "es",
+          "eg",
           "fj",
           "gb",
           "gh",
@@ -1446,12 +1452,14 @@
           "qa",
           "ro",
           "tr",
+          "ua",
           "vu",
           "ws"
         ]
       },
       "matchNames": [
         "vodafone deutschland",
+        "vodafone egypt",
         "vodafone it",
         "vodafone italia spa",
         "vodafone shop"
@@ -1459,34 +1467,6 @@
       "tags": {
         "brand": "Vodafone",
         "brand:wikidata": "Q122141",
-        "name": "Vodafone",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Vodafone (Egypt)",
-      "id": "vodafone-08fda3",
-      "locationSet": {"include": ["eg"]},
-      "tags": {
-        "brand": "Vodafone Egypt",
-        "brand:wikidata": "Q1540525",
-        "name": "Vodafone",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Vodafone (Україна)",
-      "id": "vodafone-985251",
-      "locationSet": {"include": ["ua"]},
-      "matchNames": [
-        "mts",
-        "vodafone shop",
-        "водафон",
-        "мтс"
-      ],
-      "tags": {
-        "brand": "Vodafone",
-        "brand:wikidata": "Q846031",
         "name": "Vodafone",
         "shop": "mobile_phone"
       }
@@ -1527,6 +1507,7 @@
       "displayName": "WIFI_ETECSA",
       "id": "wifietecsa-9a8553",
       "locationSet": {"include": ["cu"]},
+      "note": "underscore character is part of the name",
       "tags": {
         "brand": "WIFI_ETECSA",
         "brand:wikidata": "Q490323",

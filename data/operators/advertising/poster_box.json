@@ -35,8 +35,10 @@
     },
     {
       "displayName": "Ajuntament de Dénia",
-      "id": "ajuntamentdedenia-15bbda",
-      "locationSet": {"include": ["es"]},
+      "id": "ajuntamentdedenia-3d6e4a",
+      "locationSet": {
+        "include": ["es-a.geojson"]
+      },
       "tags": {
         "advertising": "poster_box",
         "operator": "Ajuntament de Dénia",
@@ -152,6 +154,25 @@
       }
     },
     {
+      "displayName": "Global",
+      "id": "global-e09470",
+      "locationSet": {
+        "include": [
+          "ca",
+          "es",
+          "gb",
+          "ie",
+          "nl",
+          "us"
+        ]
+      },
+      "tags": {
+        "advertising": "poster_box",
+        "operator": "Global",
+        "operator:wikidata": "Q5570585"
+      }
+    },
+    {
       "displayName": "H-Publicité",
       "id": "hpublicite-b12dbd",
       "locationSet": {"include": ["fx"]},
@@ -211,12 +232,26 @@
     },
     {
       "displayName": "Keolis Dijon Mobilités",
-      "id": "keolisdijonmobilites-b12dbd",
-      "locationSet": {"include": ["fx"]},
+      "id": "keolisdijonmobilites-35300e",
+      "locationSet": {
+        "include": ["fr-bfc.geojson"]
+      },
       "tags": {
         "advertising": "poster_box",
         "operator": "Keolis Dijon Mobilités",
         "operator:wikidata": "Q2361824"
+      }
+    },
+    {
+      "displayName": "Lincoln Center for the Performing Arts",
+      "id": "lincolncenterfortheperformingarts-ef42ee",
+      "locationSet": {
+        "include": ["us-ny-new_york_city.geojson"]
+      },
+      "tags": {
+        "advertising": "poster_box",
+        "operator": "Lincoln Center for the Performing Arts",
+        "operator:wikidata": "Q58001403"
       }
     },
     {
@@ -425,6 +460,15 @@
         "advertising": "poster_box",
         "operator": "Tisséo",
         "operator:wikidata": "Q3529461"
+      }
+    },
+    {
+      "displayName": "Trafiku Urban",
+      "id": "trafikuurban-57a51e",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "advertising": "poster_box",
+        "operator": "Trafiku Urban"
       }
     },
     {

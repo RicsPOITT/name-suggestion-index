@@ -55,6 +55,40 @@
       }
     },
     {
+      "displayName": "1点点",
+      "id": "alittletea-3300f4",
+      "locationSet": {"include": ["cn"]},
+      "matchNames": ["一点点"],
+      "tags": {
+        "amenity": "cafe",
+        "brand": "1点点",
+        "brand:en": "ALittle Tea",
+        "brand:wikidata": "Q106926258",
+        "brand:zh": "1点点",
+        "brand:zh-Hans": "1点点",
+        "brand:zh-Hant": "1點點",
+        "cuisine": "bubble_tea",
+        "name": "1点点",
+        "name:en": "ALittle Tea",
+        "name:zh": "1点点",
+        "name:zh-Hans": "1点点",
+        "name:zh-Hant": "1點點",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "365",
+      "id": "365-4351d9",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "365",
+        "cuisine": "coffee_shop",
+        "name": "365",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "49th Parallel Coffee Roasters",
       "id": "49thparallelcoffeeroasters-aa8067",
       "locationSet": {"include": ["ca"]},
@@ -119,26 +153,51 @@
       }
     },
     {
-      "displayName": "85°C",
-      "id": "ef3f02-07c6ab",
+      "displayName": "7分甜",
+      "id": "sweet7-823e31",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7分甜",
+        "brand:en": "Sweet7",
+        "brand:wikidata": "Q108117854",
+        "brand:zh": "7分甜",
+        "brand:zh-Hans": "7分甜",
+        "brand:zh-Hant": "7分甜",
+        "cuisine": "bubble_tea",
+        "delivery": "yes",
+        "name": "7分甜",
+        "name:en": "Sweet7",
+        "name:zh": "7分甜",
+        "name:zh-Hans": "7分甜",
+        "name:zh-Hant": "7分甜",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "85°C Bakery Cafe",
+      "id": "e0165f-07c6ab",
       "locationSet": {"include": ["au", "us"]},
       "matchNames": [
         "85 cafe",
         "85 degrees",
         "85 degrees c",
         "85 degrees celsius",
-        "85°c bakery cafe",
+        "85c",
         "85c bakery cafe",
         "85c daily cafe",
         "85oc"
       ],
       "tags": {
-        "alt_name": "85C",
+        "alt_name": "85°C",
         "amenity": "cafe",
-        "brand": "85°C",
+        "brand": "85°C Bakery Cafe",
         "brand:wikidata": "Q4644852",
         "cuisine": "coffee_shop;chinese",
-        "name": "85°C",
+        "name": "85°C Bakery Cafe",
         "takeaway": "yes"
       }
     },
@@ -1083,9 +1142,9 @@
     },
     {
       "displayName": "Caribou Coffee",
-      "id": "cariboucoffee-d73092",
+      "id": "cariboucoffee-503b1b",
       "locationSet": {
-        "include": ["ba", "tr", "us"]
+        "include": ["ba", "ma", "tr", "us"]
       },
       "tags": {
         "amenity": "cafe",
@@ -1355,6 +1414,7 @@
       "tags": {
         "amenity": "cafe",
         "brand": "Coffee Berry",
+        "brand:wikidata": "Q115323784",
         "cuisine": "coffee_shop",
         "name": "Coffee Berry",
         "takeaway": "yes"
@@ -1702,6 +1762,19 @@
       }
     },
     {
+      "displayName": "D'Oro",
+      "id": "doro-b6dfae",
+      "locationSet": {"include": ["th"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "D'Oro",
+        "brand:wikidata": "Q119134832",
+        "cuisine": "coffee_shop",
+        "name": "D'Oro",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Dee Dee's Family Café",
       "id": "deedeesfamilycafe-a89223",
       "locationSet": {"include": ["gb"]},
@@ -1896,8 +1969,8 @@
     },
     {
       "displayName": "Espressolab",
-      "id": "espressolab-e2a804",
-      "locationSet": {"include": ["tr"]},
+      "id": "espressolab-295705",
+      "locationSet": {"include": ["ma", "tr"]},
       "tags": {
         "amenity": "cafe",
         "brand": "Espressolab",
@@ -1918,6 +1991,19 @@
         "brand:wikidata": "Q113826845",
         "cuisine": "coffee_shop;sandwich",
         "name": "Euro Café",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Faborit",
+      "id": "faborit-4351d9",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Faborit",
+        "brand:wikidata": "Q134499716",
+        "cuisine": "salad",
+        "name": "Faborit",
         "takeaway": "yes"
       }
     },
@@ -2807,6 +2893,23 @@
       }
     },
     {
+      "displayName": "Macu Tea",
+      "id": "macutea-6ea26d",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Macu",
+        "brand:en": "Macu",
+        "brand:wikidata": "Q97300375",
+        "brand:zh": "麻古茶坊",
+        "cuisine": "bubble_tea",
+        "name": "Macu Tea",
+        "name:en": "Macu Tea",
+        "name:zh": "麻古茶坊",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Mado",
       "id": "mado-e2a804",
       "locationSet": {"include": ["tr"]},
@@ -3022,19 +3125,30 @@
       }
     },
     {
-      "displayName": "Mixue",
-      "id": "mixue-f440b6",
-      "locationSet": {"include": ["jp", "my"]},
+      "displayName": "Mixue Ice Cream & Tea",
+      "id": "mixue-44e36b",
+      "issues": [10675],
+      "locationSet": {
+        "include": [
+          "au",
+          "id",
+          "jp",
+          "kh",
+          "kr",
+          "la",
+          "my",
+          "ph",
+          "sg",
+          "th",
+          "vn"
+        ]
+      },
       "tags": {
         "amenity": "cafe",
-        "brand": "Mixue",
-        "brand:en": "MIXUEBINGCHENG",
+        "brand": "Mixue Ice Cream & Tea",
         "brand:wikidata": "Q107406476",
-        "brand:zh": "蜜雪冰城",
         "cuisine": "ice_cream;bubble_tea",
         "name": "Mixue",
-        "name:en": "Mixue",
-        "name:zh": "蜜雪冰城",
         "takeaway": "yes"
       }
     },
@@ -3507,6 +3621,21 @@
       }
     },
     {
+      "displayName": "Puccino's",
+      "id": "puccinos-2613a9",
+      "locationSet": {
+        "include": ["gb-eng", "ie"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Puccino's",
+        "brand:wikidata": "Q134366319",
+        "cuisine": "coffee_shop",
+        "name": "Puccino's",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Pumpkin",
       "id": "pumpkin-a89223",
       "locationSet": {"include": ["gb"]},
@@ -3862,9 +3991,9 @@
     },
     {
       "displayName": "Stan's Donuts & Coffee",
-      "id": "stansdonutsandcoffee-da6469",
+      "id": "stansdonutsandcoffee-f14bdc",
       "locationSet": {
-        "include": ["us-il.geojson"]
+        "include": ["us-il-cook_county.geojson"]
       },
       "tags": {
         "amenity": "cafe",
@@ -4975,6 +5104,18 @@
         "name": "Даблби",
         "name:en": "Double B",
         "name:ru": "Даблби",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Дед Хо",
+      "id": "c531f4-1c12ef",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Дед Хо",
+        "cuisine": "vietnamese",
+        "name": "Дед Хо",
         "takeaway": "yes"
       }
     },
@@ -6161,23 +6302,6 @@
       }
     },
     {
-      "displayName": "一点点",
-      "id": "alittletea-3300f4",
-      "locationSet": {"include": ["cn"]},
-      "tags": {
-        "amenity": "cafe",
-        "brand": "一点点",
-        "brand:en": "alittle-tea",
-        "brand:wikidata": "Q106926258",
-        "brand:zh": "一点点",
-        "cuisine": "bubble_tea",
-        "name": "一点点",
-        "name:en": "alittle-tea",
-        "name:zh": "一点点",
-        "takeaway": "yes"
-      }
-    },
-    {
       "displayName": "一芳水果茶",
       "id": "yifangtea-bd86e2",
       "locationSet": {
@@ -6438,18 +6562,43 @@
       }
     },
     {
+      "displayName": "卡旺卡",
+      "id": "comewonka-823e31",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "卡旺卡",
+        "brand:en": "Come Wonka",
+        "brand:wikidata": "Q135655177",
+        "brand:zh": "卡旺卡",
+        "brand:zh-Hans": "卡旺卡",
+        "brand:zh-Hant": "卡旺卡",
+        "cuisine": "bubble_tea",
+        "delivery": "yes",
+        "name": "卡旺卡",
+        "name:en": "Come Wonka",
+        "name:zh": "卡旺卡",
+        "name:zh-Hans": "卡旺卡",
+        "name:zh-Hant": "卡旺卡",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "古茗",
       "id": "goodme-3300f4",
       "locationSet": {"include": ["cn"]},
       "tags": {
         "amenity": "cafe",
         "brand": "古茗",
-        "brand:en": "Goodme",
+        "brand:en": "Good me",
         "brand:wikidata": "Q101500324",
         "brand:zh": "古茗",
-        "cuisine": "ice_cream;bubble_tea",
+        "cuisine": "bubble_tea",
         "name": "古茗",
-        "name:en": "Goodme",
+        "name:en": "Good me",
         "name:zh": "古茗",
         "takeaway": "yes"
       }
@@ -6804,17 +6953,26 @@
     },
     {
       "displayName": "幸运咖",
-      "id": "luckycup-3300f4",
-      "locationSet": {"include": ["cn"]},
+      "id": "luckycup-823e31",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "幸运咖",
         "brand:en": "Lucky Cup",
+        "brand:wikidata": "Q135657515",
         "brand:zh": "幸运咖",
+        "brand:zh-Hans": "幸运咖",
+        "brand:zh-Hant": "幸運咖",
         "cuisine": "coffee_shop",
+        "delivery": "yes",
         "name": "幸运咖",
         "name:en": "Lucky Cup",
         "name:zh": "幸运咖",
+        "name:zh-Hans": "幸运咖",
+        "name:zh-Hant": "幸運咖",
         "takeaway": "yes"
       }
     },
@@ -7061,6 +7219,29 @@
       }
     },
     {
+      "displayName": "爷爷不泡茶",
+      "id": "noyeyenotea-823e31",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "爷爷不泡茶",
+        "brand:en": "No Yeye No Tea",
+        "brand:wikidata": "Q135657533",
+        "brand:zh-Hans": "爷爷不泡茶",
+        "brand:zh-Hant": "爺爺不泡茶",
+        "cuisine": "bubble_tea",
+        "delivery": "yes",
+        "name": "爷爷不泡茶",
+        "name:en": "No Yeye No Tea",
+        "name:zh-Hans": "爷爷不泡茶",
+        "name:zh-Hant": "爺爺不泡茶",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "珈琲館",
       "id": "kohikan-0cf217",
       "locationSet": {"include": ["jp"]},
@@ -7087,7 +7268,7 @@
         "brand": "珍煮丹",
         "brand:en": "Truedan",
         "brand:ja": "珍煮丹",
-        "brand:wikidata": "Q108168889",
+        "brand:wikidata": "Q67933431",
         "brand:zh": "珍煮丹",
         "cuisine": "bubble_tea",
         "name": "珍煮丹",
@@ -7106,7 +7287,7 @@
         "brand": "珍煮丹 Truedan",
         "brand:en": "Truedan",
         "brand:ja": "珍煮丹",
-        "brand:wikidata": "Q108168889",
+        "brand:wikidata": "Q67933431",
         "brand:zh": "珍煮丹",
         "cuisine": "bubble_tea",
         "name": "珍煮丹 Truedan",
@@ -7130,6 +7311,56 @@
         "name": "瑞幸咖啡",
         "name:en": "Luckin Coffee",
         "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "甘茶度",
+      "id": "tealand-823e31",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "甘茶度",
+        "brand:en": "Tea Land",
+        "brand:wikidata": "Q135652058",
+        "brand:zh": "甘茶度",
+        "brand:zh-Hans": "甘茶度",
+        "brand:zh-Hant": "甘茶度",
+        "cuisine": "bubble_tea;ice_cream",
+        "delivery": "yes",
+        "name": "甘茶度",
+        "name:en": "Tea Land",
+        "name:zh": "甘茶度",
+        "name:zh-Hans": "甘茶度",
+        "name:zh-Hant": "甘茶度",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "甜啦啦",
+      "id": "tianlala-823e31",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "甜啦啦",
+        "brand:en": "Tianlala",
+        "brand:wikidata": "Q135652058",
+        "brand:zh": "甜啦啦",
+        "brand:zh-Hans": "甜啦啦",
+        "brand:zh-Hant": "甜啦啦",
+        "cuisine": "bubble_tea;ice_cream",
+        "delivery": "yes",
+        "name": "甜啦啦",
+        "name:en": "Tianlala",
+        "name:zh": "甜啦啦",
+        "name:zh-Hans": "甜啦啦",
+        "name:zh-Hant": "甜啦啦",
         "takeaway": "yes"
       }
     },
@@ -7206,6 +7437,29 @@
       }
     },
     {
+      "displayName": "肯悦咖啡",
+      "id": "kcoffee-823e31",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "肯悦咖啡",
+        "brand:en": "KCOFFEE",
+        "brand:wikidata": "Q135678114",
+        "brand:zh-Hans": "肯悦咖啡",
+        "brand:zh-Hant": "肯悅咖啡",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "name": "肯悦咖啡",
+        "name:en": "KCOFFEE",
+        "name:zh-Hans": "肯悦咖啡",
+        "name:zh-Hant": "肯悅咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "茶星人 E.Tea",
       "id": "etea-59dcf2",
       "locationSet": {"include": ["hk"]},
@@ -7266,7 +7520,7 @@
     },
     {
       "displayName": "茶百道",
-      "id": "chabaidao-bd86e2",
+      "id": "chapanda-bd86e2",
       "locationSet": {
         "include": ["cn"],
         "exclude": ["hk"]
@@ -7274,12 +7528,12 @@
       "tags": {
         "amenity": "cafe",
         "brand": "茶百道",
-        "brand:en": "chabaidao",
+        "brand:en": "ChaPanda",
         "brand:wikidata": "Q108165952",
         "brand:zh": "茶百道",
         "cuisine": "bubble_tea",
         "name": "茶百道",
-        "name:en": "chabaidao",
+        "name:en": "ChaPanda",
         "name:zh": "茶百道",
         "takeaway": "yes"
       }
@@ -7359,7 +7613,8 @@
     },
     {
       "displayName": "蜜雪冰城",
-      "id": "mixuebingcheng-bd86e2",
+      "id": "mixueicecreamandtea-bd86e2",
+      "issues": [10675],
       "locationSet": {
         "include": ["cn"],
         "exclude": ["hk"]
@@ -7367,19 +7622,22 @@
       "tags": {
         "amenity": "cafe",
         "brand": "蜜雪冰城",
-        "brand:en": "MIXUEBINGCHENG",
+        "brand:en": "Mixue Ice Cream & Tea",
         "brand:wikidata": "Q107406476",
         "brand:zh": "蜜雪冰城",
+        "brand:zh-Latn-pinyin": "Mìxuě Bīngchéng",
         "cuisine": "ice_cream;bubble_tea",
         "name": "蜜雪冰城",
-        "name:en": "MIXUEBINGCHENG",
+        "name:en": "Mixue Ice Cream & Tea",
         "name:zh": "蜜雪冰城",
+        "name:zh-Latn-pinyin": "Mìxuě Bīngchéng",
         "takeaway": "yes"
       }
     },
     {
       "displayName": "蜜雪冰城 Mixue Ice Cream & Tea",
       "id": "mixueicecreamandtea-59dcf2",
+      "issues": [10675],
       "locationSet": {"include": ["hk"]},
       "tags": {
         "amenity": "cafe",
@@ -7387,10 +7645,12 @@
         "brand:en": "Mixue Ice Cream & Tea",
         "brand:wikidata": "Q107406476",
         "brand:zh": "蜜雪冰城",
+        "brand:zh-Latn-pinyin": "Mìxuě Bīngchéng",
         "cuisine": "ice_cream;bubble_tea",
         "name": "蜜雪冰城 Mixue Ice Cream & Tea",
         "name:en": "Mixue Ice Cream & Tea",
         "name:zh": "蜜雪冰城",
+        "name:zh-Latn-pinyin": "Mìxuě Bīngchéng",
         "takeaway": "yes"
       }
     },

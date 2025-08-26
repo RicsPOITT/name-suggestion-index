@@ -238,17 +238,6 @@
       }
     },
     {
-      "displayName": "Jumper",
-      "id": "jumper-734485",
-      "locationSet": {"include": ["nl"]},
-      "tags": {
-        "brand": "Jumper",
-        "brand:wikidata": "Q87338743",
-        "name": "Jumper",
-        "shop": "pet"
-      }
-    },
-    {
       "displayName": "Kahoots",
       "id": "kahoots-ae290d",
       "locationSet": {
@@ -529,17 +518,6 @@
       }
     },
     {
-      "displayName": "Petland Discounts",
-      "id": "petlanddiscounts-81a22d",
-      "locationSet": {"include": ["us"]},
-      "tags": {
-        "brand": "Petland Discounts",
-        "brand:wikidata": "Q7178463",
-        "name": "Petland Discounts",
-        "shop": "pet"
-      }
-    },
-    {
       "displayName": "Petmall",
       "id": "petmall-33ac80",
       "locationSet": {"include": ["bg"]},
@@ -558,6 +536,17 @@
         "brand": "Petmania",
         "brand:wikidata": "Q113281278",
         "name": "Petmania",
+        "shop": "pet"
+      }
+    },
+    {
+      "displayName": "Petmark",
+      "id": "petmark-fc1a4b",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Petmark",
+        "brand:wikidata": "Q133849688",
+        "name": "Petmark",
         "shop": "pet"
       }
     },

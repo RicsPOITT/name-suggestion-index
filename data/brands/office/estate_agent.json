@@ -2,7 +2,12 @@
   "properties": {
     "path": "brands/office/estate_agent",
     "preserveTags": ["^name"],
-    "exclude": {"generic": ["^estate agent$"]}
+    "exclude": {
+      "generic": [
+        "^(real estate agency|fastighetsbyrån)$",
+        "^estate agent$"
+      ]
+    }
   },
   "items": [
     {
@@ -248,6 +253,17 @@
         "brand": "Century 21",
         "brand:wikidata": "Q1054480",
         "name": "Century 21",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Chestertons",
+      "id": "chestertons-aa448d",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Chestertons",
+        "brand:wikidata": "Q24298789",
+        "name": "Chestertons",
         "office": "estate_agent"
       }
     },
@@ -519,6 +535,17 @@
         "brand": "Foxtons",
         "brand:wikidata": "Q5477251",
         "name": "Foxtons",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Gabetti",
+      "id": "gabetti-0731e9",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Gabetti",
+        "brand:wikidata": "Q3756422",
+        "name": "Gabetti",
         "office": "estate_agent"
       }
     },
@@ -845,6 +872,17 @@
         "brand": "Nexity",
         "brand:wikidata": "Q3339185",
         "name": "Nexity",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Nybolig",
+      "id": "nybolig-4e81a9",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Nybolig",
+        "brand:wikidata": "Q12329403",
+        "name": "Nybolig",
         "office": "estate_agent"
       }
     },

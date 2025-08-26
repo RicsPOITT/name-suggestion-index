@@ -169,7 +169,7 @@
       "tags": {
         "leisure": "pitch",
         "operator": "City of Calgary",
-        "operator:wikidata": "Q36312"
+        "operator:wikidata": "Q135270647"
       }
     },
     {
@@ -262,10 +262,17 @@
     },
     {
       "displayName": "Decathlon",
-      "id": "decathlon-31fbc1",
+      "id": "decathlon-5bc672",
       "locationSet": {
         "include": ["001"],
-        "exclude": ["bg", "hk", "ru", "ua"]
+        "exclude": [
+          "bg",
+          "hk",
+          "ru",
+          "tw",
+          "ua",
+          "us"
+        ]
       },
       "tags": {
         "leisure": "pitch",
@@ -335,6 +342,17 @@
       }
     },
     {
+      "displayName": "Fichtner Mainwaring Park",
+      "id": "fichtnermainwaringpark-da3f44",
+      "locationSet": {
+        "include": ["us-or.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Fichtner Mainwaring Park"
+      }
+    },
+    {
       "displayName": "Florida Tennis Center",
       "id": "floridatenniscenter-82f98a",
       "locationSet": {
@@ -395,12 +413,60 @@
       }
     },
     {
+      "displayName": "Heidelberger Turnverein 1846 e.V.",
+      "id": "heidelbergerturnverein1846ev-2afa8b",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Heidelberger Turnverein 1846 e.V."
+      }
+    },
+    {
+      "displayName": "Holland Charter Township",
+      "id": "hollandchartertownship-fce86c",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Holland Charter Township",
+        "operator:wikidata": "Q4244136"
+      }
+    },
+    {
+      "displayName": "Houston Parks and Recreation Department",
+      "id": "houstonparksandrecreationdepartment-2afa8b",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Houston Parks and Recreation Department"
+      }
+    },
+    {
+      "displayName": "Houston Racquet Club",
+      "id": "houstonracquetclub-2afa8b",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Houston Racquet Club"
+      }
+    },
+    {
       "displayName": "Hrvatski akademski teniski klub Mladost",
       "id": "hrvatskiakademskiteniskiklubmladost-dca74c",
       "locationSet": {"include": ["hr"]},
       "tags": {
         "leisure": "pitch",
         "operator": "Hrvatski akademski teniski klub Mladost"
+      }
+    },
+    {
+      "displayName": "Institut für Sport und Sportwissenschaft",
+      "id": "institutfursportundsportwissenschaft-2afa8b",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Institut für Sport und Sportwissenschaft"
       }
     },
     {
@@ -540,6 +606,18 @@
       }
     },
     {
+      "displayName": "Maine School Administrative District 06",
+      "id": "maineschooladministrativedistrict06-a40c57",
+      "locationSet": {
+        "include": ["us-me.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Maine School Administrative District 06",
+        "operator:wikidata": "Q14715234"
+      }
+    },
+    {
       "displayName": "Mairie de Saint-Paul-lès-Dax",
       "id": "mairiedesaintpaullesdax-794434",
       "locationSet": {
@@ -565,12 +643,36 @@
       }
     },
     {
+      "displayName": "Marquette Area Public Schools",
+      "id": "marquetteareapublicschools-fce86c",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Marquette Area Public Schools",
+        "operator:wikidata": "Q101483358"
+      }
+    },
+    {
       "displayName": "Mierlose Tennis Vereniging",
       "id": "mierlosetennisvereniging-cc7be6",
       "locationSet": {"include": ["nl"]},
       "tags": {
         "leisure": "pitch",
         "operator": "Mierlose Tennis Vereniging"
+      }
+    },
+    {
+      "displayName": "Missouri Department of Conservation",
+      "id": "missouridepartmentofconservation-da9cf4",
+      "locationSet": {
+        "include": ["us-mo.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Missouri Department of Conservation",
+        "operator:wikidata": "Q6879553"
       }
     },
     {
@@ -605,6 +707,15 @@
         "leisure": "pitch",
         "operator": "Município de Maputo",
         "operator:wikidata": "Q3889"
+      }
+    },
+    {
+      "displayName": "Muuramen kunta / liikuntatoimi",
+      "id": "muuramenkuntaliikuntatoimi-8c67a7",
+      "locationSet": {"include": ["fi"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Muuramen kunta / liikuntatoimi"
       }
     },
     {
@@ -797,17 +908,30 @@
     },
     {
       "displayName": "Sharp Recrean",
-      "id": "sharprecrean-d34695",
-      "locationSet": {"include": ["be"]},
+      "id": "sharprecrean-b5831f",
+      "locationSet": {
+        "include": ["be-vov.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
         "operator": "Sharp Recrean"
       }
     },
     {
+      "displayName": "Shaw Park",
+      "id": "shawpark-2afa8b",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Shaw Park"
+      }
+    },
+    {
       "displayName": "Sícoris Club",
-      "id": "sicorisclub-5e9b04",
-      "locationSet": {"include": ["es"]},
+      "id": "sicorisclub-c65025",
+      "locationSet": {
+        "include": ["es-l.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
         "operator": "Sícoris Club"
@@ -901,6 +1025,15 @@
         "leisure": "pitch",
         "operator": "Stadt Gießen",
         "operator:wikidata": "Q3874"
+      }
+    },
+    {
+      "displayName": "Stadt Heidelberg",
+      "id": "stadtheidelberg-2afa8b",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Stadt Heidelberg"
       }
     },
     {
@@ -1134,8 +1267,10 @@
     },
     {
       "displayName": "ООО\"ССК НЕВСКИЙ\"",
-      "id": "535547-d0edcf",
-      "locationSet": {"include": ["ru"]},
+      "id": "535547-126718",
+      "locationSet": {
+        "include": ["ru-len.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
         "operator": "ООО\"ССК НЕВСКИЙ\""

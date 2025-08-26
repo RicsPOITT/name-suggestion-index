@@ -12,9 +12,9 @@
   "items": [
     {
       "displayName": "Circuit Court of Cook County",
-      "id": "circuitcourtofcookcounty-ca7500",
+      "id": "circuitcourtofcookcounty-57b598",
       "locationSet": {
-        "include": ["us-il.geojson"]
+        "include": ["us-il-cook_county.geojson"]
       },
       "tags": {
         "amenity": "courthouse",
@@ -92,6 +92,16 @@
         "operator": "HM Courts and Tribunals Service",
         "operator:type": "government",
         "operator:wikidata": "Q5732294"
+      }
+    },
+    {
+      "displayName": "Juizados Especiais Cíveis (JECs)",
+      "id": "poderjudiciario-e063cd",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "courthouse",
+        "operator": "Poder Judiciário",
+        "operator:wikidata": "Q3621649"
       }
     },
     {
@@ -278,6 +288,17 @@
       }
     },
     {
+      "displayName": "Poder Judicial de Corrientes",
+      "id": "poderjudicialdecorrientes-753971",
+      "locationSet": {
+        "include": ["ar-w.geojson"]
+      },
+      "tags": {
+        "amenity": "courthouse",
+        "operator": "Poder Judicial de Corrientes"
+      }
+    },
+    {
       "displayName": "Poder Judicial de la Nación",
       "id": "poderjudicialdelanacion-738ae9",
       "locationSet": {"include": ["ar"]},
@@ -401,6 +422,15 @@
         "amenity": "courthouse",
         "operator": "Tribunal de Justiça do Estado de São Paulo",
         "operator:wikidata": "Q125454187"
+      }
+    },
+    {
+      "displayName": "Tribunal de Justiça do Estado de Sergipe",
+      "id": "tribunaldejusticadoestadodesergipe-05786a",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "courthouse",
+        "operator": "Tribunal de Justiça do Estado de Sergipe"
       }
     },
     {

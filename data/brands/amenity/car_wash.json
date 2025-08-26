@@ -244,6 +244,27 @@
       }
     },
     {
+      "displayName": "Eni Wash",
+      "id": "eniwash-a152e3",
+      "locationSet": {
+        "include": [
+          "at",
+          "ch",
+          "cy",
+          "de",
+          "es",
+          "fx",
+          "it"
+        ]
+      },
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Eni",
+        "brand:wikidata": "Q565594",
+        "name": "Eni Wash"
+      }
+    },
+    {
       "displayName": "Esso",
       "id": "esso-5d96a3",
       "locationSet": {
@@ -563,6 +584,24 @@
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
         "name": "Speedy Wash"
+      }
+    },
+    {
+      "displayName": "Super Star Car Wash",
+      "id": "superstarcarwash-f20fa0",
+      "locationSet": {
+        "include": [
+          "us-az.geojson",
+          "us-ca.geojson",
+          "us-co.geojson",
+          "us-tx.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Super Star Car Wash",
+        "brand:wikidata": "Q132156104",
+        "name": "Super Star Car Wash"
       }
     },
     {

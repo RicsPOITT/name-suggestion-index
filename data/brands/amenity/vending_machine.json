@@ -113,6 +113,7 @@
       "displayName": "Automat ŚKUP",
       "id": "automatskup-bd9635",
       "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-24",
       "tags": {
         "amenity": "vending_machine",
         "brand": "Automat ŚKUP",
@@ -436,6 +437,18 @@
       }
     },
     {
+      "displayName": "DB",
+      "id": "db-7f0b30",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "DB",
+        "vending": "public_transport_tickets"
+      }
+    },
+    {
       "displayName": "Decathlon Radtour-Retter",
       "id": "decathlonradtourretter-a242c5",
       "locationSet": {"include": ["de"]},
@@ -547,6 +560,21 @@
       }
     },
     {
+      "displayName": "Falomat",
+      "id": "falomat-3b4f1e",
+      "locationSet": {
+        "include": ["pl-22.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Falomat",
+        "brand:wikidata": "Q134171522",
+        "operator": "System Fala",
+        "payment:contactless": "yes",
+        "vending": "public_transport_tickets"
+      }
+    },
+    {
       "displayName": "FastKey",
       "id": "fastkey-7e3927",
       "locationSet": {"include": ["us"]},
@@ -589,6 +617,18 @@
         "brand:wikidata": "Q65057692",
         "name": "FuelRod",
         "vending": "chargers"
+      }
+    },
+    {
+      "displayName": "Full lineup Value",
+      "id": "fulllineupvalue-bf11a2",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Full lineup Value",
+        "brand:wikidata": "Q135298109",
+        "name": "Full lineup Value",
+        "vending": "drinks"
       }
     },
     {
@@ -731,6 +771,16 @@
       }
     },
     {
+      "displayName": "Keszthely parkolás",
+      "id": "keszthelyparkolas-1490d1",
+      "locationSet": {"include": ["hu"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Keszthely parkolás",
+        "vending": "parking_tickets"
+      }
+    },
+    {
       "displayName": "KeyMe",
       "id": "keyme-7e3927",
       "locationSet": {"include": ["us"]},
@@ -762,6 +812,7 @@
       "displayName": "KKM",
       "id": "kkm-bd9635",
       "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-12",
       "tags": {
         "amenity": "vending_machine",
         "brand": "KKM",
@@ -819,8 +870,10 @@
     },
     {
       "displayName": "Lubika",
-      "id": "lubika-bd9635",
-      "locationSet": {"include": ["pl"]},
+      "id": "lubika-dcae64",
+      "locationSet": {
+        "include": ["pl-06.geojson"]
+      },
       "tags": {
         "amenity": "vending_machine",
         "brand": "Lubika",
@@ -838,12 +891,12 @@
       }
     },
     {
-      "displayName": "MÁV-START jegy- és bérletkiadó automata",
-      "id": "mavstartjegyesberletkiadoautomata-1490d1",
+      "displayName": "MÁV jegy- és bérletkiadó automata",
+      "id": "mavjegyesberletkiadoautomata-1490d1",
       "locationSet": {"include": ["hu"]},
       "tags": {
         "amenity": "vending_machine",
-        "brand": "MÁV-START jegy- és bérletkiadó automata",
+        "brand": "MÁV jegy- és bérletkiadó automata",
         "vending": "public_transport_tickets"
       }
     },
@@ -920,9 +973,26 @@
       }
     },
     {
+      "displayName": "NH Lottery",
+      "id": "nhlottery-71220b",
+      "locationSet": {
+        "include": ["us-nh.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "NH Lottery",
+        "brand:wikidata": "Q7008183",
+        "name": "NH Lottery",
+        "official_name": "New Hampshire Lottery",
+        "vending": "lottery"
+      }
+    },
+    {
       "displayName": "PAAS",
-      "id": "paas-c5396b",
-      "locationSet": {"include": ["sk"]},
+      "id": "paas-69e7be",
+      "locationSet": {
+        "include": ["sk-bl.geojson"]
+      },
       "tags": {
         "amenity": "vending_machine",
         "brand": "PAAS",
@@ -1038,8 +1108,10 @@
     },
     {
       "displayName": "Punkt dystrybucji biuletynu wroclaw.pl",
-      "id": "wroclawpl-bd9635",
-      "locationSet": {"include": ["pl"]},
+      "id": "wroclawpl-b3a8aa",
+      "locationSet": {
+        "include": ["pl-02.geojson"]
+      },
       "tags": {
         "amenity": "vending_machine",
         "brand": "wroclaw.pl",
@@ -1101,6 +1173,17 @@
         "brand": "Regiomat",
         "name": "Regiomat",
         "vending": "drinks;food"
+      }
+    },
+    {
+      "displayName": "REpont",
+      "id": "repont-1490d1",
+      "locationSet": {"include": ["hu"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "REpont",
+        "brand:wikidata": "Q130348902",
+        "vending": "bottle_return"
       }
     },
     {
@@ -1260,6 +1343,22 @@
       }
     },
     {
+      "displayName": "The Hippo",
+      "id": "thehippo-71220b",
+      "locationSet": {
+        "include": ["us-nh.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "The Hippo",
+        "brand:wikidata": "Q135270403",
+        "name": "The Hippo",
+        "operator": "Hippo Press",
+        "operator:wikidata": "Q5768362",
+        "vending": "newspapers"
+      }
+    },
+    {
       "displayName": "Timpson",
       "id": "timpson-37500c",
       "locationSet": {"include": ["gb", "ie"]},
@@ -1352,8 +1451,10 @@
     },
     {
       "displayName": "Urbancard",
-      "id": "urbancard-bd9635",
-      "locationSet": {"include": ["pl"]},
+      "id": "urbancard-b3a8aa",
+      "locationSet": {
+        "include": ["pl-02.geojson"]
+      },
       "tags": {
         "amenity": "vending_machine",
         "brand": "Urbancard",
@@ -1452,7 +1553,7 @@
         "brand": "アキュア",
         "brand:en": "Acure",
         "brand:ja": "アキュア",
-        "brand:wikidata": "Q11226260",
+        "brand:wikidata": "Q134974132",
         "name": "アキュア",
         "name:en": "Acure",
         "name:ja": "アキュア",

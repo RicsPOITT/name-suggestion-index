@@ -26,6 +26,16 @@
       }
     },
     {
+      "displayName": "Sani Optik",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "brand": "Sani Optik",
+        "brand:wikidata": "Q135969466",
+        "name": "Sani Optik",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "abele optik",
       "id": "abeleoptik-7fb7e9",
       "locationSet": {"include": ["de"]},
@@ -161,6 +171,19 @@
       }
     },
     {
+      "displayName": "Bailey Nelson",
+      "id": "baileynelson-fadfbe",
+      "locationSet": {
+        "include": ["au", "ca", "nz"]
+      },
+      "tags": {
+        "brand": "Bailey Nelson",
+        "brand:wikidata": "Q107639842",
+        "name": "Bailey Nelson",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Becker + Flöge",
       "id": "beckerfloge-7fb7e9",
       "locationSet": {"include": ["de"]},
@@ -278,6 +301,19 @@
         "brand": "Devlyn",
         "brand:wikidata": "Q113203949",
         "name": "Devlyn",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Diopta",
+      "id": "diopta-47187f",
+      "locationSet": {
+        "include": ["ba", "me", "rs"]
+      },
+      "tags": {
+        "brand": "Diopta",
+        "brand:wikidata": "Q135969586",
+        "name": "Diopta",
         "shop": "optician"
       }
     },
@@ -1010,6 +1046,17 @@
         "brand": "Oscar Wylee",
         "brand:wikidata": "Q120669494",
         "name": "Oscar Wylee",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Ótica Chilli Beans",
+      "id": "oticachillibeans-5c236c",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "brand": "Ótica Chilli Beans",
+        "brand:wikidata": "Q134721439",
+        "name": "Ótica Chilli Beans",
         "shop": "optician"
       }
     },

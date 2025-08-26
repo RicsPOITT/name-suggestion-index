@@ -126,14 +126,31 @@
       }
     },
     {
-      "displayName": "DER Reisebüro",
-      "id": "derreiseburo-3ea820",
+      "displayName": "Derpart Reisebüro",
+      "id": "derpartreiseburo-3ea820",
       "locationSet": {"include": ["de"]},
-      "matchNames": ["der deutsches reisebüro"],
+      "preserveTags": ["^name"],
       "tags": {
-        "brand": "DER Reisebüro",
+        "brand": "Derpart Reisebüro",
+        "brand:wikidata": "Q1200317",
+        "name": "Derpart Reisebüro",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "displayName": "Dertour Reisebüro",
+      "id": "dertourreiseburo-3ea820",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "der deutsches reisebüro",
+        "der reisebüro",
+        "dertour"
+      ],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Dertour Reisebüro",
         "brand:wikidata": "Q56729186",
-        "name": "DER Reisebüro",
+        "name": "Dertour Reisebüro",
         "shop": "travel_agency"
       }
     },
@@ -380,17 +397,6 @@
       }
     },
     {
-      "displayName": "Neckermann Reisen",
-      "id": "neckermannreisen-3ea820",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "brand": "Neckermann Reisen",
-        "brand:wikidata": "Q17300280",
-        "name": "Neckermann Reisen",
-        "shop": "travel_agency"
-      }
-    },
-    {
       "displayName": "Nouvelles Frontières",
       "id": "nouvellesfrontieres-9ff76a",
       "locationSet": {"include": ["fr"]},
@@ -398,6 +404,16 @@
         "brand": "Nouvelles Frontières",
         "brand:wikidata": "Q3117506",
         "name": "Nouvelles Frontières",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "displayName": "Pac Group",
+      "id": "pacgroup-8106f1",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Pac Group",
+        "name": "Pac Group",
         "shop": "travel_agency"
       }
     },

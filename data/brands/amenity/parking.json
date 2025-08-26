@@ -16,6 +16,19 @@
   },
   "items": [
     {
+      "displayName": "Aimo Park",
+      "id": "aimopark-1fafa9",
+      "locationSet": {
+        "include": ["fi", "no", "se"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "brand": "Aimo Park",
+        "brand:wikidata": "Q126728228",
+        "name": "Aimo Park"
+      }
+    },
+    {
       "displayName": "D-Parking",
       "id": "dparking-9f17fa",
       "locationSet": {"include": ["jp"]},
@@ -40,6 +53,22 @@
         "brand": "JustPark",
         "brand:wikidata": "Q17143517",
         "fee": "yes"
+      }
+    },
+    {
+      "displayName": "SANパーク",
+      "id": "sanpark-9f17fa",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "parking",
+        "brand": "SANパーク",
+        "brand:en": "SAN Park",
+        "brand:ja": "SANパーク",
+        "brand:wikidata": "Q135285806",
+        "fee": "yes",
+        "name": "SANパーク",
+        "name:en": "SAN Park",
+        "name:ja": "SANパーク"
       }
     },
     {

@@ -239,6 +239,16 @@
       }
     },
     {
+      "displayName": "DeinFach",
+      "id": "deinfach-83cc4d",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "DeinFach",
+        "brand:wikidata": "Q134622119"
+      }
+    },
+    {
       "displayName": "Deutsche Post",
       "id": "deutschepost-83cc4d",
       "locationSet": {"include": ["de"]},
@@ -481,7 +491,10 @@
       "tags": {
         "amenity": "parcel_locker",
         "brand": "GLS Balíkomat",
-        "name": "GLS Balíkomat"
+        "brand:wikidata": "Q366182",
+        "name": "GLS Balíkomat",
+        "operator": "GLS General Logistics Systems Slovakia",
+        "operator:wikidata": "Q133842648"
       }
     },
     {
@@ -1116,6 +1129,16 @@
       }
     },
     {
+      "displayName": "Vinted Go",
+      "id": "vintedgo-6a219a",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Vinted Go",
+        "name": "Vinted Go"
+      }
+    },
+    {
       "displayName": "Yeep",
       "id": "yeep-ad77d0",
       "locationSet": {"include": ["gb"]},
@@ -1285,6 +1308,23 @@
         "name": "はこぽす",
         "name:en": "Hako Post",
         "name:ja": "はこぽす"
+      }
+    },
+    {
+      "displayName": "ファミロッカー",
+      "id": "familocker-83187c",
+      "locationSet": {"include": ["ja"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "ファミロッカー",
+        "brand:en": "Fami Locker",
+        "brand:ja": "ファミロッカー",
+        "brand:wikidata": "Q135552919",
+        "name": "ファミロッカー",
+        "name:en": "Fami Locker",
+        "name:ja": "ファミロッカー",
+        "parcel_mail_in": "yes",
+        "parcel_pickup": "yes"
       }
     },
     {

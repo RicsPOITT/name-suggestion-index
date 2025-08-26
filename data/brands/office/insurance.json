@@ -900,8 +900,9 @@
     {
       "displayName": "Desjardins Insurance",
       "id": "desjardinsinsurance-0c8028",
+      "issues": [10809],
       "locationSet": {"include": ["ca"]},
-      "matchNames": ["state farm"],
+      "matchNames": ["desjardins", "state farm"],
       "tags": {
         "brand": "Desjardins Insurance",
         "brand:wikidata": "Q55138816",
@@ -1027,6 +1028,17 @@
       }
     },
     {
+      "displayName": "Ergo Hestia",
+      "id": "ergohestia-313da8",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Ergo Hestia",
+        "brand:wikidata": "Q9254522",
+        "name": "Ergo Hestia",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Erie Insurance",
       "id": "erieinsurance-6b1e37",
       "locationSet": {"include": ["us"]},
@@ -1054,14 +1066,18 @@
     },
     {
       "displayName": "Express Страхування",
-      "id": "020645-43aba6",
+      "id": "602250-43aba6",
       "locationSet": {"include": ["ua"]},
-      "matchNames": ["express", "експрес"],
+      "matchNames": [
+        "express",
+        "express страхування",
+        "експрес"
+      ],
       "tags": {
-        "brand": "Express Страхування",
+        "brand": "Експрес Страхування",
         "brand:uk": "Експрес Страхування",
         "brand:wikidata": "Q118630381",
-        "name": "Express Страхування",
+        "name": "Експрес Страхування",
         "name:uk": "Експрес Страхування",
         "office": "insurance"
       }
@@ -1647,13 +1663,13 @@
       }
     },
     {
-      "displayName": "KOMUNÁLNA poisťovňa",
+      "displayName": "Komunálna poisťovňa",
       "id": "komunalnapoistovna-780b74",
       "locationSet": {"include": ["sk"]},
       "tags": {
-        "brand": "KOMUNÁLNA poisťovňa",
+        "brand": "Komunálna poisťovňa",
         "brand:wikidata": "Q96129040",
-        "name": "KOMUNÁLNA poisťovňa",
+        "name": "Komunálna poisťovňa",
         "office": "insurance"
       }
     },
@@ -3170,7 +3186,7 @@
     },
     {
       "displayName": "الصندوق الوطني للتأمينات الاجتماعية للعمال الأجراء",
-      "id": "e56dcd-95ca40",
+      "id": "cnas-95ca40",
       "locationSet": {"include": ["dz"]},
       "tags": {
         "brand": "الصندوق الوطني للتأمينات الاجتماعية للعمال الأجراء",

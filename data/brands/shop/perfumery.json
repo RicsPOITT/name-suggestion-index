@@ -153,6 +153,30 @@
       }
     },
     {
+      "displayName": "Fraiche",
+      "id": "fraiche-e8b35c",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "Fraiche",
+        "brand:wikidata": "Q126708952",
+        "name": "Fraiche",
+        "shop": "perfumery"
+      }
+    },
+    {
+      "displayName": "Granado",
+      "id": "granado-b6177e",
+      "locationSet": {
+        "include": ["br", "fr", "gb", "pt", "us"]
+      },
+      "tags": {
+        "brand": "Granado",
+        "brand:wikidata": "Q9698089",
+        "name": "Granado",
+        "shop": "perfumery"
+      }
+    },
+    {
       "displayName": "ICI PARIS XL",
       "id": "iciparisxl-07c28e",
       "locationSet": {
@@ -189,7 +213,7 @@
     },
     {
       "displayName": "Marionnaud",
-      "id": "marionnaud-40e2d5",
+      "id": "marionnaud-c9f458",
       "locationSet": {
         "include": [
           "at",
@@ -199,6 +223,7 @@
           "fr",
           "hu",
           "it",
+          "ma",
           "ro",
           "sk"
         ]
